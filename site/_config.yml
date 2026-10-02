@@ -1,0 +1,4 @@
+title: Daylo — documentación
+markdown: kramdown
+exclude:
+  - README.md
