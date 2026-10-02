@@ -4,6 +4,8 @@ Estado: borradores de trabajo, no publicados. Revisión del código: 2 de octubr
 
 Estos documentos se construyeron a partir de ambos repositorios actuales. La guía anterior de Downloads es una referencia histórica, no una fuente de decisiones vigentes. Las propuestas de este directorio tampoco se convierten por sí mismas en políticas aprobadas.
 
+La matriz inicial de requisitos de tiendas y Argentina está en [requisitos-argentina-y-tiendas.md](requisitos-argentina-y-tiendas.md).
+
 La comparación de documentos oficiales de Puzzle Page, Everyday Puzzles y Minipuzzles está en [market-benchmark.md](market-benchmark.md). Es material de investigación interno, no parte del sitio público.
 
 Los números, plazos, límites y demás datos que pueden cambiar se mantienen en [variables-y-cambios.md](variables-y-cambios.md), con su fuente primaria y las páginas que habría que revisar. También es un documento interno.
@@ -26,9 +28,9 @@ Privacidad es un requisito general de tiendas. Eliminación externa aplica al pe
 
 ## Dónde van
 
-**Ahora:** todos los borradores y la investigación se trasladaron a `planning/legal/`; la integración móvil está en [legal-integration.md](../mobile/legal-integration.md). Estos archivos son visibles en el repositorio público, pero no se incluyen en el sitio de Pages. Las páginas vigentes, cuando se aprueben, tendrán su fuente en `site/`. No se modificaron pantallas, bases, SDK ni configuración de producción.
+**Ahora:** todos los borradores y la investigación se trasladaron a `planning/legal/`; la integración móvil está en [legal-integration.md](../mobile/legal-integration.md). Estos archivos son visibles en el repositorio público. Pages genera vistas previas rotuladas bajo `/borradores/` a partir de `public/`; las demás notas de `planning/` no aparecen en el sitio. Las páginas vigentes, cuando se aprueben, tendrán su fuente en `site/`. No se modificaron pantallas, bases, SDK ni configuración de producción.
 
-**Publicación propuesta:** este repositorio dedicado usa GitHub Pages mediante Actions y compila únicamente `site/`. Al aprobar cada documento, copiar su versión final desde `planning/legal/public/` a la ruta correspondiente de `site/`, retirar notas y marcadores, agregar traducción y archivar la versión previa. Preferir un dominio propio estable con HTTPS. No enlazar borradores desde la app ni desde las tiendas.
+**Publicación propuesta:** este repositorio dedicado usa GitHub Pages mediante Actions y compila únicamente `site/`. Al aprobar cada documento, copiar su versión final desde `planning/legal/public/` a la ruta correspondiente de `site/`, retirar notas y marcadores, agregar traducción y archivar la versión previa. Preferir un dominio propio estable con HTTPS. No enlazar borradores desde la app ni desde las tiendas. Las vistas previas de Pages tienen aviso de borrador y no son rutas de políticas vigentes.
 
 **Idiomas:** español e inglés, como la app. Los borradores iniciales son españoles; producir la versión inglesa después de cerrar las decisiones evita dos textos divergentes. No lanzar una ficha inglesa con enlaces que aparenten ofrecer una política inglesa inexistente. Definir cómo resolver idioma y conservar enlaces estables.
 
