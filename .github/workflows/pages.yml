@@ -15,12 +15,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Reject unfinished public documents
+      - name: Reject unfinished final documents
         run: |
-          if grep -R -n -E --include='*.md' '\[PENDIENTE:|BORRADOR|no vigente' site; then
-            echo 'Unfinished legal content found in site/'
-            exit 1
-          fi
+          for dir in site/es site/en; do
+            if [ -d "$dir" ] && grep -R -n -E --include='*.md' '\[PENDIENTE:|BORRADOR|no vigente' "$dir"; then
+              echo "Unfinished final content found in $dir"
+              exit 1
+            fi
+          done
+      - name: Generate labeled draft previews
+        run: python3 scripts/build-preview.py
       - uses: actions/configure-pages@v5
       - uses: actions/jekyll-build-pages@v1
         with:
