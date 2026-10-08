@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Reject unfinished final documents
+      - name: Reject unfinished committed final documents
         run: |
           for dir in site/es site/en; do
             if [ -d "$dir" ] && grep -R -n -E --include='*.md' '\[PENDIENTE:|BORRADOR|no vigente' "$dir"; then
@@ -23,7 +23,7 @@ jobs:
               exit 1
             fi
           done
-      - name: Generate labeled draft previews
+      - name: Generate stable legal pages and legacy redirects
         run: python3 scripts/build-preview.py
       - uses: actions/configure-pages@v5
       - uses: actions/jekyll-build-pages@v1

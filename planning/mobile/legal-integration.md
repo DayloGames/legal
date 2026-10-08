@@ -21,7 +21,7 @@ La fuente de los borradores y decisiones está en [planning/legal/README.md](../
 
 ## URLs
 
-Hosting aprobado para el lanzamiento: **GitHub Pages**, origen `https://daylogames.github.io` y base de proyecto `/legal`. Por ejemplo, privacidad final tendrá la URL prevista `https://daylogames.github.io/legal/es/privacy/`; verificar publicación antes de usarla. La [guía de publicación y migración](../legal/publicacion-y-migracion.md) enumera rutas y cómo mantener acceso si luego se utiliza un dominio propio.
+Hosting aprobado para el lanzamiento: **GitHub Pages**, origen `https://daylogames.github.io` y base de proyecto `/legal`. URL estable de privacidad: `https://daylogames.github.io/legal/es/privacy/`. Puede configurarse durante la preparación; al finalizar, la versión aprobada se publicará en esa misma ruta. Verificar disponibilidad y contenido antes de distribuir la app. La [guía de publicación y migración](../legal/publicacion-y-migracion.md) enumera rutas y cómo mantener acceso si luego se utiliza un dominio propio.
 
 Actualmente existen `EXPO_PUBLIC_TERMS_URL` y `EXPO_PUBLIC_PRIVACY_URL`, opcionales y enlazadas solo desde tienda si se configuran. Propuesta: URLs canónicas de documentos aprobados por idioma y un origen HTTPS público estable; agregar soporte, compras, comunidad, eliminación y créditos.
 

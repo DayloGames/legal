@@ -6,7 +6,7 @@ Decisión del usuario, 8 de octubre de 2026: usar **GitHub Pages** para el lanza
 
 Repositorio: `DayloGames/legal`. Origen previsto: `https://daylogames.github.io`. Ruta de proyecto: `/legal`. Comprobar la URL devuelta por el despliegue antes de configurar tiendas o app.
 
-| Documento | URL final prevista en español |
+| Documento | URL estable en español |
 | --- | --- |
 | Privacidad | `https://daylogames.github.io/legal/es/privacy/` |
 | Términos | `https://daylogames.github.io/legal/es/terms/` |
@@ -16,14 +16,14 @@ Repositorio: `DayloGames/legal`. Origen previsto: `https://daylogames.github.io`
 | Eliminación | `https://daylogames.github.io/legal/es/delete-account/` |
 | Créditos | `https://daylogames.github.io/legal/es/credits/` |
 
-Son rutas previstas, no páginas finales disponibles. Las traducciones usarán el mismo esquema con `/en/` cuando estén preparadas. Las vistas actuales están bajo `/legal/borradores/es/` y no deben configurarse como políticas finales.
+Estas rutas estables se habilitan con documentos en preparación, por decisión del usuario del 8 de octubre de 2026. Pueden cargarse ahora en configuraciones de la app y tiendas; nada se distribuirá en producción hasta completar los textos y funcionamiento. Las versiones aprobadas reemplazarán los borradores en las mismas URLs. Las traducciones usarán `/en/` cuando estén preparadas. Las rutas antiguas `/legal/borradores/es/` redirigen a `/legal/es/` mediante una página de transición.
 
 En `site/_config.yml`, `url` es el origen sin `/legal` y `baseurl` es `/legal`. Enlaces y recursos de Jekyll deben respetar ese prefijo; para rutas internas absolutas, usar el filtro `relative_url`. Comprobar el HTML generado antes de publicar.
 
 ## Publicación cuando se cierren los documentos
 
 1. Completar decisiones, retirar marcadores y revisar contenido/funcionamiento. Mantener la publicación manual mientras solo existan borradores.
-2. Crear fuentes finales en `site/es/<ruta>/index.md`, con `layout: default`, y traducciones cuando correspondan. No copiar las notas internas a `site/`.
+2. Crear fuentes finales en `site/es/<ruta>/index.md`, con `layout: default` y sin `generated_preview: true`, y traducciones cuando correspondan. El generador no sobrescribe páginas finales existentes. No copiar notas internas a `site/`.
 3. Actualizar portada, fecha/versión, enlaces e idioma del HTML. Mantener las vistas de borrador señalizadas y no indexables aunque las políticas finales sí sean indexables.
 4. Ejecutar el flujo de Pages y comprobar las siete rutas en un teléfono sin login, incluidas soporte y solicitud externa de eliminación. Configurar solo URLs verificadas en app y consolas.
 5. Conservar versiones anteriores y registrar qué versión está en cada build y ficha de tienda.
