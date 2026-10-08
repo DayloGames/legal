@@ -1,4 +1,4 @@
-# Eliminar tu cuenta de [PENDIENTE: nombre público]
+# Eliminar tu cuenta de Daylo Games
 
 BORRADOR — no listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026. No cumple como recurso externo operativo hasta configurar el contacto y el procedimiento.
 
@@ -10,11 +10,13 @@ La cuenta se inhabilita durante el proceso y no podés continuar usando su progr
 
 ## Sin la app instalada o sin acceso
 
-Escribí a **[PENDIENTE: email público atendido]**, con asunto **«Eliminar cuenta de [PENDIENTE: nombre público]»**.
+Escribí a **dailygamesbb@gmail.com**, con asunto **«Eliminar cuenta de Daylo Games»**.
 
 Indicá el email de acceso vinculado si lo tenés y/o el código de amigo. Si sos invitado, contanos que la cuenta no está vinculada y qué identificador conservás. No publiques la solicitud en GitHub ni envíes contraseñas o tokens. Te indicaremos una forma de verificar la titularidad con la información mínima necesaria.
 
-No necesitás reinstalar la app para iniciar la solicitud. [PENDIENTE: designar quién procesa las solicitudes externas, verificación segura, tiempos aplicables, ejecución y confirmación del resultado.]
+No necesitás reinstalar la app para iniciar la solicitud. **Guido Tomas Botta y Gianluca Belinche** atienden las solicitudes recibidas en este buzón. Las solicitudes de supresión de datos se atienden dentro de los plazos legales explicados en [Privacidad](privacy.es.md).
+
+[PENDIENTE: verificación segura, ejecución, tratamiento de retenciones justificadas y confirmación del resultado; verificar que el proceso completo permita cumplir los plazos aplicables.]
 
 ## Qué ocurre con los datos
 

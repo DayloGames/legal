@@ -1,12 +1,14 @@
-# Política de privacidad de [PENDIENTE: nombre público]
+# Política de privacidad de Daylo Games
 
 BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026. Los pendientes deben resolverse y eliminarse antes de publicación.
 
 ## 1. Quién trata tus datos
 
-[PENDIENTE: persona o razón social], con domicilio de contacto en [PENDIENTE: domicilio y país], es responsable del servicio [PENDIENTE: nombre público], al que llamamos «la app» en esta política.
+**Guido Tomas Botta y Gianluca Belinche** prestan el servicio **Daylo Games** como personas físicas en **Argentina**, con domicilio de contacto en **[PENDIENTE: domicilio de contacto válido]**. En esta política llamamos «la app» a Daylo Games.
 
-Para consultas de privacidad y solicitudes sobre tus datos: [PENDIENTE: email de privacidad atendido]. Para ayuda general, consultá [Soporte](support.es.md).
+[PENDIENTE: confirmar las responsabilidades de ambos en el tratamiento de datos y su correspondencia con los contratos, cuentas de proveedores y procedimiento de atención de derechos.]
+
+Para consultas de privacidad y solicitudes sobre tus datos: dailygamesbb@gmail.com. Para ayuda general, consultá [Soporte](support.es.md).
 
 ## 2. Datos que usamos
 
@@ -44,19 +46,21 @@ No mostramos tu email de acceso en los perfiles sociales de la app. Tampoco entr
 
 ## 5. Servicios que intervienen
 
-La arquitectura incluye los siguientes servicios, cuya configuración de producción debe confirmarse antes de publicar esta lista:
+Los proveedores Supabase, Render, Cloudflare/R2, Sentry, Google AdMob y RevenueCat están confirmados para producción. Sus funciones principales son:
 
 | Servicio | Función y datos principales |
 | --- | --- |
 | Supabase | Autenticación, identidades de acceso y base de datos con perfil, juego, economía y funciones sociales; imágenes de catálogo si se utiliza su almacenamiento. |
 | Render | Alojamiento del backend y procesamiento de solicitudes y registros técnicos. |
-| Cloudflare | Entrega y protección del tráfico; imágenes si se utiliza R2. |
-| Sentry | Diagnóstico de fallos, registros y rendimiento, con datos técnicos e identificadores cuando está habilitado. |
+| Cloudflare/R2 | Entrega y protección del tráfico y almacenamiento de recursos. |
+| Sentry | Diagnóstico de fallos, con datos técnicos e identificadores; las capturas de registros y rendimiento dependen de la configuración. |
 | Google AdMob y proveedores configurados | Publicidad y consentimiento; identificación de cuenta y verificación de recompensas de anuncios opcionales. |
 | RevenueCat | Verificación y gestión de compras/suscripciones asociadas a tu identificador de cuenta. |
 | Apple y Google | Inicio de sesión y pagos mediante sus tiendas, bajo sus propias condiciones y políticas. |
 
-[PENDIENTE: confirmar servicios habilitados, partners publicitarios, entidades contratadas, hosting del sitio, proveedor de soporte y enlaces a información relevante.]
+El sitio de documentación legal se aloja en **GitHub Pages**. GitHub registra la dirección IP de visitantes por motivos de seguridad, incluso si no iniciaron sesión en GitHub. Podés consultar [información del servicio y tratamiento del tráfico](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+
+[PENDIENTE: verificar servicios y configuración efectiva de cada proveedor confirmado, partners publicitarios, entidades contratadas, proveedor de soporte y enlaces a información relevante; completar retención y transferencias del hosting.]
 
 ## 6. Tratamiento internacional
 
@@ -76,7 +80,9 @@ Usamos almacenamiento local para mantener la sesión, preferencias, frecuencia d
 
 Conservamos datos mientras resultan necesarios para las finalidades explicadas, sujeto a los plazos que se indican a continuación.
 
-[PENDIENTE: completar plazos aprobados para cuentas activas/inactivas, invitados, registros de juego/economía, compras, reportes, resolución de cuentas, logs, soporte, proveedores y backups.]
+En el lanzamiento inicial, **no eliminamos cuentas por el solo hecho de dejar de usarlas**. Esta regla incluye cuentas de invitado y vinculadas, con o sin compras. La inactividad tampoco hace vencer las monedas o tokens. Podés solicitar la eliminación según las instrucciones de [Eliminación de cuenta](delete-account.es.md).
+
+[PENDIENTE: comprobar que la operación de producción conserva cuentas inactivas y definir conservación por finalidad para registros de juego/economía, compras, reportes, resolución de cuentas, logs, soporte, proveedores y backups. Conservar una cuenta no implica conservar indefinidamente todos sus registros.]
 
 Al solicitar eliminación, la cuenta queda inhabilitada y se eliminan la identidad de acceso y datos operativos mediante el proceso correspondiente. Algunos registros pueden conservarse durante un período limitado para seguridad, investigación de reportes u obligaciones específicas. [PENDIENTE: enumerar categorías concretas, fundamento y plazo real, incluida purga diferida de partidas y movimientos; no afirmar que el ID residual es anónimo.]
 
@@ -84,13 +90,23 @@ Las copias de seguridad y los sistemas de terceros pueden tener ciclos distintos
 
 ## 10. Tus derechos
 
-Podés solicitar acceso, corrección o eliminación de tus datos y ejercer otros derechos que correspondan por tu legislación. Escribí a [PENDIENTE: email de privacidad]. Podremos pedir información mínima para verificar que la solicitud es tuya, sin pedir tu contraseña.
+Podés solicitar acceso, corrección o eliminación de tus datos y ejercer otros derechos que correspondan por tu legislación. Escribí a dailygamesbb@gmail.com. Podremos pedir información mínima para verificar que la solicitud es tuya, sin pedir tu contraseña.
 
-[PENDIENTE: plazos aplicables, autoridad de control y vías de reclamo por mercados; canal de exportación disponible y cómo completar datos que no cubra la descarga de la app.]
+Para Argentina, la Ley 25.326 establece **diez días corridos desde la intimación fehaciente** para proporcionar la información solicitada en ejercicio del derecho de acceso (artículo 14), y un máximo de **cinco días hábiles desde la recepción del reclamo o la detección del error o falsedad** para realizar la rectificación, actualización o supresión que corresponda (artículo 16). Estos plazos se refieren a la atención del derecho, no solamente al envío de un acuse de recibo. [Texto legal](https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/actualizacion).
+
+La **Agencia de Acceso a la Información Pública (AAIP)** es la autoridad de control en Argentina. Si no recibís respuesta dentro del plazo aplicable o la respuesta es insuficiente, podés [presentar una denuncia ante la AAIP](https://www.argentina.gob.ar/servicio/denunciar-incumplimientos-de-la-ley-de-proteccion-de-datos-personales), sin perjuicio de las vías judiciales disponibles. Conservá constancia de tu solicitud y de las respuestas recibidas.
+
+Para pedir información que no esté incluida en una descarga disponible, escribí a **dailygamesbb@gmail.com**. El límite técnico de una exportación no limita por sí solo tu derecho de acceso.
+
+[PENDIENTE: verificar el canal de exportación disponible en la versión final y el procedimiento completo de acceso y supresión, incluidos registros y proveedores.]
 
 ## 11. Edad de acceso
 
-[PENDIENTE: edad mínima, países, tratamiento de adolescentes, controles implementados y procedimiento ante datos de personas que no pueden usar el servicio. No asumir 16+ ni prometer que no se reciben datos de menores sin controles efectivos.]
+Daylo Games está dirigido a personas de **18 años o más**, con lanzamiento inicial en **Argentina**. Los menores de 18 años no están habilitados para usar el servicio.
+
+Si considerás que se han tratado datos de una persona menor de 18 años, escribí a **dailygamesbb@gmail.com**.
+
+[PENDIENTE: verificar el control de edad antes de los tratamientos afectados y definir el procedimiento operativo ante edad desconocida, una declaración incorrecta o datos de menores detectados. La restricción contractual no prueba que nunca se reciban datos de menores.]
 
 ## 12. Seguridad y cambios
 

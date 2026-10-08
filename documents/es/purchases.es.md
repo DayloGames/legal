@@ -1,6 +1,6 @@
 # Compras, suscripciones y recompensas
 
-BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026. Anexo de los [Términos de uso](terms.es.md) de [PENDIENTE: nombre público].
+BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026. Anexo de los [Términos de uso](terms.es.md) de Daylo Games.
 
 ## 1. Pago y entrega
 
@@ -17,20 +17,26 @@ Ambas pueden obtenerse mediante actividades/recompensas y packs de compra cuando
 
 No se transfieren entre jugadores ni se retiran o convierten en dinero. No representan una participación en el negocio ni una inversión. Las pistas se consumen al aplicarse; reiniciar el tablero no las devuelve automáticamente. Un error de entrega o cobro puede reclamarse por soporte.
 
-La implementación actual no programa vencimiento de los saldos. [PENDIENTE: aprobar regla contractual de no vencimiento de moneda comprada y tratamiento ante cierre/inactividad, respetando requisitos de tiendas y derechos legales.]
+Las **monedas y tokens no tienen fecha de vencimiento** mientras la cuenta se conserve, tanto si los comprás como si los obtenés jugando, mediante anuncios con recompensa o por referidos. El paso del tiempo no elimina esos saldos. En el lanzamiento inicial, tampoco eliminamos cuentas ni saldos por inactividad, incluidas las cuentas de invitado.
+
+[PENDIENTE: definir el tratamiento de los saldos ante eliminación o cierre de la cuenta y pérdida de una sesión invitada, respetando derechos legales. Adecuar el script de purga a la conservación de cuentas inactivas. El no vencimiento no acredita recuperación de una cuenta.]
 
 ## 3. Membresías
 
-Los planes actuales en la implementación son:
+El lanzamiento incluye los planes Calm y Pro, con los siguientes beneficios previstos:
 
 | Plan | Beneficios |
 | --- | --- |
 | Daylo Calm | Quita los anuncios interstitials entre partidas. Los anuncios opcionales con recompensa siguen disponibles si decidís verlos. |
 | Daylo Pro | Incluye Calm, acceso a días anteriores sin gastar tokens y acceso a etapas sin gastar tokens. Los requisitos de completar etapas previas siguen aplicando. |
 
-[PENDIENTE: confirmar nombres comerciales y disponibilidad final de estos planes.]
+[PENDIENTE: verificar denominaciones completas y configuración comercial efectiva de Calm/Pro en app y tiendas. Su inclusión en el lanzamiento está confirmada.]
 
-Las opciones mensual/anual son suscripciones con renovación automática. El período, precio y condiciones de prueba o promoción, cuando existan, deben aparecer antes de confirmar. No incluyen una asignación recurrente de monedas/tokens salvo que una oferta específica lo indique.
+**Calm y Pro ofrecen opciones mensuales y anuales**, con renovación automática. Antes de confirmar la compra se muestran el precio, el ciclo de renovación y, cuando haya una prueba o promoción, su duración, el importe inicial y el precio y ciclo que se aplicarán después.
+
+[PENDIENTE: pruebas gratuitas y promociones por definir. Verificar que las condiciones mostradas para cada oferta coincidan con la configuración efectiva de la tienda, tanto en opciones mensuales como anuales.]
+
+Las suscripciones no incluyen una asignación recurrente de monedas/tokens salvo que una oferta específica lo indique.
 
 ## 4. Renovación y cancelación
 
@@ -44,7 +50,11 @@ Desinstalar la app, cerrar sesión o eliminar la cuenta de juego no cancela auto
 
 Usá **Restaurar compras** para recuperar las compras que la tienda y el tipo de producto permitan restaurar, con la cuenta de tienda correspondiente. Los packs consumibles ya entregados no se restauran como una suscripción: su saldo se conserva asociado a la cuenta de juego.
 
-Comprar como invitado implica depender del acceso a esa sesión para recuperar el saldo y progreso. [PENDIENTE: definir protección de compras de invitados, advertencias y procedimiento de recuperación antes de ofrecerlas.]
+Podés comprar como invitado sin vincular Google o Apple. El saldo de los packs y el progreso se asocian a tu cuenta de juego. Si perdés la sesión de invitado, eliminás los datos locales o cambiás de dispositivo, podés perder acceso a esa cuenta y sus saldos.
+
+Si necesitás ayuda con una compra, contactá [Soporte](support.es.md) con la tienda, el producto y el número de pedido/transacción. No envíes contraseñas ni tokens.
+
+[PENDIENTE: definir y probar advertencias antes de pagar, protección de compras de invitados, verificación de titularidad y procedimiento de recuperación. No prometer recuperación automática de consumibles o progreso a partir de restaurar compras o presentar un comprobante.]
 
 Si vinculás una identidad que ya tiene otra cuenta, revisá qué progreso elegís conservar y contactá soporte si hay compras afectadas. La app no suma automáticamente ambos progresos.
 

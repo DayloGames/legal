@@ -1,4 +1,4 @@
-# Créditos y licencias de [PENDIENTE: nombre público]
+# Créditos y licencias de Daylo Games
 
 BORRADOR — no listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026.
 
@@ -277,12 +277,20 @@ License: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 - Vulture (`vulture`, 10x10, 15x15)
 - Tower (`white-tower`, 15x15)
 
-The other 48 picture board(s) were drawn for Daily Games and need no credit.
+El catálogo local también contiene 48 tableros sin atribución de terceros en su metadata. [PENDIENTE: cotejar su origen con el proceso de creación informado por el equipo y comprobar derechos y contenido de la versión distribuida.]
+
+## Recursos realizados por el equipo con IA
+
+El equipo realiza recursos visuales mediante generación con **ChatGPT (OpenAI)** a partir de descripciones escritas, sin imágenes de referencia, y modificaciones posteriores propias. Esto describe el proceso de elaboración; no implica que todos los elementos tengan derechos exclusivos ni modifica las licencias de los materiales de terceros.
+
+[PENDIENTE: cotejar las condiciones contractuales aplicables a ChatGPT Plus personal durante el período de generación informado (aproximadamente agosto–octubre de 2026), revisar las descripciones utilizadas y los archivos finales, y comprobar permisos de uso comercial y distribución.]
 
 ## Diccionarios, software, iconos y otros recursos
 
 [PENDIENTE: inventariar y agregar los avisos y textos de licencia aplicables a los componentes realmente distribuidos, incluyendo listas de palabras inglesas, bibliotecas, iconos, fuentes y otros assets.]
 
-La documentación técnica identifica SCOWL (copyright 2000–2011 Kevin Atkinson) y cracklib-small entre las fuentes inglesas de Anygram. Es necesario revisar los archivos y licencias originales antes de completar este apartado; no se declara que todo el contenido sea de dominio público ni que todos los avisos estén cubiertos por esta página.
+Las fuentes identificadas en la revisión incluyen SCOWL y cracklib-small para Anygram en inglés; wspanish, Project Gutenberg y Mozilla Common Voice para Anygram en español; y ENABLE, wspanish y Mozilla Common Voice para las listas de Wordle.
+
+[PENDIENTE: cotejar fuentes/versiones efectivamente utilizadas, licencias originales, derechos aplicables en Argentina y avisos exigibles. Una descripción de dominio público en un README o en otro país no acredita por sí sola los derechos de toda la cadena de fuentes.]
 
 Los materiales de terceros conservan las licencias que les correspondan. Nuestros términos no restringen derechos otorgados por ellas.

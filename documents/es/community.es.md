@@ -1,4 +1,4 @@
-# Reglas de comunidad de [PENDIENTE: nombre público]
+# Reglas de comunidad de Daylo Games
 
 BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026. Forma parte de los [Términos de uso](terms.es.md).
 
@@ -28,7 +28,7 @@ Compartir un código de grupo permite a otros usarlo para entrar según las regl
 
 Usá la acción **Reportar** disponible para jugadores cuando encuentres un problema. Elegí el motivo y, si hace falta, agregá una explicación breve sin incluir datos sensibles innecesarios. Conservá el identificador del reporte si necesitás consultar su estado.
 
-Un reporte inicia una revisión; no supone automáticamente una sanción. Para un problema con un grupo o con una función sin acción de reporte, contactá [PENDIENTE: email atendido], indicando el nombre/código del grupo y el motivo.
+Un reporte inicia una revisión; no supone automáticamente una sanción. Para un problema con un grupo o con una función sin acción de reporte, contactá dailygamesbb@gmail.com, indicando el nombre/código del grupo y el motivo.
 
 [PENDIENTE: confirmar ubicación exacta de la acción móvil y proceso humano de revisión; establecer plazo objetivo y prioridades, sin prometer atención inexistente.]
 
@@ -40,8 +40,10 @@ El bloqueo no elimina su cuenta, no lo expulsa automáticamente de grupos compar
 
 ## 5. Moderación y revisión
 
-[PENDIENTE: responsable y procedimiento real para revisar reportes, corregir nombres, aplicar restricciones, avisar decisiones y recibir apelaciones.]
+**Guido Tomas Botta y Gianluca Belinche** atienden los reportes y pedidos de revisión recibidos en el buzón de contacto.
 
-Las medidas se evaluarán según gravedad, reiteración y evidencia. Para pedir revisión de una decisión, usá [PENDIENTE: canal de apelaciones]. No te pediremos la contraseña ni datos de pago completos.
+[PENDIENTE: definir y verificar el procedimiento para revisar reportes, corregir nombres, aplicar restricciones, avisar decisiones y recibir apelaciones.]
+
+Las medidas se evaluarán según gravedad, reiteración y evidencia. Para pedir revisión de una decisión, usá dailygamesbb@gmail.com. No te pediremos la contraseña ni datos de pago completos.
 
 Los reportes pueden conservarse durante un plazo limitado para investigar abusos y proteger a otras personas, como explica la [Política de privacidad](privacy.es.md). No entregamos automáticamente al denunciado la identidad del denunciante.
