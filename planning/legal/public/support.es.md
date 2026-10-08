@@ -1,14 +1,22 @@
-# Soporte de [PENDIENTE: nombre público]
+# Soporte de Daylo Games
 
 BORRADOR — no listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026.
 
 ## Contacto
 
-Escribinos a **[PENDIENTE: email público atendido]** para problemas de acceso, partidas, compras o comunidad. Responsable del servicio: [PENDIENTE: persona/sociedad, domicilio y país].
+Escribinos a **dailygamesbb@gmail.com** para problemas de acceso, partidas, compras o comunidad. El servicio es prestado por **Guido Tomas Botta y Gianluca Belinche**, como **personas físicas en Argentina**, con domicilio de contacto en **[PENDIENTE: domicilio de contacto válido]**.
 
-Para consultas sobre datos personales: **[PENDIENTE: email de privacidad; puede ser el mismo buzón]**.
+Para consultas sobre datos personales: **dailygamesbb@gmail.com**.
 
-[PENDIENTE: idiomas de atención y plazo objetivo de respuesta realista. Las solicitudes de derechos se atienden según los plazos legales aplicables.]
+**Guido Tomas Botta y Gianluca Belinche** atienden este buzón para soporte, solicitudes sobre datos y reportes.
+
+Atendemos consultas en **español e inglés**.
+
+Para consultas generales, nuestro objetivo es darte una **primera respuesta útil dentro de 10 días hábiles desde su recepción**. La resolución puede requerir más tiempo según la complejidad del caso; te informaremos los próximos pasos.
+
+Las solicitudes sobre datos personales se atienden dentro de sus plazos legales específicos, detallados en [Privacidad](privacy.es.md), aunque sean más cortos. Los reportes de comunidad se atienden según su gravedad, con prioridad para situaciones urgentes. Si otra obligación aplicable establece un plazo más corto, ese plazo prevalece.
+
+[PENDIENTE: poner en funcionamiento y verificar el procedimiento de seguimiento documentado para cumplir vencimientos legales y atender oportunamente los reportes. No se promete respuesta en 24 horas ni revisión diaria garantizada.]
 
 ## Qué información ayuda
 

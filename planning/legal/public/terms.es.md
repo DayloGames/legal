@@ -1,10 +1,10 @@
-# Términos de uso de [PENDIENTE: nombre público]
+# Términos de uso de Daylo Games
 
 BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026.
 
 ## 1. El servicio y su responsable
 
-[PENDIENTE: nombre público] ofrece juegos de lógica y palabras con partidas diarias, desafíos, progreso, personalización y funciones sociales. Lo opera [PENDIENTE: responsable, domicilio y país]. Podés contactarnos mediante [Soporte](support.es.md).
+Daylo Games ofrece juegos de lógica y palabras con partidas diarias, desafíos, progreso, personalización y funciones sociales. **Guido Tomas Botta y Gianluca Belinche** prestan el servicio como **personas físicas en Argentina**, con domicilio de contacto en **[PENDIENTE: domicilio de contacto válido]**. Podés contactarnos mediante [Soporte](support.es.md).
 
 Estos términos incorporan las [Reglas de comunidad](community.es.md) y las [Condiciones de compras y suscripciones](purchases.es.md). La [Política de privacidad](privacy.es.md) explica el tratamiento de datos.
 
@@ -12,7 +12,7 @@ Estos términos incorporan las [Reglas de comunidad](community.es.md) y las [Con
 
 ## 2. Quién puede usarlo
 
-[PENDIENTE: edad mínima, capacidad/representación cuando corresponda y países disponibles.]
+Para usar Daylo Games debés tener **18 años o más**. El lanzamiento inicial está limitado a **Argentina**. La autorización de una persona adulta no habilita el acceso de menores de 18 años.
 
 Usá el servicio para fines personales conforme a estas reglas. No suplantes a otras personas ni uses identidades ajenas para acceder o comprar.
 
@@ -50,7 +50,7 @@ Puede haber publicidad. Ver anuncios con recompensa es voluntario; una suscripci
 
 ## 7. Propiedad intelectual
 
-El software, diseño y contenido del servicio pertenecen al responsable o se utilizan bajo licencias de terceros. Te autorizamos a usar la app en los términos previstos; no a redistribuir código, assets o contenido fuera de lo permitido por sus licencias.
+El software, diseño y contenido del servicio pertenecen a sus titulares o se utilizan bajo licencias de terceros. Te autorizamos a usar la app en los términos previstos; no a redistribuir código, assets o contenido fuera de lo permitido por sus licencias.
 
 Los materiales de terceros conservan sus respectivas licencias y atribuciones, que podés consultar en [Créditos y licencias](credits.es.md). Estos términos no restringen los derechos que esas licencias te otorgan.
 
@@ -70,7 +70,7 @@ Si el servicio debe discontinuarse o cambia materialmente, informaremos lo que c
 
 Mantenimiento, problemas de red o proveedores pueden afectar temporalmente el servicio. Atenderemos incidencias a través de soporte.
 
-[PENDIENTE: límites de responsabilidad válidos para responsable y mercados elegidos. No incluir renuncia universal a responsabilidad, garantías legales ni reembolsos obligatorios.]
+La responsabilidad de quienes prestan el servicio se determina conforme a la legislación aplicable. Estos términos no excluyen ni limitan responsabilidades, garantías, reparaciones o devoluciones que correspondan legalmente. Las condiciones de una tienda o proveedor tampoco dejan sin efecto esos derechos.
 
 Ninguna disposición pretende quitarte derechos irrenunciables como consumidor o titular de datos.
 
@@ -78,4 +78,6 @@ Ninguna disposición pretende quitarte derechos irrenunciables como consumidor o
 
 Publicaremos nuevas versiones y comunicaremos cambios relevantes con la anticipación y aceptación que correspondan. Las condiciones de una compra no cambian retroactivamente por reemplazar esta página.
 
-[PENDIENTE: ley aplicable y mecanismos de resolución de controversias, sin imponer jurisdicción exclusiva que invalide derechos de consumidores en otros mercados.]
+Para el lanzamiento en Argentina, estos términos se rigen por las leyes de la **República Argentina**, incluidas las normas de protección de consumidores y datos personales aplicables.
+
+Podés contactarnos a **dailygamesbb@gmail.com** para consultas o reclamos. Ese canal no impide acudir a las autoridades administrativas o tribunales competentes ni exige agotar primero una negociación privada. No se impone arbitraje obligatorio ni una jurisdicción exclusiva que restrinja derechos legales.

@@ -6,6 +6,12 @@ Estos documentos se construyeron a partir de ambos repositorios actuales. La gu�
 
 La matriz inicial de requisitos de tiendas y Argentina está en [requisitos-argentina-y-tiendas.md](requisitos-argentina-y-tiendas.md).
 
+La [guía de cierre para el lanzamiento](plan-de-cierre.md) organiza las decisiones, verificaciones técnicas y publicación, con una comprobación parcial del código local del 7 de octubre de 2026.
+
+La [guía operativa de soporte, derechos y reportes](operacion-soporte-y-plazos.md) explica cómo identificar pedidos, qué plazos corresponden y cómo organizarse en el buzón. Es material para el equipo, visible en este repositorio público; no guardar aquí casos reales.
+
+El [inventario de licencias y recursos](inventario-licencias.md) coteja Picture Cross, identifica fuentes de diccionarios y registra las licencias declaradas por las dependencias directas de mobile. Distingue evidencia local de derechos y avisos todavía por verificar.
+
 La comparación de documentos oficiales de Puzzle Page, Everyday Puzzles y Minipuzzles está en [market-benchmark.md](market-benchmark.md). Es material de investigación interno, no parte del sitio público.
 
 Los números, plazos, límites y demás datos que pueden cambiar se mantienen en [variables-y-cambios.md](variables-y-cambios.md), con su fuente primaria y las páginas que habría que revisar. También es un documento interno.
@@ -26,6 +32,8 @@ Separar comunidad y compras permite enlazarlas desde la función correspondiente
 
 Privacidad es un requisito general de tiendas. Eliminación externa aplica al permitir creación de cuenta; soporte y contacto deben ser efectivos. Las suscripciones de Apple requieren enlaces a términos y privacidad en app y metadata. Las reglas de contenido deben estar definidas y aceptadas antes de crear UGC en Google; una página separada de comunidad es una decisión editorial. Separar compras también es una decisión editorial. Créditos depende de las licencias efectivamente utilizadas: aquí existen assets atribuidos CC BY 3.0 y otras fuentes que revisar.
 
+La [guía de publicación y migración](publicacion-y-migracion.md) registra GitHub Pages como hosting inicial, rutas previstas y ubicación separada de `app-ads.txt`.
+
 ## Dónde van
 
 **Ahora:** todos los borradores y la investigación se trasladaron a `planning/legal/`; la integración móvil está en [legal-integration.md](../mobile/legal-integration.md). Estos archivos son visibles en el repositorio público. Pages genera vistas previas rotuladas bajo `/borradores/` a partir de `public/`; las demás notas de `planning/` no aparecen en el sitio. Las páginas vigentes, cuando se aprueben, tendrán su fuente en `site/`. No se modificaron pantallas, bases, SDK ni configuración de producción.
@@ -45,14 +53,14 @@ Los marcadores `[PENDIENTE: ...]` son preguntas que deben resolverse antes de pu
 | Decisión | Por qué cambia los textos |
 | --- | --- |
 | Nombre público: Daily Games o Daylo | Las traducciones comerciales usan Daylo; los repositorios y metadatos aún dicen Daily Games/mobile. Unificar. |
-| Persona/sociedad responsable, país y domicilio de contacto | Identifica quién presta el servicio y responde por los datos. No inferirlo del usuario de GitHub o bundle ID. |
+| Domicilio, responsabilidades sobre datos y titularidad contractual | Prestadores confirmados: Guido Tomas Botta y Gianluca Belinche, ambos personas físicas en Argentina. Completar domicilio válido y confirmar responsabilidades sobre datos y cuentas/contratos. |
 | Email real de soporte y privacidad | Necesario para que las páginas permitan consultas y solicitudes reales. Puede ser un único buzón atendido. |
-| Edad y países de lanzamiento | Define elegibilidad, tratamiento de menores, avisos regionales y bases jurídicas. No reutilizar automáticamente el 16+ anterior. |
-| Proveedores, regiones y configuraciones reales de producción | El repositorio muestra integraciones, no prueba dónde ni con qué opciones están desplegadas. |
+| Aplicación de edad y países confirmados | Lanzamiento inicial **18+ en Argentina**, aprobado el 7 de octubre de 2026. Falta implementar/verificar elegibilidad, edad desconocida y datos de menores detectados. Expansión futura por evaluar. |
+| Regiones y configuraciones reales de proveedores | El usuario confirmó Supabase, Render, Cloudflare/R2, Sentry, AdMob y RevenueCat en producción. Falta verificar servicios/configuración, regiones, contratos, partners, retención y eliminación. |
 | Plazos y fundamentos de conservación | El script contiene umbrales, no acredita ejecución ni justifica conservar datos. |
 | Nombre Apple: conservar o eliminar su captura | El login actual guarda nombre y apellido en Supabase aunque no los usa como nombre público. |
-| Moderación: responsable, revisión y apelaciones | Recibir un reporte no garantiza que alguien lo revise o pueda sancionar. |
-| Compras de invitados y recuperación | Decidir cómo evitar perder saldo comprado por perder una sesión de invitado. |
+| Moderación: proceso de revisión y apelaciones | Ambos prestadores atenderán reportes; falta definir/verificar revisión, medidas, avisos y apelaciones. |
+| Protección y recuperación de compras de invitados | Comprar como invitado está permitido. Definir advertencias, verificación de titularidad y cómo atender la pérdida de acceso a saldo comprado. |
 
 ## Cómo cerrar y mantener
 

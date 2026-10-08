@@ -25,7 +25,11 @@ Interno. Borrador 2026-10-02. La columna de finalidad describe el uso observado;
 
 ## Proveedores: completar por entorno
 
-Supabase (Auth, Postgres y Storage si se usa); Render (API); Cloudflare (edge y R2 si se usa); Sentry (mobile y backend); Google AdMob y partners elegidos; RevenueCat; Apple/Google (acceso y pagos); hosting del sitio; proveedor del buzón de soporte. Expo/EAS aparece en desarrollo/build: determinar si hay servicios runtime adicionales antes de incluirlo como destinatario de datos de jugadores.
+Hosting legal confirmado el 8 de octubre: **GitHub Pages**, con URL de proyecto prevista `https://daylogames.github.io/legal/`. Incluir tráfico/IP del sitio y configuración contractual/retención/transferencias en la revisión de proveedores. [Plan de publicación y migración](publicacion-y-migracion.md).
+
+Confirmación del usuario: **Supabase, Render, Cloudflare/R2, Sentry, Google AdMob y RevenueCat activos en producción**. No se inspeccionaron consolas. Esta confirmación no determina servicios específicos, regiones, contratos, partners publicitarios, retención ni eliminación; completar esos datos por proveedor.
+
+Supabase (Auth, Postgres y Storage si se usa); Render (API); Cloudflare/R2 (uso confirmado; funciones/configuración exactas por verificar); Sentry (mobile y backend); Google AdMob y partners elegidos; RevenueCat; Apple/Google (acceso y pagos); hosting del sitio; proveedor del buzón de soporte. Expo/EAS aparece en desarrollo/build: determinar si hay servicios runtime adicionales antes de incluirlo como destinatario de datos de jugadores.
 
 Para cada uno registrar: entidad contratada, función jurídica real, servicio/configuración, región, datos, acceso de personal, DPA/contrato, subencargados, transferencias y salvaguardas, retención, procedimiento de eliminación, responsable interno y última revisión. No asignar automáticamente rol de encargado a todos los proveedores: tiendas y proveedores publicitarios pueden actuar con fines propios.
 
@@ -33,8 +37,8 @@ Para cada uno registrar: entidad contratada, función jurídica real, servicio/c
 
 | Datos | Código actual | Decisión/acción necesaria |
 | --- | --- | --- |
-| Cuenta activa, progreso y economía | Sin expiración general encontrada | Definir necesidad por dato y reglas de cuentas vinculadas inactivas. |
-| Invitado abandonado | Purga elegible tras 90 días por defecto, configurable | Aprobar plazo; asegurar job; incluir RevenueCat, eventos y registros sin FK. Considerar compras. |
+| Cuenta activa o inactiva, progreso y economía | Sin expiración general encontrada | Decisión de lanzamiento: conservar cuentas aunque dejen de usarse. Definir necesidad y retención por categoría de registros; no equivale a guardar todo indefinidamente. |
+| Invitado inactivo | El script selecciona invitados tras 90 días por defecto, configurable | Decisión de lanzamiento: conservar invitados inactivos, con o sin compras. Ajustar la selección; separar purga por inactividad de la purga posterior a eliminación solicitada. |
 | Cuenta eliminada y tablas protegidas | Tombstone elegible tras 7 días; máximo 1.000 por pasada | Minimizar retención residual; aprobar fundamento y plazo real; comprobar TTL máximo de tokens y completar fallos parciales. |
 | Reportes | Conservados sin TTL ni FK | Plazo de cierre/investigación y retención posterior; acceso restringido; anonimización/borrado; justificación. |
 | Resolución de cuentas | Persistente sin FK; no exportación/purga observada | TTL por necesidad de reintento/seguridad y tratamiento en solicitudes. |
@@ -45,11 +49,13 @@ Para cada uno registrar: entidad contratada, función jurídica real, servicio/c
 | Compras/documentación fiscal | Compras técnicas se purgan junto a cuenta | Contador/legal debe definir documentos que deben conservarse y cómo separarlos/minimizarlos. No inventar obligación contable de retener partidas. |
 | Soporte | Sin sistema definido | Plazo de ticket, adjuntos, eliminación y acceso. |
 
-No publicar «eliminamos todo en 7 días» ni «los invitados se borran automáticamente a los 90 días» basándose solamente en constantes. Propuesta operativa: job diario supervisado y suficiente capacidad; sigue pendiente de decisión e implementación.
+No publicar «eliminamos todo en 7 días» ni «los invitados se borran automáticamente a los 90 días» basándose solamente en constantes. Para completar eliminaciones solicitadas, la propuesta operativa es un job supervisado con suficiente capacidad. Su diseño/implementación sigue pendiente y debe excluir las cuentas no eliminadas que solo están inactivas.
 
-## Atención de derechos: propuesta operativa
+## Atención de derechos: procedimiento documentado
 
-1. Buzón público atendido; registrar solicitud, fecha, jurisdicción, alcance y vencimiento aplicable.
+La [guía de soporte, derechos y reportes](operacion-soporte-y-plazos.md) organiza identificación, plazos y seguimiento. Está documentada, pero falta ponerla en funcionamiento y verificarla. Soporte general tiene un objetivo de primera respuesta útil hasta 10 días hábiles; los plazos de derechos y prioridades de urgencia son distintos.
+
+1. Buzón público atendido por ambos prestadores, en español e inglés. Se prevé revisión frecuente, sin garantizar revisión diaria o respuesta en 24 horas. Registrar solicitud, fecha de ingreso, jurisdicción, alcance y vencimiento aplicable. No contar desde la fecha en que se decide leer el mensaje; habilitar seguimiento y cobertura para evitar vencimientos. El método está documentado en la guía; puesta en funcionamiento y verificación pendientes.
 2. Verificar titularidad con los mínimos datos necesarios. Priorizar sesión o email vinculado; no pedir contraseñas, tokens ni documento de identidad por defecto.
 3. Reunir datos de API, Supabase, proveedores, soporte y registros relevantes. La exportación actual no sustituye ese relevamiento y puede truncarse.
 4. Proteger información de terceros al responder. Examinar cada excepción y explicar límites; no revelar denunciantes por defecto.

@@ -10,7 +10,7 @@ La fuente de los borradores y decisiones está en [planning/legal/README.md](../
 | --- | --- | --- |
 | Perfil → Legal y ayuda | Privacidad, términos, comunidad, compras, soporte, eliminación y créditos; visible para invitados | `app/(tabs)/profile/index.tsx` y layouts de profile/user |
 | Primer uso | Información de cuenta invitada, documentos accesibles y aceptación contractual según política aprobada | `app/_layout.tsx`, `src/auth/AuthContext.tsx` |
-| Edad | Control coherente con edad/mercados antes de activar tratamientos afectados | No control encontrado |
+| Edad | Aplicar **18+ en Argentina**, decidido el 7 de octubre de 2026; no habilitar menores con autorización parental; definir edad desconocida antes de activar tratamientos afectados | No control encontrado; implementación pendiente |
 | Acceso Google/Apple | Documentos y aclaración de vinculación; no confundir login del proveedor con aceptación de la app | `src/auth/components/SocialContinueCard.tsx` |
 | Primer nombre/grupo | Aceptación de términos que incorporen comunidad antes de crear contenido; validación servidor | `src/profile/RequireUsernameModal.tsx`, `src/features/friends/` |
 | Tienda | Términos, privacidad y compras junto a ofertas; URL válida obligatoria para vender | `src/store/BalanceStoreScreen.tsx`, `src/config/env.ts` |
@@ -20,6 +20,8 @@ La fuente de los borradores y decisiones está en [planning/legal/README.md](../
 | Comunidad | Mantener reportar/bloquear; agregar reporte de grupos/contacto y apelación operativa | `src/features/friends/api/useModeration.ts` |
 
 ## URLs
+
+Hosting aprobado para el lanzamiento: **GitHub Pages**, origen `https://daylogames.github.io` y base de proyecto `/legal`. Por ejemplo, privacidad final tendrá la URL prevista `https://daylogames.github.io/legal/es/privacy/`; verificar publicación antes de usarla. La [guía de publicación y migración](../legal/publicacion-y-migracion.md) enumera rutas y cómo mantener acceso si luego se utiliza un dominio propio.
 
 Actualmente existen `EXPO_PUBLIC_TERMS_URL` y `EXPO_PUBLIC_PRIVACY_URL`, opcionales y enlazadas solo desde tienda si se configuran. Propuesta: URLs canónicas de documentos aprobados por idioma y un origen HTTPS público estable; agregar soporte, compras, comunidad, eliminación y créditos.
 
@@ -31,9 +33,13 @@ Antes de una release, comprobar que los enlaces están configurados, responden, 
 
 Hoy Sentry inicializa al importar el layout; AdsProvider monta fuera de AuthProvider; Auth crea invitado automáticamente. Agregar una casilla al login social no cubre lo que ocurrió antes.
 
-Definir primero edad y bases por finalidad. Después diseñar el flujo de información/aceptación/consentimiento y qué servicios pueden inicializar antes de cada decisión. Mantener documentos y soporte accesibles si no se acepta. La aceptación contractual no habilita automáticamente ads personalizados, ATT, marketing ni todas las capturas diagnósticas.
+La edad aprobada para el lanzamiento inicial en Argentina es **18+**. Diseñar un control de elegibilidad antes de crear invitado o inicializar los servicios afectados, conservando solo la evidencia necesaria; no habilitar acceso a menores de 18 ni tratar edad desconocida como adulto. Definir las bases por finalidad y el flujo de información/aceptación/consentimiento, junto con qué servicios pueden inicializar antes de cada decisión. Mantener documentos y soporte accesibles si no se acepta. La aceptación contractual no habilita automáticamente ads personalizados, ATT, marketing ni todas las capturas diagnósticas.
 
 Propuesta de registro backend de aceptación: usuario, versión de términos, versiones de anexos incorporados, idioma, timestamp del servidor y origen de la acción. Minimizar datos adicionales; no agregar IP por costumbre. Para invitados, precisar el punto en que se crea identidad. Backend debe verificar aceptación cuando la política lo exija para publicar nombres/grupos. Diseñar migración y tratamiento de cuentas existentes.
+
+## Conservación de cuentas y purga
+
+Decisión de lanzamiento: conservar cuentas invitadas y vinculadas aunque dejen de usarse, con o sin compras; no caducan sus monedas/tokens por inactividad. El script de API `purge-stale-guests.ts` actualmente selecciona invitados inactivos tras 90 días por defecto además de cuentas ya eliminadas. Separar las selecciones antes de ejecutar en producción: la inactividad no debe provocar borrado, pero deben completarse las eliminaciones solicitadas. La retención de logs y otros registros requiere plazos propios. Esta documentación no modifica el script.
 
 ## Textos que necesitan ajustes
 

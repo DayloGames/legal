@@ -1,12 +1,14 @@
-# Daylo — documentación legal
+# Daylo Games — documentación legal
 
-Repositorio público para preparar y publicar la documentación de Daylo/Daily Games. **Actualmente hay vistas previas de los borradores en Pages, pero no políticas vigentes.** Los textos en [`planning/legal/public/`](planning/legal/public/) son borradores con decisiones pendientes; no deben enlazarse desde la app ni desde las tiendas como documentos finales.
+Repositorio público para preparar y publicar la documentación de Daylo Games. **Actualmente hay vistas previas de los borradores en Pages, pero no políticas vigentes.** Los textos en [`planning/legal/public/`](planning/legal/public/) son borradores con decisiones pendientes; no deben enlazarse desde la app ni desde las tiendas como documentos finales.
 
 - [`planning/legal/`](planning/legal/README.md): borradores, auditoría, inventario, benchmark y registro de variables. Todo este directorio es visible en GitHub.
 - [`planning/mobile/`](planning/mobile/legal-integration.md): plan de integración en la app.
 - [`site/`](site/): única entrada al sitio de GitHub Pages. Contiene una portada y vistas previas generadas en `/borradores/`; no contiene políticas vigentes.
 
 ## Publicación con GitHub Pages
+
+Hosting inicial confirmado: **GitHub Pages**, con dirección prevista `https://daylogames.github.io/legal/`. El dominio propio se evaluará más adelante. Ver [rutas, publicación y migración](planning/legal/publicacion-y-migracion.md); las rutas finales aún no contienen documentos aprobados.
 
 1. En **Settings → Pages → Build and deployment**, elegir **GitHub Actions** como fuente. No elegir «Deploy from a branch»: esa opción no aísla `site/` de `planning/`.
 2. En **Actions → Publish legal site → Run workflow**, ejecutar el flujo manual para publicar la portada y las vistas previas rotuladas `/borradores/`. El workflow genera las vistas desde `planning/legal/public/` y compila con Jekyll `site/`. No crea rutas legales definitivas.

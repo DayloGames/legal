@@ -1,4 +1,6 @@
-title: Daylo — documentación
+title: Daylo Games — documentación
+url: "https://daylogames.github.io"
+baseurl: "/legal"
 markdown: kramdown
 exclude:
   - README.md

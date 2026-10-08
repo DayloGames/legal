@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Documentación de Daylo
+title: Documentación de Daylo Games
 ---
 
-# Daylo / Daylo Games
+# Daylo Games
 
-El nombre definitivo de la app todavía está por definir. Publicamos estos **borradores de trabajo** para revisarlos antes del lanzamiento. No son políticas vigentes ni deben usarse como enlaces legales en las tiendas o en la app.
+Publicamos estos **borradores de trabajo** para revisarlos antes del lanzamiento. No son políticas vigentes ni deben usarse como enlaces legales en las tiendas o en la app.
 
 - [Privacidad](borradores/es/privacy/)
 - [Términos de uso](borradores/es/terms/)
