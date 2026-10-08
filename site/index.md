@@ -5,13 +5,13 @@ title: Documentación de Daylo Games
 
 # Daylo Games
 
-Publicamos estos **borradores de trabajo** para revisarlos antes del lanzamiento. No son políticas vigentes ni deben usarse como enlaces legales en las tiendas o en la app.
+Estos documentos están en preparación y **todavía no son políticas vigentes**. Sus URLs son estables y pueden cargarse en las configuraciones de la app y las tiendas durante la preparación. Antes de distribuir la app en producción, deben completarse los pendientes y publicarse las versiones aprobadas en estas mismas rutas.
 
-- [Privacidad](borradores/es/privacy/)
-- [Términos de uso](borradores/es/terms/)
-- [Reglas de comunidad](borradores/es/community/)
-- [Compras y suscripciones](borradores/es/purchases/)
-- [Soporte](borradores/es/support/)
-- [Eliminación de cuenta](borradores/es/delete-account/)
-- [Créditos y licencias](borradores/es/credits/)
+- [Privacidad](es/privacy/)
+- [Términos de uso](es/terms/)
+- [Reglas de comunidad](es/community/)
+- [Compras y suscripciones](es/purchases/)
+- [Soporte](es/support/)
+- [Eliminación de cuenta](es/delete-account/)
+- [Créditos y licencias](es/credits/)
 
