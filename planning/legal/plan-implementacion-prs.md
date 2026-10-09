@@ -4,10 +4,10 @@ Fecha: 8 de octubre de 2026. Basado en [plan-de-cierre.md](plan-de-cierre.md) y 
 
 ## Forma de trabajo acordada
 
-- Trabajar un PR por vez, en una rama del repositorio correspondiente creada desde `main` actualizado.
+- Trabajar un PR por vez, en una rama del repositorio correspondiente creada desde `main` actualizado o apilada sobre el PR dependiente cuando el usuario lo autorice.
 - Al terminar cada cambio: mostrar alcance, validación, pendientes y listado de archivos modificados/nuevos; dejarlo sin commit ni push.
 - Hacer commit, push y abrir PR con descripción cuando el usuario lo indique. Todos los PRs de esta sesión se crean en draft. No hacer merge ni desplegar por esa instrucción.
-- Empezar el PR siguiente y crear su rama solo cuando el usuario indique avanzar. Comprobar que las dependencias necesarias estén incorporadas a `main`; no construir accidentalmente el siguiente PR sobre la rama anterior.
+- Empezar el PR siguiente y crear su rama solo cuando el usuario indique avanzar. Comprobar que las dependencias necesarias estén incorporadas a `main`; documentar la base cuando se trabaje con PRs apilados autorizados.
 - Cada fila es un PR de un solo repositorio. Los cambios que cruzan API/mobile están separados para que la dependencia y el orden de despliegue sean explícitos.
 - Si una decisión pendiente condiciona una implementación, resolverla antes de ese PR; no inventar plazos, ofertas ni garantías de recuperación.
 
@@ -17,7 +17,8 @@ Fecha: 8 de octubre de 2026. Basado en [plan-de-cierre.md](plan-de-cierre.md) y 
 | --- | --- | --- | --- |
 | 1 | API | **Conservar invitados inactivos.** Quitar selección/borrado por inactividad, ofrecer `purge:deleted` para cuentas marcadas, dejar alias seguro del comando anterior y rechazar `--days`. Actualizar documentación y probar invitados antiguos con/sin compras, dry-run, corte de tombstones y fallos. | Primero. Conserva el proceso existente de tombstones; la recuperación de proveedores se completa en PR 2. No requiere migración. |
 | 2 | API | **Borrado recuperable sin sesión.** Persistir etapas/estado de eliminación, recuperar fallos de Auth/RevenueCat/base desde job, conservar referencia hasta confirmar etapas y exponer evidencia de intentos/antigüedad/errores para operación. Probar pérdida de sesión, reinicio y errores en cada proveedor. | PR 1. Confirmar configuración efectiva de RevenueCat/Supabase y política operativa; las constantes actuales no son plazos públicos aprobados. |
-| 3 | API / función Supabase | **Revocación Apple al borrar, si falta.** Verificar integración real y agregar revocación recuperable si no está cubierta. Completar pruebas del proveedor y la función desplegada. | PR 2. Credenciales/configuración Apple y evidencia Supabase. Si ya está cubierto, registrar evidencia y cerrar esta tarea sin un PR vacío. |
+| 3a | API / función Supabase | **Revocación Apple al borrar.** Endpoint de captura, token cifrado, verificación de identidad, revocación recuperable antes de Auth y exportación de metadatos. | PR 2. Configuración/despliegue y evidencia de revocación real pendientes. |
+| 3b | Mobile | **Captura y reautorización Apple.** Enviar el código nativo tras autenticarse, usar la sesión secundaria en colisiones, permitir reautorizar y detectar revocación confirmada. | PR 3a desplegado antes de liberar mobile. Verificación en iOS físico pendiente. |
 | 4 | API | **Residuos y exportación.** Tratar `account_resolutions`, reportes y webhooks tardíos según conservación aprobada; evitar reconstruir identificadores innecesarios después del borrado. Ajustar exportación/redacción/paginación cuando haga falta. Probar retención, tareas pendientes y datos de terceros. | PR 2. Definir plazos por categoría, alcance del acceso y tratamiento de logs/backups/proveedores. No borrar resoluciones aún pendientes. |
 | 5 | Mobile | **Borrado de invitados y aviso de cancelación.** Mostrar eliminar para invitados y vinculados, separar salir de eliminar, describir progreso/saldos/residuos y acceso a gestión de suscripciones. Probar éxito/fallo y retorno tras borrar. | PR 2; texto de conservación coordinado con PR 4. El retorno se adapta nuevamente al arranque de PR 9. |
 | 6 | Mobile | **Centro legal y soporte.** Enlaces ES/EN a términos, privacidad, comunidad, compras, soporte y eliminación desde un acceso inicial y ajustes; comprobar configuración de release y acceso sin sesión. | Rutas/versión documental disponibles. Debe poder usarse fuera de Auth/Ads/Purchases para integrarlo al PR 9. Créditos finales se incorporan en PR 16. |
@@ -47,7 +48,34 @@ La lista se ajustará con lo que revele cada PR. Las tareas opcionales no justif
 
 ## Estado de ejecución
 
-PR 1 implementado y listo para revisión en `daily-games-api`, rama `fix/preserve-inactive-guests`, desde `main` actualizado a `6cbfeb2`. `daily-games-mobile` está en `main` actualizado a `524e8d1`. El usuario autorizó commit, push y publicación de PRs draft para este cambio y sus documentos de revisión/planificación. No se inició el PR 2 ni se creó rama para cambios siguientes.
+PR 1 publicado como draft [API #87](https://github.com/DayloGames/daylo-api/pull/87),
+rama `fix/preserve-inactive-guests`. PR 2 publicado como draft
+[API #88](https://github.com/DayloGames/daylo-api/pull/88), commit `14b0487`,
+rama `fix/resumable-account-deletion` basada en la rama del #87.
+
+Cambio 3 publicado en draft:
+[API #89](https://github.com/DayloGames/daylo-api/pull/89), commit `1a6ae79`,
+rama `fix/apple-token-revocation` sobre #88; y
+[Mobile #155](https://github.com/DayloGames/daylo-mobile/pull/155), commit `0bd5ddb`,
+rama `fix/apple-token-capture` desde `main` `524e8d1`. Se amplió el alcance a Mobile
+porque el flujo nativo descartaba `authorizationCode`: la API no podía recuperar
+tokens históricos desde un ID token Supabase. Incluye captura bajo la identidad
+correcta, cifrado, revocación antes de Auth, reintentos, conservación durante
+colisiones, metadatos de exportación y detección local de revocación.
+
+Validación local del cambio 3: typecheck y ESLint de archivos afectados;
+185 pruebas API de usuarios/configuración, 20 de comandos/función y 19 HTTP;
+42 de integración con las migraciones sobre PostgreSQL 16 temporal; 781 pruebas
+unitarias Mobile y 11 nativas de AuthProvider/acciones sociales (exit 0). Los 338 tests nativos existentes
+pasan sus assertions, pero el proceso termina con exit 1 por un log tardío de
+Expo. Se reprodujo el mismo error sobre `main` sin estos cambios: continúa
+pendiente de PR 8.
+
+La configuración/despliegue Supabase/Apple y la prueba en iOS físico siguen
+pendientes. No se configura producción desde este cambio. El comportamiento
+histórico sin token se registra como `unavailable`, permite borrar la cuenta y
+muestra instrucciones de revocación manual; no se declara una revocación que
+no pudo comprobarse. Detalles operativos en `daily-games-api/docs/apple-revocation.md`.
 
 Validación del PR 1:
 
@@ -57,4 +85,4 @@ Validación del PR 1:
 - 2 pruebas nuevas de integración contra PostgreSQL 16 temporal: aprobadas. Cubren invitados con saldo ganado/comprado, compras conservadas, cuenta vinculada, cascadas, dry-run, límite del lote y frontera de siete días.
 - Arranque real de `pnpm purge:deleted --limit=1` en dry-run contra esa base: exit 0. Invocación real del alias con `--apply --days=90`: rechazo esperado, exit 1 antes de abrir conexiones.
 
-No se aplicaron migraciones ni purgas a producción. La base temporal se creó con las migraciones existentes; este PR no agrega migraciones. La recuperación de RevenueCat y demás etapas del borrado sigue en PR 2.
+No se aplicaron migraciones ni purgas a producción. La base temporal se creó con las migraciones existentes; este PR no agrega migraciones. La recuperación de proveedores se implementó después en PR 2; la evidencia anterior corresponde exclusivamente al PR 1.
