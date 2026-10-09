@@ -35,14 +35,22 @@ Para cada uno registrar: entidad contratada, función jurídica real, servicio/c
 
 ## Conservación: observado versus propuesta
 
+Decisión posterior de la sesión: los plazos de reportes y resoluciones siguen
+pendientes y el usuario indicó conservar esos registros por ahora. El cambio 4
+de API implementa acceso protegido a metadatos y minimización de webhooks; no
+introduce expiración ni afirma anonimización de registros retenidos. La evidencia
+es local, publicada en draft y pendiente de revisión/despliegue; ver
+[plan de implementación](plan-implementacion-prs.md).
+
+
 | Datos | Código actual | Decisión/acción necesaria |
 | --- | --- | --- |
 | Cuenta activa o inactiva, progreso y economía | Sin expiración general encontrada | Decisión de lanzamiento: conservar cuentas aunque dejen de usarse. Definir necesidad y retención por categoría de registros; no equivale a guardar todo indefinidamente. |
-| Invitado inactivo | El script selecciona invitados tras 90 días por defecto, configurable | Decisión de lanzamiento: conservar invitados inactivos, con o sin compras. Ajustar la selección; separar purga por inactividad de la purga posterior a eliminación solicitada. |
+| Invitado inactivo | Código corregido en API #87: no selecciona invitados por inactividad | Decisión de lanzamiento: conservar invitados inactivos, con o sin compras. Verificar despliegue y proceso efectivo de eliminaciones solicitadas. |
 | Cuenta eliminada y tablas protegidas | Tombstone elegible tras 7 días; máximo 1.000 por pasada | Minimizar retención residual; aprobar fundamento y plazo real; comprobar TTL máximo de tokens y completar fallos parciales. |
-| Reportes | Conservados sin TTL ni FK | Plazo de cierre/investigación y retención posterior; acceso restringido; anonimización/borrado; justificación. |
-| Resolución de cuentas | Persistente sin FK; no exportación/purga observada | TTL por necesidad de reintento/seguridad y tratamiento en solicitudes. |
-| Eventos RevenueCat | Purga por ID al borrar; pueden reaparecer por webhook | Minimizar eventos de cuentas inexistentes y definir TTL. |
+| Reportes | Conservados sin TTL ni FK; API #90 exporta metadatos de reportes propios, sin contenido sensible | Plazo de cierre/investigación y retención posterior; acceso restringido; anonimización/borrado; justificación. |
+| Resolución de cuentas | Persistente sin FK; API #90 agrega exportación/paginación de metadatos sin IDs ajenos, conserva tareas y registros completos | TTL por necesidad de reintento/seguridad y tratamiento en solicitudes. |
+| Eventos RevenueCat | API #90 minimiza IDs de cuentas ausentes/eliminadas y serializa escrituras con el tombstone | Minimizar eventos de cuentas inexistentes y definir TTL. |
 | Grupos/nombres | Membership borrada; grupo puede quedar vacío/sin owner | Reasignación, borrado o anonimización del contenido según situación. |
 | Registros y Sentry | Dependientes de plan/configuración | Fijar plazos reales por logs, errores, traces y métricas; comprobar filtros móviles. |
 | Backups | Documentación recomienda backups; configuración no comprobada | Ventana real, control de acceso y reaplicación de eliminaciones al restaurar. |

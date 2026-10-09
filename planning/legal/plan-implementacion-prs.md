@@ -19,7 +19,7 @@ Fecha: 8 de octubre de 2026. Basado en [plan-de-cierre.md](plan-de-cierre.md) y 
 | 2 | API | **Borrado recuperable sin sesión.** Persistir etapas/estado de eliminación, recuperar fallos de Auth/RevenueCat/base desde job, conservar referencia hasta confirmar etapas y exponer evidencia de intentos/antigüedad/errores para operación. Probar pérdida de sesión, reinicio y errores en cada proveedor. | PR 1. Confirmar configuración efectiva de RevenueCat/Supabase y política operativa; las constantes actuales no son plazos públicos aprobados. |
 | 3a | API / función Supabase | **Revocación Apple al borrar.** Endpoint de captura, token cifrado, verificación de identidad, revocación recuperable antes de Auth y exportación de metadatos. | PR 2. Configuración/despliegue y evidencia de revocación real pendientes. |
 | 3b | Mobile | **Captura y reautorización Apple.** Enviar el código nativo tras autenticarse, usar la sesión secundaria en colisiones, permitir reautorizar y detectar revocación confirmada. | PR 3a desplegado antes de liberar mobile. Verificación en iOS físico pendiente. |
-| 4 | API | **Residuos y exportación.** Tratar `account_resolutions`, reportes y webhooks tardíos según conservación aprobada; evitar reconstruir identificadores innecesarios después del borrado. Ajustar exportación/redacción/paginación cuando haga falta. Probar retención, tareas pendientes y datos de terceros. | PR 2. Definir plazos por categoría, alcance del acceso y tratamiento de logs/backups/proveedores. No borrar resoluciones aún pendientes. |
+| 4 | API | **Residuos y exportación.** Tratar `account_resolutions`, reportes y webhooks tardíos según conservación aprobada; evitar reconstruir identificadores innecesarios después del borrado. Ajustar exportación/redacción/paginación cuando haga falta. Probar retención, tareas pendientes y datos de terceros. | PR 2. Decisión del usuario: conservar reportes y resoluciones mientras sus plazos sigan pendientes. Exportar metadatos protegidos y corregir webhooks; conservación de logs/backups/proveedores sigue pendiente. |
 | 5 | Mobile | **Borrado de invitados y aviso de cancelación.** Mostrar eliminar para invitados y vinculados, separar salir de eliminar, describir progreso/saldos/residuos y acceso a gestión de suscripciones. Probar éxito/fallo y retorno tras borrar. | PR 2; texto de conservación coordinado con PR 4. El retorno se adapta nuevamente al arranque de PR 9. |
 | 6 | Mobile | **Centro legal y soporte.** Enlaces ES/EN a términos, privacidad, comunidad, compras, soporte y eliminación desde un acceso inicial y ajustes; comprobar configuración de release y acceso sin sesión. | Rutas/versión documental disponibles. Debe poder usarse fuera de Auth/Ads/Purchases para integrarlo al PR 9. Créditos finales se incorporan en PR 16. |
 | 7 | API | **Contrato y registro de elegibilidad/aceptación.** Registro mínimo de categoría 18+, versión de términos/reglas, idioma y fecha de servidor; endpoints idempotentes, política vigente y tratamiento de exportación/borrado/cambio de identidad. | PR 4 y versión/idiomas legales definidos. Compatible con clientes anteriores durante la transición: no activar aún el bloqueo social de PR 10. No guardar DNI ni fecha de nacimiento completa por defecto. |
@@ -76,6 +76,31 @@ pendientes. No se configura producción desde este cambio. El comportamiento
 histórico sin token se registra como `unavailable`, permite borrar la cuenta y
 muestra instrucciones de revocación manual; no se declara una revocación que
 no pudo comprobarse. Detalles operativos en `daily-games-api/docs/apple-revocation.md`.
+
+Cambio 4 publicado como [API #90](https://github.com/DayloGames/daylo-api/pull/90)
+en draft, commit `bc8a09f`, rama `fix/deletion-residual-data`
+sobre el commit `1a6ae79` del draft #89. El usuario confirmó que reportes y resoluciones deben conservarse
+por ahora, sin plazos aprobados: no se agregó TTL ni borrado de esas categorías.
+
+Incluye comprobación de cuenta viva bajo bloqueo transaccional para receipts,
+membresías, grants y refunds; minimización de IDs históricos para cuentas
+ausentes/eliminadas; exportación de metadatos de resoluciones y reportes propios
+sin IDs ajenos, notas, nombres copiados ni datos de denunciantes; endpoint de
+paginación con autorización por solicitante. La migración agrega índices y
+minimiza receipts; conserva invitados inactivos y registros retenidos.
+
+Validación: typecheck, ESLint/formato de archivos afectados y diff limpio;
+207 tests de usuarios/billing, 16 del comando de borrado, 21 HTTP y 58 de
+integración en PostgreSQL 16 temporal. Incluye carrera real del webhook contra
+el tombstone, lectura del proveedor que termina después del borrado, reintentos,
+redacción, paginación, retención tras purga y minimización histórica. La suite
+HTTP conserva el warning de open handles de Jest, con exit 0.
+
+Continúan pendientes los plazos/fundamentos por categoría, la revisión de
+contenido sensible en solicitudes de acceso, los registros que excedan los
+caps operativos, y conservación/borrado en proveedores/logs/backups. El rollout
+debe drenar handlers antiguos de billing para que no reintroduzcan IDs después
+del backfill. No se ejecutó la migración contra producción.
 
 Validación del PR 1:
 
