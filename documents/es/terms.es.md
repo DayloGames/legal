@@ -4,7 +4,7 @@ BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de oc
 
 ## 1. El servicio y su responsable
 
-Daylo Games ofrece juegos de lógica y palabras con partidas diarias, desafíos, progreso, personalización y funciones sociales. **Guido Tomas Botta y Gianluca Belinche** prestan el servicio como **personas físicas en Argentina**, con domicilio de contacto en **[PENDIENTE: domicilio de contacto válido]**. Podés contactarnos mediante [Soporte](support.es.md).
+Daylo Games ofrece juegos de lógica y palabras con partidas diarias, desafíos, progreso, personalización y funciones sociales. El servicio es prestado por **Guido Tomas Botta**, persona física en **Argentina**, con domicilio de contacto en **Calle 152 6352, Oficina 314 Downtown, B1886 Guillermo Enrique Hudson, provincia de Buenos Aires, Argentina**. Podés contactarnos mediante [Soporte](support.es.md).
 
 Estos términos incorporan las [Reglas de comunidad](community.es.md) y las [Condiciones de compras y suscripciones](purchases.es.md). La [Política de privacidad](privacy.es.md) explica el tratamiento de datos.
 
@@ -56,7 +56,7 @@ Los materiales de terceros conservan sus respectivas licencias y atribuciones, q
 
 ## 8. Medidas ante incumplimientos
 
-Podemos adoptar medidas proporcionales frente a incumplimientos comprobados, como corregir resultados, requerir cambios de nombres o restringir funciones/cuentas. [PENDIENTE: medidas disponibles, responsables, aviso, revisión y canal de apelación efectivamente operativos.]
+Podemos adoptar medidas proporcionales frente a incumplimientos comprobados, como corregir resultados, reemplazar nombres por uno genérico o eliminar la cuenta ante incumplimientos graves o reiterados. Las medidas, el aviso y cómo pedir una revisión se explican en las [Reglas de comunidad](community.es.md).
 
 Una sospecha no elimina por sí sola tus derechos sobre compras o reclamaciones. Cualquier medida sobre bienes adquiridos debe respetar las condiciones de compra y la legislación aplicable.
 

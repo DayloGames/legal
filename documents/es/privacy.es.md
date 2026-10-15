@@ -4,9 +4,9 @@ BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de oc
 
 ## 1. Quién trata tus datos
 
-**Guido Tomas Botta y Gianluca Belinche** prestan el servicio **Daylo Games** como personas físicas en **Argentina**, con domicilio de contacto en **[PENDIENTE: domicilio de contacto válido]**. En esta política llamamos «la app» a Daylo Games.
+**Guido Tomas Botta**, persona física en **Argentina**, presta el servicio **Daylo Games** y es el responsable del tratamiento de tus datos. Domicilio de contacto: **Calle 152 6352, Oficina 314 Downtown, B1886 Guillermo Enrique Hudson, provincia de Buenos Aires, Argentina**. En esta política llamamos «la app» a Daylo Games.
 
-[PENDIENTE: confirmar las responsabilidades de ambos en el tratamiento de datos y su correspondencia con los contratos, cuentas de proveedores y procedimiento de atención de derechos.]
+Las personas del equipo de Daylo Games que atienden soporte, moderación y operación acceden solo a los datos necesarios para esas tareas y están sujetas a deber de confidencialidad.
 
 Para consultas de privacidad y solicitudes sobre tus datos: dailygamesbb@gmail.com. Para ayuda general, consultá [Soporte](support.es.md).
 
@@ -82,11 +82,23 @@ Conservamos datos mientras resultan necesarios para las finalidades explicadas, 
 
 En el lanzamiento inicial, **no eliminamos cuentas por el solo hecho de dejar de usarlas**. Esta regla incluye cuentas de invitado y vinculadas, con o sin compras. La inactividad tampoco hace vencer las monedas o tokens. Podés solicitar la eliminación según las instrucciones de [Eliminación de cuenta](delete-account.es.md).
 
-[PENDIENTE: comprobar que la operación de producción conserva cuentas inactivas y definir conservación por finalidad para registros de juego/economía, compras, reportes, resolución de cuentas, logs, soporte, proveedores y backups. Conservar una cuenta no implica conservar indefinidamente todos sus registros.]
+Cuando eliminás tu cuenta, o cuando dejamos de necesitar ciertos registros, los conservamos solo durante estos plazos:
 
-Al solicitar eliminación, la cuenta queda inhabilitada y se eliminan la identidad de acceso y datos operativos mediante el proceso correspondiente. Algunos registros pueden conservarse durante un período limitado para seguridad, investigación de reportes u obligaciones específicas. [PENDIENTE: enumerar categorías concretas, fundamento y plazo real, incluida purga diferida de partidas y movimientos; no afirmar que el ID residual es anónimo.]
+| Datos | Plazo máximo | Para qué |
+| --- | --- | --- |
+| Datos de una cuenta eliminada: perfil, progreso, saldos, amistades, membresías en grupos, personalización e identidad de acceso | **5 días hábiles** desde que pedís la eliminación | Completar el proceso de eliminación. |
+| Copias de seguridad | **30 días** desde la copia; se reemplazan solas | Recuperar el servicio ante fallas. Si una copia se restaura, volvemos a aplicar las eliminaciones ya pedidas. |
+| Registro mínimo de cada compra: tienda, número de pedido, producto, fecha e importe, sin perfil ni progreso | **5 años** desde la compra | Atender reclamos, devoluciones y contracargos durante los plazos de prescripción. |
+| Registro de solicitudes de acceso, corrección o eliminación: fecha, tipo, email de contacto y fechas de respuesta y de ejecución | **5 años** desde la solicitud | Demostrar que atendimos tus derechos en plazo. No incluye los datos eliminados. |
+| Reportes de otros jugadores y su resolución | **6 meses** desde que se resuelven | Detectar reincidencia y atender pedidos de revisión. |
+| Registro de una vinculación entre una cuenta de invitado y otra existente | **30 días** desde que se completa, o hasta que se elimina cualquiera de las dos cuentas | Completar la operación y evitar abusos del programa de referidos. |
+| Emails de soporte | **1 año** desde que se cierra la consulta | Seguir consultas y reclamos. Si hay un reclamo de compra pendiente, hasta que se resuelva. |
 
-Las copias de seguridad y los sistemas de terceros pueden tener ciclos distintos, que deben informarse aquí: [PENDIENTE: ventanas y procedimiento]. Consultá [Eliminación de cuenta](delete-account.es.md) para los pasos y efectos sobre progreso y compras.
+Podemos conservar datos por más tiempo solo cuando una ley nos lo exija, para atender un requerimiento de una autoridad competente o para ejercer o defender derechos en un reclamo en curso, y únicamente mientras dure esa necesidad.
+
+[PENDIENTE: verificar que la operación de producción cumple cada plazo, incluida la limpieza diaria automática, y completar la retención real de registros técnicos (Sentry, Render, Cloudflare) y de los proveedores. Conservar una cuenta no implica conservar indefinidamente todos sus registros.]
+
+Consultá [Eliminación de cuenta](delete-account.es.md) para los pasos y efectos sobre progreso y compras.
 
 ## 10. Tus derechos
 
@@ -106,7 +118,9 @@ Daylo Games está dirigido a personas de **18 años o más**, con lanzamiento in
 
 Si considerás que se han tratado datos de una persona menor de 18 años, escribí a **dailygamesbb@gmail.com**.
 
-[PENDIENTE: verificar el control de edad antes de los tratamientos afectados y definir el procedimiento operativo ante edad desconocida, una declaración incorrecta o datos de menores detectados. La restricción contractual no prueba que nunca se reciban datos de menores.]
+Si tomamos conocimiento de que una cuenta pertenece a una persona menor de 18 años, la eliminamos junto con sus datos, con los mismos efectos que una eliminación solicitada. Los reembolsos de compras hechas en App Store o Google Play se solicitan a la tienda, según sus políticas y la ley aplicable.
+
+[PENDIENTE: verificar la pantalla de declaración de 18 años o más al primer uso.]
 
 ## 12. Seguridad y cambios
 
