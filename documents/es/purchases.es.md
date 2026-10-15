@@ -32,8 +32,6 @@ El lanzamiento incluye los planes Calm y Pro, con los siguientes beneficios prev
 | Daylo Calm | Quita los anuncios interstitials entre partidas. Los anuncios opcionales con recompensa siguen disponibles si decidís verlos. |
 | Daylo Pro | Incluye Calm, acceso a días anteriores sin gastar tokens y acceso a etapas sin gastar tokens. Los requisitos de completar etapas previas siguen aplicando. |
 
-[PENDIENTE: verificar denominaciones completas y configuración comercial efectiva de Calm/Pro en app y tiendas. Su inclusión en el lanzamiento está confirmada.]
-
 **Calm y Pro ofrecen opciones mensuales y anuales**, con renovación automática. Antes de confirmar la compra se muestran el precio, el ciclo de renovación y, cuando haya una prueba o promoción, su duración, el importe inicial y el precio y ciclo que se aplicarán después.
 
 Las suscripciones pueden incluir una **oferta introductoria** para quienes se suscriben por primera vez, según los criterios de elegibilidad de cada tienda. Las condiciones exactas de la oferta se muestran antes de confirmar la compra. Al terminar la oferta, la suscripción se renueva automáticamente al precio regular, salvo que la canceles antes.
@@ -45,6 +43,8 @@ Las suscripciones no incluyen una asignación recurrente de monedas/tokens salvo
 ## 4. Renovación y cancelación
 
 Podés gestionar o cancelar la suscripción desde la cuenta de la tienda en la que compraste. La app ofrece **Gestionar suscripción** cuando tiene disponible el enlace correspondiente. Cancelar la renovación normalmente permite conservar los beneficios hasta terminar el período ya adquirido, salvo devolución, revocación u otras condiciones aplicables.
+
+Podés cambiar de plan desde la app. Si pasás de Calm a Pro, el cambio se aplica de inmediato y la tienda ajusta el cobro en proporción al tiempo que quedaba del plan anterior. Si pasás de Pro a Calm, el cambio se aplica cuando termina el período ya pagado. Si cambiás entre la opción mensual y la anual, la tienda aplica el cambio según sus reglas. En todos los casos, la tienda te muestra el importe y cuándo se aplica el cambio antes de que lo confirmes.
 
 Desinstalar la app, cerrar sesión o eliminar la cuenta de juego no cancela automáticamente la suscripción. Revisá su estado en la tienda para evitar futuras renovaciones.
 
