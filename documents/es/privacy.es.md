@@ -118,7 +118,9 @@ Daylo Games está dirigido a personas de **18 años o más**, con lanzamiento in
 
 Si considerás que se han tratado datos de una persona menor de 18 años, escribí a **dailygamesbb@gmail.com**.
 
-[PENDIENTE: verificar el control de edad antes de los tratamientos afectados y definir el procedimiento operativo ante edad desconocida, una declaración incorrecta o datos de menores detectados. La restricción contractual no prueba que nunca se reciban datos de menores.]
+Si tomamos conocimiento de que una cuenta pertenece a una persona menor de 18 años, la eliminamos junto con sus datos, con los mismos efectos que una eliminación solicitada. Los reembolsos de compras hechas en App Store o Google Play se solicitan a la tienda, según sus políticas y la ley aplicable.
+
+[PENDIENTE: verificar la pantalla de declaración de 18 años o más al primer uso.]
 
 ## 12. Seguridad y cambios
 
