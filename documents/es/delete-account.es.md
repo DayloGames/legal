@@ -20,9 +20,9 @@ No necesitás reinstalar la app para iniciar la solicitud. El equipo de Daylo Ga
 
 ## Qué ocurre con los datos
 
-El proceso elimina la identidad de acceso y los datos operativos asociados, como perfil social, amistades, membresías, desbloqueos y personalización. Tu participación deja de mostrarse en las funciones sociales. Un grupo compartido puede continuar para sus demás miembros.
+El proceso elimina la identidad de acceso y los datos operativos asociados, como perfil social, amistades, membresías, desbloqueos y personalización. Tu participación deja de mostrarse en las funciones sociales.
 
-[PENDIENTE: resolver tratamiento de nombres de grupos creados y propiedad de grupos al eliminar; explicar excepciones necesarias sin prometer retirar contenido que hoy permanece.]
+Los grupos pertenecen a todos sus miembros. Si administrabas un grupo, la administración pasa al miembro más antiguo y el grupo sigue, con su nombre, para los demás. Si no queda nadie, el grupo se elimina.
 
 Los datos de la cuenta se eliminan dentro de los **5 días hábiles** desde que pedís la eliminación. Solo se conservan, por un plazo limitado, un registro mínimo de tus compras, el registro de tu solicitud, los reportes en los que intervino la cuenta y los emails de soporte. Las copias de seguridad se reemplazan solas en hasta 30 días. Los plazos y finalidades de cada categoría están en [Privacidad §9](privacy.es.md).
 

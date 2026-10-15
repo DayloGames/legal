@@ -56,7 +56,7 @@ Los materiales de terceros conservan sus respectivas licencias y atribuciones, q
 
 ## 8. Medidas ante incumplimientos
 
-Podemos adoptar medidas proporcionales frente a incumplimientos comprobados, como corregir resultados, requerir cambios de nombres o restringir funciones/cuentas. [PENDIENTE: medidas disponibles, responsables, aviso, revisión y canal de apelación efectivamente operativos.]
+Podemos adoptar medidas proporcionales frente a incumplimientos comprobados, como corregir resultados, reemplazar nombres por uno genérico o eliminar la cuenta ante incumplimientos graves o reiterados. Las medidas, el aviso y cómo pedir una revisión se explican en las [Reglas de comunidad](community.es.md).
 
 Una sospecha no elimina por sí sola tus derechos sobre compras o reclamaciones. Cualquier medida sobre bienes adquiridos debe respetar las condiciones de compra y la legislación aplicable.
 

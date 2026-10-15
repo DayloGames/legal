@@ -44,8 +44,8 @@ El bloqueo no elimina su cuenta, no lo expulsa automáticamente de grupos compar
 
 El equipo de Daylo Games atiende los reportes y pedidos de revisión recibidos en el buzón de contacto.
 
-[PENDIENTE: definir y verificar el procedimiento para revisar reportes, corregir nombres, aplicar restricciones, avisar decisiones y recibir apelaciones.]
+Según la gravedad y la reiteración, podemos reemplazar por uno genérico un nombre de usuario o de grupo que incumpla estas reglas, y eliminar la cuenta ante incumplimientos graves o reiterados de estas reglas o de los [Términos](terms.es.md). Cuando eliminamos una cuenta por incumplimiento, te avisamos el motivo si tenemos un medio de contacto, y podés pedir que revisemos la decisión escribiendo a dailygamesbb@gmail.com. No te pediremos la contraseña ni datos de pago completos.
 
-Las medidas se evaluarán según gravedad, reiteración y evidencia. Para pedir revisión de una decisión, usá dailygamesbb@gmail.com. No te pediremos la contraseña ni datos de pago completos.
+La eliminación tiene los mismos efectos sobre progreso y saldos que una eliminación solicitada. No cancela una suscripción: cancelala en la tienda. Los reembolsos se solicitan a App Store o Google Play según sus políticas, sin perjuicio de los derechos que te correspondan por ley.
 
 Los reportes pueden conservarse durante un plazo limitado para investigar abusos y proteger a otras personas, como explica la [Política de privacidad](privacy.es.md). No entregamos automáticamente al denunciado la identidad del denunciante.
