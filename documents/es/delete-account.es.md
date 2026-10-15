@@ -14,7 +14,7 @@ Escribí a **dailygamesbb@gmail.com**, con asunto **«Eliminar cuenta de Daylo G
 
 Indicá el email de acceso vinculado si lo tenés y/o el código de amigo. Si sos invitado, contanos que la cuenta no está vinculada y qué identificador conservás. No publiques la solicitud en GitHub ni envíes contraseñas o tokens. Te indicaremos una forma de verificar la titularidad con la información mínima necesaria.
 
-No necesitás reinstalar la app para iniciar la solicitud. **Guido Tomas Botta y Gianluca Belinche** atienden las solicitudes recibidas en este buzón. Las solicitudes de supresión de datos se atienden dentro de los plazos legales explicados en [Privacidad](privacy.es.md).
+No necesitás reinstalar la app para iniciar la solicitud. El equipo de Daylo Games atiende las solicitudes recibidas en este buzón. Las solicitudes de supresión de datos se atienden dentro de los plazos legales explicados en [Privacidad](privacy.es.md).
 
 [PENDIENTE: verificación segura, ejecución, tratamiento de retenciones justificadas y confirmación del resultado; verificar que el proceso completo permita cumplir los plazos aplicables.]
 
@@ -24,9 +24,9 @@ El proceso elimina la identidad de acceso y los datos operativos asociados, como
 
 [PENDIENTE: resolver tratamiento de nombres de grupos creados y propiedad de grupos al eliminar; explicar excepciones necesarias sin prometer retirar contenido que hoy permanece.]
 
-Ciertos registros pueden permanecer por un período limitado, entre ellos datos residuales de partidas/economía, compras, seguridad o reportes, si existe una finalidad y fundamento válido. El simple reemplazo de tu nombre no los vuelve anónimos.
+Los datos de la cuenta se eliminan dentro de los **5 días hábiles** desde que pedís la eliminación. Solo se conservan, por un plazo limitado, un registro mínimo de tus compras, el registro de tu solicitud, los reportes en los que intervino la cuenta y los emails de soporte. Las copias de seguridad se reemplazan solas en hasta 30 días. Los plazos y finalidades de cada categoría están en [Privacidad §9](privacy.es.md).
 
-[PENDIENTE: lista precisa de datos retenidos, fundamento, plazos reales, eliminación en proveedores y ventana de backups. Los umbrales de scripts no son promesas de servicio.]
+[PENDIENTE: comprobar en producción la limpieza diaria y la eliminación en proveedores.]
 
 También podés pedir acceso o corrección de datos por el contacto de [Privacidad](privacy.es.md), sin eliminar toda la cuenta.
 

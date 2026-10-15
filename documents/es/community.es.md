@@ -30,7 +30,9 @@ Usá la acción **Reportar** disponible para jugadores cuando encuentres un prob
 
 Un reporte inicia una revisión; no supone automáticamente una sanción. Para un problema con un grupo o con una función sin acción de reporte, contactá dailygamesbb@gmail.com, indicando el nombre/código del grupo y el motivo.
 
-[PENDIENTE: confirmar ubicación exacta de la acción móvil y proceso humano de revisión; establecer plazo objetivo y prioridades, sin prometer atención inexistente.]
+Revisamos los reportes según su gravedad. Los que indican un riesgo para una persona, como amenazas, publicación de datos personales o contenido sexual relacionado con menores, tienen prioridad y se atienden apenas tomamos conocimiento. Para los demás, nuestro objetivo es revisarlos dentro de **10 días hábiles desde su recepción**.
+
+[PENDIENTE: confirmar ubicación exacta de la acción de reporte en la versión final, incluida la denuncia de grupos.]
 
 ## 4. Bloquear
 
@@ -40,7 +42,7 @@ El bloqueo no elimina su cuenta, no lo expulsa automáticamente de grupos compar
 
 ## 5. Moderación y revisión
 
-**Guido Tomas Botta y Gianluca Belinche** atienden los reportes y pedidos de revisión recibidos en el buzón de contacto.
+El equipo de Daylo Games atiende los reportes y pedidos de revisión recibidos en el buzón de contacto.
 
 [PENDIENTE: definir y verificar el procedimiento para revisar reportes, corregir nombres, aplicar restricciones, avisar decisiones y recibir apelaciones.]
 

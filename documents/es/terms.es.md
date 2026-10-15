@@ -4,7 +4,7 @@ BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de oc
 
 ## 1. El servicio y su responsable
 
-Daylo Games ofrece juegos de lógica y palabras con partidas diarias, desafíos, progreso, personalización y funciones sociales. **Guido Tomas Botta y Gianluca Belinche** prestan el servicio como **personas físicas en Argentina**, con domicilio de contacto en **[PENDIENTE: domicilio de contacto válido]**. Podés contactarnos mediante [Soporte](support.es.md).
+Daylo Games ofrece juegos de lógica y palabras con partidas diarias, desafíos, progreso, personalización y funciones sociales. El servicio es prestado por **Guido Tomas Botta**, persona física en **Argentina**, con domicilio de contacto en **Calle 152 6352, Oficina 314 Downtown, B1886 Guillermo Enrique Hudson, provincia de Buenos Aires, Argentina**. Podés contactarnos mediante [Soporte](support.es.md).
 
 Estos términos incorporan las [Reglas de comunidad](community.es.md) y las [Condiciones de compras y suscripciones](purchases.es.md). La [Política de privacidad](privacy.es.md) explica el tratamiento de datos.
 

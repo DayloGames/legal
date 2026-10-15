@@ -19,7 +19,9 @@ No se transfieren entre jugadores ni se retiran o convierten en dinero. No repre
 
 Las **monedas y tokens no tienen fecha de vencimiento** mientras la cuenta se conserve, tanto si los comprás como si los obtenés jugando, mediante anuncios con recompensa o por referidos. El paso del tiempo no elimina esos saldos. En el lanzamiento inicial, tampoco eliminamos cuentas ni saldos por inactividad, incluidas las cuentas de invitado.
 
-[PENDIENTE: definir el tratamiento de los saldos ante eliminación o cierre de la cuenta y pérdida de una sesión invitada, respetando derechos legales. Adecuar el script de purga a la conservación de cuentas inactivas. El no vencimiento no acredita recuperación de una cuenta.]
+**Si eliminás tu cuenta, perdés definitivamente los saldos de monedas y tokens**, tanto los comprados como los obtenidos de otra forma, y no se reintegran en dinero ni se transfieren a otra cuenta. La app te lo advierte antes de confirmar. Si tenés un reclamo pendiente sobre una compra, como un cobro incorrecto o un pedido de reembolso a la tienda, iniciá ese reclamo antes de eliminar la cuenta. Eliminarla no implica renunciar a los derechos que te correspondan por ley.
+
+Lo mismo ocurre si perdés el acceso a una cuenta de invitado: ver §5.
 
 ## 3. Membresías
 
@@ -34,7 +36,9 @@ El lanzamiento incluye los planes Calm y Pro, con los siguientes beneficios prev
 
 **Calm y Pro ofrecen opciones mensuales y anuales**, con renovación automática. Antes de confirmar la compra se muestran el precio, el ciclo de renovación y, cuando haya una prueba o promoción, su duración, el importe inicial y el precio y ciclo que se aplicarán después.
 
-[PENDIENTE: pruebas gratuitas y promociones por definir. Verificar que las condiciones mostradas para cada oferta coincidan con la configuración efectiva de la tienda, tanto en opciones mensuales como anuales.]
+Las suscripciones pueden incluir una **oferta introductoria** para quienes se suscriben por primera vez, según los criterios de elegibilidad de cada tienda. Las condiciones exactas de la oferta se muestran antes de confirmar la compra. Al terminar la oferta, la suscripción se renueva automáticamente al precio regular, salvo que la canceles antes.
+
+[PENDIENTE: verificar que la app muestre la duración y el precio reales de cada oferta configurada, también en la opción anual.]
 
 Las suscripciones no incluyen una asignación recurrente de monedas/tokens salvo que una oferta específica lo indique.
 
@@ -48,13 +52,13 @@ Desinstalar la app, cerrar sesión o eliminar la cuenta de juego no cancela auto
 
 ## 5. Restaurar y recuperar
 
-Usá **Restaurar compras** para recuperar las compras que la tienda y el tipo de producto permitan restaurar, con la cuenta de tienda correspondiente. Los packs consumibles ya entregados no se restauran como una suscripción: su saldo se conserva asociado a la cuenta de juego.
+Las **suscripciones** quedan asociadas a tu cuenta de App Store o Google Play, no a tu cuenta de juego. Si cambiás de dispositivo o perdés tu cuenta de juego, podés recuperarlas con **Restaurar compras**, usando la misma cuenta de tienda con la que pagaste.
 
-Podés comprar como invitado sin vincular Google o Apple. El saldo de los packs y el progreso se asocian a tu cuenta de juego. Si perdés la sesión de invitado, eliminás los datos locales o cambiás de dispositivo, podés perder acceso a esa cuenta y sus saldos.
+Las **monedas y tokens** quedan asociados a tu cuenta de juego y **no se recuperan con Restaurar compras**. Podés comprar como invitado sin vincular Google o Apple, pero si perdés la sesión de invitado, eliminás los datos locales o cambiás de dispositivo sin haber vinculado la cuenta, perdés acceso a esa cuenta, a su progreso y a sus saldos, y no se transfieren a otra cuenta. La app te lo advierte antes de comprar sin cuenta vinculada. Para no perderlos, **vinculá tu cuenta con Google o Apple**. Esto no limita los derechos que te correspondan si la pérdida se debe a una falla del servicio.
 
 Si necesitás ayuda con una compra, contactá [Soporte](support.es.md) con la tienda, el producto y el número de pedido/transacción. No envíes contraseñas ni tokens.
 
-[PENDIENTE: definir y probar advertencias antes de pagar, protección de compras de invitados, verificación de titularidad y procedimiento de recuperación. No prometer recuperación automática de consumibles o progreso a partir de restaurar compras o presentar un comprobante.]
+[PENDIENTE: probar Restaurar compras en iOS y Android con una cuenta de juego nueva, verificar que RevenueCat transfiera la suscripción a la cuenta actual e implementar el aviso antes de comprar como invitado.]
 
 Si vinculás una identidad que ya tiene otra cuenta, revisá qué progreso elegís conservar y contactá soporte si hay compras afectadas. La app no suma automáticamente ambos progresos.
 

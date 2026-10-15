@@ -4,13 +4,13 @@ BORRADOR — no listo para publicar. Versión de trabajo 0.1, 2 de octubre de 20
 
 ## Contacto
 
-Escribinos a **dailygamesbb@gmail.com** para problemas de acceso, partidas, compras o comunidad. El servicio es prestado por **Guido Tomas Botta y Gianluca Belinche**, como **personas físicas en Argentina**, con domicilio de contacto en **[PENDIENTE: domicilio de contacto válido]**.
+Escribinos a **dailygamesbb@gmail.com** para problemas de acceso, partidas, compras o comunidad. El servicio es prestado por **Guido Tomas Botta**, persona física en **Argentina**, con domicilio de contacto en **Calle 152 6352, Oficina 314 Downtown, B1886 Guillermo Enrique Hudson, provincia de Buenos Aires, Argentina**.
 
 Para consultas sobre datos personales: **dailygamesbb@gmail.com**.
 
-**Guido Tomas Botta y Gianluca Belinche** atienden este buzón para soporte, solicitudes sobre datos y reportes.
+El equipo de Daylo Games atiende este buzón para soporte, solicitudes sobre datos y reportes.
 
-Atendemos consultas en **español e inglés**.
+Atendemos consultas en **español**.
 
 Para consultas generales, nuestro objetivo es darte una **primera respuesta útil dentro de 10 días hábiles desde su recepción**. La resolución puede requerir más tiempo según la complejidad del caso; te informaremos los próximos pasos.
 
