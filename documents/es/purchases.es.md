@@ -78,8 +78,8 @@ Los anuncios rewarded son opcionales incluso con Calm/Pro. La app no ofrece caja
 
 El programa implementado recompensa al invitador por ciertos hitos de una nueva cuenta invitada. La cuenta debe vincular Google o Apple para generar los hitos; crear invitado sin vincular no basta.
 
-Las reglas actuales son: uso del código dentro de los primeros siete días de creación de cuenta; sin autoreferidos ni múltiples invitadores para una misma cuenta; hasta cinco referidos recompensados por mes según las reglas del programa. Los hitos incluyen vincular cuenta, completar todos los juegos de un día desde el día de vinculación y alcanzar una racha de tres días contados desde ese día. Las cantidades y condiciones disponibles se muestran en la app; las recompensas ganadas se reclaman allí.
+Las reglas actuales son: uso del código dentro de los primeros siete días de creación de cuenta; sin autoreferidos ni múltiples invitadores para una misma cuenta; hasta cinco referidos recompensados por mes calendario, contado en hora de Argentina. Los hitos incluyen vincular cuenta, completar todos los juegos de un día desde el día de vinculación y alcanzar una racha de tres días contados desde ese día. Las cantidades y condiciones disponibles se muestran en la app; las recompensas ganadas se reclaman allí.
 
 El invitador puede conocer el cumplimiento de estos hitos para gestionar sus recompensas. No uses cuentas falsas o explotación de errores para generar pagos. Cualquier cambio de programa debe comunicarse y respetar recompensas y derechos ya adquiridos según las condiciones aplicables.
 
-[PENDIENTE: confirmar reglas finales y período mensual, revisar coherencia con la interfaz antes de publicar.]
+[PENDIENTE: revisar coherencia con la interfaz antes de publicar.]
