@@ -4,13 +4,125 @@ BORRADOR — no listo para publicar. Versión de trabajo 0.1, 2 de octubre de 20
 
 ## Imágenes de Picture Cross
 
-Algunas imágenes del catálogo son obras de Lorc y Delapouite, distribuidas por [game-icons.net](https://game-icons.net/) bajo [Creative Commons Atribución 3.0](https://creativecommons.org/licenses/by/3.0/). Las adaptamos a grillas en blanco y negro de 5×5, 10×10 o 15×15 celdas, con un título mostrado al resolver el puzzle. La atribución no implica que los autores respalden esta app.
+Algunas imágenes del catálogo son obras de Lorc y Delapouite, distribuidas por [game-icons.net](https://game-icons.net/) bajo [Creative Commons Atribución 3.0](https://creativecommons.org/licenses/by/3.0/), y de Nikoichu ("1-bit Pixel Icons", [nikoichu.itch.io](https://nikoichu.itch.io/)) y KabGames ("400+ sprites 1 bits - Pack (9x9)", [kaboff.itch.io](https://kaboff.itch.io/)), publicadas bajo [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (dominio público; la atribución es voluntaria). Las adaptamos a grillas en blanco y negro de 5×5, 10×10 o 15×15 celdas, con un título mostrado al resolver el puzzle. La atribución no implica que los autores respalden esta app.
 
 Esta sección conserva el inventario existente de títulos y artistas. [PENDIENTE: confirmar el conjunto distribuido en la release, agregar enlaces originales de las obras cuando correspondan y completar avisos recibidos de las fuentes.]
 
 
 Some Picture Cross puzzles are drawings by the artists below. Each drawing was adapted: reduced to a
 black-and-white grid of 5x5, 10x10 or 15x15 cells, with its title shown once the puzzle is solved.
+
+### Iconos de Nikoichu — [1-bit Pixel Icons](https://nikoichu.itch.io/)
+
+License: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+
+64 picture(s):
+
+- Omega symbol (`alchemy-death-omega`, 15x15)
+- Potion vial (`alchemy-potion-vial-bottle-full`, 15x15)
+- Empty health potion (`alchemy-potion-vial-bottle-heart-health-life-empty`, 15x15)
+- Round potion bottle (`alchemy-potion-vial-bottle-large-round-full`, 15x15)
+- Moon symbol (`alchemy-silver-luna-moon`, 15x15)
+- Sagittarius (`alchemy-zodiac-sagittarius`, 15x15)
+- Taurus (`alchemy-zodiac-taurus`, 15x15)
+- Play button (`arrows-media-controls-play-circled`, 15x15)
+- Star card (`boardgames-card-star`, 15x15)
+- Bishop (`boardgames-chess-piece-bishop-big`, 15x15)
+- Knight (`boardgames-chess-piece-knight-big`, 15x15)
+- Counter coin (`boardgames-chip-token-coin-counter`, 15x15)
+- Dice showing four (`boardgames-d6-dice-face-4-four`, 15x15)
+- Dice showing six (`boardgames-d6-dice-face-6-six`, 15x15)
+- Puzzle piece (`boardgames-puzzle-piece-1`, 15x15)
+- Gamepad (`controller-gamepad`, 15x15)
+- Shower (`cosmetics-bath-shower-1`, 15x15)
+- Perfume bottle (`cosmetics-perfume-bottle-aroma-smell-1`, 15x15)
+- Toilet paper (`cosmetics-toilet-paper`, 15x15)
+- Scissors (`cosmetics-tool-scissors-hairdresser-haircut`, 15x15)
+- Neutral face (`emoji-face-neutral`, 15x15)
+- Face with tongue out (`emoji-face-tongue-out`, 15x15)
+- Rock on hand (`emoji-hand-rocknroll-devil-horns`, 15x15)
+- Thumbs down (`emoji-hand-thumbs-down`, 15x15)
+- Thumbs up (`emoji-hand-thumbs-up`, 15x15)
+- Martini glass (`food-alcohol-drink-martini-cocktail`, 15x15)
+- Martini with olive (`food-alcohol-drink-martini-cocktail-olive`, 15x15)
+- Baby bottle (`food-baby-bottle-feeder-pacifier`, 15x15)
+- Mushroom (`food-mushroom`, 15x15)
+- Fork and knife (`food-restaurant-eating-utensils-fork-knife`, 15x15)
+- Sushi roll (`food-sushi-maki-roll`, 15x15)
+- Rice ball (`food-sushi-riceball`, 15x15)
+- Monocle (`hats-monocle-classy-sir`, 15x15)
+- Castle (`map-markers-building-castle-fortress-city-roof`, 15x15)
+- House (`map-markers-building-home-house`, 15x15)
+- Cave (`map-markers-cave-cavern-enterance-exit`, 15x15)
+- Gravestone (`map-markers-graveyard-gravestone-death-3`, 15x15)
+- Signpost (`map-markers-signpost`, 15x15)
+- Palm tree (`map-markers-tree-forest-palm-beach`, 15x15)
+- Pine tree (`map-markers-tree-forest-pine`, 15x15)
+- Speaker, medium volume (`media-audio-sound-volume-2`, 15x15)
+- Camera (`media-camera-photo-shoot-2`, 15x15)
+- Webcam (`media-camera-webcam-2`, 15x15)
+- Film reel (`media-film-reel-video-movie`, 15x15)
+- Yin yang (`misc-yin-yang-balance-small`, 15x15)
+- Penguin (`platforms-linux-gnu-penguin-full`, 15x15)
+- Dragon (`rpg-creature-archetypes-dragonkin`, 15x15)
+- Ghost (`rpg-creature-archetypes-ghost-specter-poltergeist`, 15x15)
+- Cloak (`rpg-item-accessory-armor-equipment-slot-cape-cloak-clothing`, 15x15)
+- Amulet (`rpg-item-accessory-trinket-equipment-slot-necklace-amulet-talisman-jewelry`, 15x15)
+- Bluetooth (`software-bluetooth-signal-0`, 15x15)
+- Mailbox (`software-email-mailbox-unread-new-messages`, 15x15)
+- Printer (`software-hardware-printer-scanner-fax-2`, 15x15)
+- Plug (`software-power-plugged-cord-electricity`, 15x15)
+- Shopping basket (`software-shopping-basket`, 15x15)
+- Shopping cart (`software-shopping-cart`, 15x15)
+- Speech bubble (`software-speech-bubble-three-dots-dialogue`, 15x15)
+- Boxing glove (`sports-boxing-glove`, 15x15)
+- Golf hole (`sports-golf-hole-flag`, 15x15)
+- Color palette (`tools-crafting-graphic-design-paint-color-palette`, 15x15)
+- Paint roller (`tools-crafting-paint-roller`, 15x15)
+- Snowflake (`weather-snowflake-freeze-cold-snowstorm-frozen-frost-element-winter-season`, 15x15)
+- Umbrella (`weather-umbrella-rain-parasol`, 15x15)
+- Water drop (`weather-water-droplet-liquid-rain-element-big`, 15x15)
+
+### Sprites de KabGames — [400+ sprites 1 bits - Pack (9x9)](https://kaboff.itch.io/)
+
+License: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+
+34 picture(s):
+
+- Download (`101`, 10x10)
+- Upload (`102`, 10x10)
+- Skip forward (`103`, 10x10)
+- Skip back (`104`, 10x10)
+- Vertical double arrow (`107`, 10x10)
+- Horizontal double arrow (`108`, 10x10)
+- Bars (`112`, 10x10)
+- Grid (`114`, 10x10)
+- Mug (`118`, 10x10)
+- Target (`120`, 10x10)
+- First aid kit (`124`, 10x10)
+- Warning sign (`125`, 10x10)
+- Tuning fork (`127`, 10x10)
+- Crown (`134`, 10x10)
+- Flag (`140`, 10x10)
+- Crab (`150`, 10x10)
+- Rune (`180`, 10x10)
+- Window (`199`, 10x10)
+- Spade (`2`, 10x10)
+- Tile (`200`, 10x10)
+- Eyes (`21`, 10x10)
+- Music note (`218`, 10x10)
+- Grinning face (`301`, 10x10)
+- Angry face (`302`, 10x10)
+- Surprised face (`303`, 10x10)
+- Squid Monster (`306`, 10x10)
+- Horned face (`307`, 10x10)
+- Skull (`315`, 10x10)
+- Button (`32`, 10x10)
+- Space invader (`333`, 10x10)
+- Scary face (`363`, 10x10)
+- Surprised face (`364`, 10x10)
+- Joystick (`46`, 10x10)
+- Peace symbol (`60`, 10x10)
 
 ### Iconos de Delapouite — [game-icons.net](https://game-icons.net/)
 
@@ -277,7 +389,7 @@ License: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 - Vulture (`vulture`, 10x10, 15x15)
 - Tower (`white-tower`, 15x15)
 
-El catálogo local también contiene 48 tableros sin atribución de terceros en su metadata. [PENDIENTE: cotejar su origen con el proceso de creación informado por el equipo y comprobar derechos y contenido de la versión distribuida.]
+Los otros 48 tableros del catálogo (de 5×5) fueron dibujados por el equipo para Daylo y no requieren atribución.
 
 ## Recursos realizados por el equipo con IA
 
