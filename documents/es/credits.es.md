@@ -4,7 +4,7 @@ BORRADOR — no listo para publicar. Versión de trabajo 0.1, 2 de octubre de 20
 
 ## Imágenes de Picture Cross
 
-Algunas imágenes del catálogo son obras de Lorc y Delapouite, distribuidas por [game-icons.net](https://game-icons.net/) bajo [Creative Commons Atribución 3.0](https://creativecommons.org/licenses/by/3.0/), y de Nikoichu ("1-bit Pixel Icons", [nikoichu.itch.io](https://nikoichu.itch.io/)), publicadas bajo [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (dominio público; la atribución es voluntaria). Las adaptamos a grillas en blanco y negro de 5×5, 10×10 o 15×15 celdas, con un título mostrado al resolver el puzzle. La atribución no implica que los autores respalden esta app.
+Algunas imágenes del catálogo son obras de Lorc y Delapouite, distribuidas por [game-icons.net](https://game-icons.net/) bajo [Creative Commons Atribución 3.0](https://creativecommons.org/licenses/by/3.0/), y de Nikoichu ("1-bit Pixel Icons", [nikoichu.itch.io](https://nikoichu.itch.io/)) y KabGames ("400+ sprites 1 bits - Pack (9x9)", [kaboff.itch.io](https://kaboff.itch.io/)), publicadas bajo [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (dominio público; la atribución es voluntaria). Las adaptamos a grillas en blanco y negro de 5×5, 10×10 o 15×15 celdas, con un título mostrado al resolver el puzzle. La atribución no implica que los autores respalden esta app.
 
 Esta sección conserva el inventario existente de títulos y artistas. [PENDIENTE: confirmar el conjunto distribuido en la release, agregar enlaces originales de las obras cuando correspondan y completar avisos recibidos de las fuentes.]
 
@@ -82,6 +82,47 @@ License: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 - Snowflake (`weather-snowflake-freeze-cold-snowstorm-frozen-frost-element-winter-season`, 15x15)
 - Umbrella (`weather-umbrella-rain-parasol`, 15x15)
 - Water drop (`weather-water-droplet-liquid-rain-element-big`, 15x15)
+
+### Sprites de KabGames — [400+ sprites 1 bits - Pack (9x9)](https://kaboff.itch.io/)
+
+License: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+
+34 picture(s):
+
+- Download (`101`, 10x10)
+- Upload (`102`, 10x10)
+- Skip forward (`103`, 10x10)
+- Skip back (`104`, 10x10)
+- Vertical double arrow (`107`, 10x10)
+- Horizontal double arrow (`108`, 10x10)
+- Bars (`112`, 10x10)
+- Grid (`114`, 10x10)
+- Mug (`118`, 10x10)
+- Target (`120`, 10x10)
+- First aid kit (`124`, 10x10)
+- Warning sign (`125`, 10x10)
+- Tuning fork (`127`, 10x10)
+- Crown (`134`, 10x10)
+- Flag (`140`, 10x10)
+- Crab (`150`, 10x10)
+- Rune (`180`, 10x10)
+- Window (`199`, 10x10)
+- Spade (`2`, 10x10)
+- Tile (`200`, 10x10)
+- Eyes (`21`, 10x10)
+- Music note (`218`, 10x10)
+- Grinning face (`301`, 10x10)
+- Angry face (`302`, 10x10)
+- Surprised face (`303`, 10x10)
+- Squid Monster (`306`, 10x10)
+- Horned face (`307`, 10x10)
+- Skull (`315`, 10x10)
+- Button (`32`, 10x10)
+- Space invader (`333`, 10x10)
+- Scary face (`363`, 10x10)
+- Surprised face (`364`, 10x10)
+- Joystick (`46`, 10x10)
+- Peace symbol (`60`, 10x10)
 
 ### Iconos de Delapouite — [game-icons.net](https://game-icons.net/)
 
@@ -348,7 +389,7 @@ License: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 - Vulture (`vulture`, 10x10, 15x15)
 - Tower (`white-tower`, 15x15)
 
-El catálogo local también contiene 82 tableros sin atribución de terceros en su metadata. [PENDIENTE: cotejar su origen con el proceso de creación informado por el equipo y comprobar derechos y contenido de la versión distribuida.]
+Los otros 48 tableros del catálogo (de 5×5) fueron dibujados por el equipo para Daylo y no requieren atribución.
 
 ## Recursos realizados por el equipo con IA
 
