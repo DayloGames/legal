@@ -26,13 +26,27 @@ Para consultas de privacidad y solicitudes sobre tus datos: dailygamesbb@gmail.c
 
 **Datos técnicos.** La conexión con nuestros servicios puede generar IP y metadatos de red, dispositivo y solicitudes. Los servicios de diagnóstico pueden recibir errores, información de rendimiento, registros técnicos e identificadores de cuenta. Los servicios publicitarios pueden procesar señales de dispositivo, identificadores y actividad publicitaria según tus preferencias y la configuración aplicable.
 
-**Soporte.** Si nos contactás, tratamos tus datos de contacto y la información que aportes para atender la consulta.
+**Comentarios y reportes de anuncios.** Si nos escribís desde **Perfil → Enviar comentarios** o **Perfil → Reportar un anuncio**, guardamos el tipo de mensaje, lo que escribas, el email opcional que dejes para responderte, la versión de la app y la plataforma. Si reportás un anuncio, guardamos también el lugar de la app y el momento en que se mostró el último anuncio en tu dispositivo, para poder identificarlo con nuestro proveedor de publicidad.
+
+**Soporte.** Si nos contactás por email, tratamos tus datos de contacto y la información que aportes para atender la consulta.
 
 ## 3. Para qué y con qué fundamento
 
 Usamos los datos para operar cuentas y partidas, sincronizar progreso, ofrecer funciones sociales, entregar bienes y beneficios, verificar compras y recompensas, atender solicitudes, prevenir fraude y abuso, y diagnosticar fallos. Si hay publicidad, usamos los datos correspondientes para servirla y gestionar sus preferencias.
 
-[PENDIENTE: identificar las bases jurídicas por finalidad y mercados: prestación del servicio, obligaciones aplicables, consentimiento cuando corresponda y otros fundamentos admisibles. Precisar el tratamiento de publicidad y diagnóstico; no atribuir consentimiento a la mera lectura de esta política.]
+Usamos tus datos con estos fundamentos (Ley 25.326, art. 5):
+
+| Finalidad | Fundamento |
+| --- | --- |
+| Crear y operar tu cuenta, partidas, progreso, sincronización y funciones sociales | Es necesario para prestar el servicio que aceptás en los [Términos](terms.es.md). |
+| Compras, suscripciones, entrega de bienes, reembolsos y reclamos | Es necesario para cumplir el contrato de compra y atender los derechos que te da la ley de defensa del consumidor. |
+| Reportes, moderación y prevención de fraude y abuso | Es necesario para aplicar los Términos y las [Reglas de comunidad](community.es.md), que forman parte del servicio. |
+| Diagnóstico de fallos y seguridad | Es necesario para que el servicio funcione de forma estable y segura. Se limita a datos técnicos y al identificador de cuenta. |
+| Anuncios no personalizados y anuncios con recompensa | Forman parte del servicio gratuito que aceptás en los Términos. |
+| Anuncios personalizados y seguimiento publicitario | Tu consentimiento, cuando corresponde pedirlo. Podés retirarlo cuando quieras (sección 7). |
+| Atender solicitudes sobre tus datos y consultas de soporte | Cumplir obligaciones legales (Ley 25.326, arts. 14 a 16) y responder lo que nos pedís. |
+
+Leer esta política no equivale a dar tu consentimiento.
 
 ## 4. Qué pueden ver otras personas
 
@@ -70,11 +84,15 @@ Los servicios utilizados pueden procesar datos fuera de tu país. [PENDIENTE: pa
 
 La app puede mostrar anuncios entre partidas y ofrecer anuncios voluntarios a cambio de recompensas. Según tu región y la configuración aplicable, te presentamos opciones de privacidad publicitaria. Cuando esa opción corresponde, podés revisarlas en **Cuenta → Privacidad de anuncios**.
 
-La autorización de publicidad o tracking que corresponda se solicita de forma separada de las condiciones de uso. [PENDIENTE: describir el flujo real de consentimiento, rechazo, revocación y ATT en iOS tras verificar build y consola; especificar tratamiento por edad.]
+Al abrir la app, el SDK de Google para anuncios (User Messaging Platform) determina si en tu región corresponde pedirte consentimiento para anuncios personalizados. Si corresponde, te muestra un formulario para aceptar o rechazar, separado de las condiciones de uso. Rechazar no te impide usar la app: los anuncios se muestran sin personalizar.
+
+En iOS, el identificador publicitario solo se usa si lo autorizás en el aviso de Apple (App Tracking Transparency). Podés cambiar esa decisión en **Ajustes → Privacidad y seguridad → Rastreo** del iPhone. En Android podés restablecer o eliminar el ID de publicidad desde los ajustes del dispositivo.
+
+Los anuncios los proveen terceros. Podés reportar un anuncio inapropiado desde **Perfil → Reportar un anuncio**; el menú propio del anuncio (ícono «i») envía tu opinión a Google, no a nosotros.
 
 ## 8. Almacenamiento en tu dispositivo
 
-Usamos almacenamiento local para mantener la sesión, preferencias, frecuencia de anuncios y datos necesarios de los servicios integrados. Eliminar la app o sus datos locales puede hacer que pierdas acceso al progreso de invitado. Desinstalar no constituye una solicitud de eliminación de datos del servidor ni cancela una suscripción.
+Usamos almacenamiento local para mantener la sesión, preferencias, frecuencia de anuncios, el último anuncio mostrado (lugar y hora, para un posible reporte) y datos necesarios de los servicios integrados. Eliminar la app o sus datos locales puede hacer que pierdas acceso al progreso de invitado. Desinstalar no constituye una solicitud de eliminación de datos del servidor ni cancela una suscripción.
 
 ## 9. Conservación y eliminación
 
@@ -90,13 +108,16 @@ Cuando eliminás tu cuenta, o cuando dejamos de necesitar ciertos registros, los
 | Copias de seguridad | **30 días** desde la copia; se reemplazan solas | Recuperar el servicio ante fallas. Si una copia se restaura, volvemos a aplicar las eliminaciones ya pedidas. |
 | Registro mínimo de cada compra: tienda, número de pedido, producto, fecha e importe, sin perfil ni progreso | **5 años** desde la compra | Atender reclamos, devoluciones y contracargos durante los plazos de prescripción. |
 | Registro de solicitudes de acceso, corrección o eliminación: fecha, tipo, email de contacto y fechas de respuesta y de ejecución | **5 años** desde la solicitud | Demostrar que atendimos tus derechos en plazo. No incluye los datos eliminados. |
-| Reportes de otros jugadores y su resolución | **6 meses** desde que se resuelven | Detectar reincidencia y atender pedidos de revisión. |
-| Registro de una vinculación entre una cuenta de invitado y otra existente | **30 días** desde que se completa, o hasta que se elimina cualquiera de las dos cuentas | Completar la operación y evitar abusos del programa de referidos. |
+| Reportes de otros jugadores y de grupos | **6 meses** desde que se reciben | Detectar reincidencia y atender pedidos de revisión. |
+| Registro de una vinculación entre una cuenta de invitado y otra existente | **30 días** desde que se completa | Completar la operación y evitar abusos del programa de referidos. |
+| Comentarios y reportes de anuncios enviados desde la app | **1 año** desde el envío | Revisar el problema y responderte. |
 | Emails de soporte | **1 año** desde que se cierra la consulta | Seguir consultas y reclamos. Si hay un reclamo de compra pendiente, hasta que se resuelva. |
 
 Podemos conservar datos por más tiempo solo cuando una ley nos lo exija, para atender un requerimiento de una autoridad competente o para ejercer o defender derechos en un reclamo en curso, y únicamente mientras dure esa necesidad.
 
-[PENDIENTE: verificar que la operación de producción cumple cada plazo, incluida la limpieza diaria automática, y completar la retención real de registros técnicos (Sentry, Render, Cloudflare) y de los proveedores. Conservar una cuenta no implica conservar indefinidamente todos sus registros.]
+Una limpieza automática diaria borra cada categoría al vencer su plazo.
+
+[PENDIENTE: completar la retención real de registros técnicos de Sentry, Render y Cloudflare y de los demás proveedores.]
 
 Consultá [Eliminación de cuenta](delete-account.es.md) para los pasos y efectos sobre progreso y compras.
 
@@ -110,7 +131,7 @@ La **Agencia de Acceso a la Información Pública (AAIP)** es la autoridad de co
 
 Para pedir información que no esté incluida en una descarga disponible, escribí a **dailygamesbb@gmail.com**. El límite técnico de una exportación no limita por sí solo tu derecho de acceso.
 
-[PENDIENTE: verificar el canal de exportación disponible en la versión final y el procedimiento completo de acceso y supresión, incluidos registros y proveedores.]
+Para pedir una copia de tus datos, escribí a **dailygamesbb@gmail.com** desde el email vinculado a tu cuenta o indicando cómo verificar que la cuenta es tuya (ver [Eliminación de cuenta](delete-account.es.md)). Te enviamos los datos de tu cuenta en un archivo dentro de los 10 días corridos.
 
 ## 11. Edad de acceso
 
@@ -120,7 +141,7 @@ Si considerás que se han tratado datos de una persona menor de 18 años, escrib
 
 Si tomamos conocimiento de que una cuenta pertenece a una persona menor de 18 años, la eliminamos junto con sus datos, con los mismos efectos que una eliminación solicitada. Los reembolsos de compras hechas en App Store o Google Play se solicitan a la tienda, según sus políticas y la ley aplicable.
 
-[PENDIENTE: verificar la pantalla de declaración de 18 años o más al primer uso.]
+Al abrir la app por primera vez te pedimos que declares tener 18 años o más y aceptes los Términos antes de usarla.
 
 ## 12. Seguridad y cambios
 

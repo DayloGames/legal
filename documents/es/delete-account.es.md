@@ -4,7 +4,7 @@ BORRADOR — no listo para publicar. Versión de trabajo 0.1, 2 de octubre de 20
 
 ## Desde la app
 
-Para una cuenta vinculada, abrí **Perfil → Cuenta → Eliminar cuenta** y seguí la confirmación. [PENDIENTE: verificar rótulos/ruta en la versión final y habilitar una alternativa para invitados.]
+Abrí **Perfil → Cuenta → Eliminar cuenta** y seguí la confirmación. Funciona igual para cuentas vinculadas y de invitado.
 
 La cuenta se inhabilita durante el proceso y no podés continuar usando su progreso, saldo, logros, artículos y acceso social. Algunos registros se eliminan en pasos posteriores, según los plazos informados abajo. El proceso no se puede deshacer una vez completado.
 
@@ -16,7 +16,12 @@ Indicá el email de acceso vinculado si lo tenés y/o el código de amigo. Si so
 
 No necesitás reinstalar la app para iniciar la solicitud. El equipo de Daylo Games atiende las solicitudes recibidas en este buzón. Las solicitudes de supresión de datos se atienden dentro de los plazos legales explicados en [Privacidad](privacy.es.md).
 
-[PENDIENTE: verificación segura, ejecución, tratamiento de retenciones justificadas y confirmación del resultado; verificar que el proceso completo permita cumplir los plazos aplicables.]
+Para verificar que la cuenta es tuya te podemos pedir uno de estos datos:
+
+- el número de pedido de una compra (Apple Order ID o número GPA de Google Play), que llega por email al titular de la cuenta de la tienda;
+- un pedido enviado desde el email de Google o Apple con el que vinculaste la cuenta.
+
+El código de amigo o el nombre de usuario sirven para ubicar la cuenta, pero no alcanzan para borrarla porque otros jugadores también los conocen. Una vez verificada, eliminamos la cuenta y te confirmamos por email cuando terminó.
 
 ## Qué ocurre con los datos
 
@@ -25,8 +30,6 @@ El proceso elimina la identidad de acceso y los datos operativos asociados, como
 Los grupos pertenecen a todos sus miembros. Si administrabas un grupo, la administración pasa al miembro más antiguo y el grupo sigue, con su nombre, para los demás. Si no queda nadie, el grupo se elimina.
 
 Los datos de la cuenta se eliminan dentro de los **5 días hábiles** desde que pedís la eliminación. Solo se conservan, por un plazo limitado, un registro mínimo de tus compras, el registro de tu solicitud, los reportes en los que intervino la cuenta y los emails de soporte. Las copias de seguridad se reemplazan solas en hasta 30 días. Los plazos y finalidades de cada categoría están en [Privacidad §9](privacy.es.md).
-
-[PENDIENTE: comprobar en producción la limpieza diaria y la eliminación en proveedores.]
 
 También podés pedir acceso o corrección de datos por el contacto de [Privacidad](privacy.es.md), sin eliminar toda la cuenta.
 
@@ -41,4 +44,4 @@ Podés solicitar ayuda o un reembolso por los canales que correspondan a la tien
 
 ## Si seguís usando la app
 
-La implementación actual comienza una nueva sesión de invitado después de eliminar. Esa sesión es independiente y genera nuevos datos de juego; no recupera los eliminados. [PENDIENTE: validar opción de salir y comunicación antes de recrear una identidad.]
+Después de eliminar, la app comienza una nueva sesión de invitado. Esa sesión es independiente y genera nuevos datos de juego; no recupera los eliminados. Si no querés seguir usando la app, podés desinstalarla.

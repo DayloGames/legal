@@ -16,11 +16,9 @@ Para consultas generales, nuestro objetivo es darte una **primera respuesta úti
 
 Las solicitudes sobre datos personales se atienden dentro de sus plazos legales específicos, detallados en [Privacidad](privacy.es.md), aunque sean más cortos. Los reportes de comunidad se atienden según su gravedad, con prioridad para situaciones urgentes. Si otra obligación aplicable establece un plazo más corto, ese plazo prevalece.
 
-[PENDIENTE: poner en funcionamiento y verificar el procedimiento de seguimiento documentado para cumplir vencimientos legales y atender oportunamente los reportes. No se promete respuesta en 24 horas ni revisión diaria garantizada.]
-
 ## Qué información ayuda
 
-Contanos qué ocurrió y, cuando corresponda, la versión de la app, sistema operativo y momento aproximado. Podés incluir tu código de amigo para localizar la cuenta. Para compras, indicá tienda, producto y número de pedido/transacción. Para moderación, agregá el identificador del reporte o grupo relevante.
+Contanos qué ocurrió y, cuando corresponda, la versión de la app, sistema operativo y momento aproximado. Podés incluir tu código de amigo para localizar la cuenta. Para compras, indicá tienda, producto y número de pedido/transacción. Para moderación, indicá el nombre del jugador o del grupo.
 
 No envíes contraseñas, tokens de sesión, códigos de verificación ni números completos de tarjetas. Revisá que una captura no exponga datos de otras personas.
 
@@ -42,6 +40,10 @@ Para instrucciones de la tienda:
 - [Información de reembolsos en Google Play](https://support.google.com/googleplay/answer/2479637?hl=es).
 
 Consultá también las [Condiciones de compras](purchases.es.md).
+
+## Anuncios
+
+Para reportar un anuncio inapropiado, abrí **Perfil → Reportar un anuncio** o escribinos. Revisamos los reportes y, cuando corresponde, bloqueamos el anuncio, su anunciante o su categoría. El menú propio del anuncio (ícono «i») envía tu opinión a Google, no a nosotros.
 
 ## Comunidad
 
