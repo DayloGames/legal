@@ -26,13 +26,11 @@ Compartir un código de grupo permite a otros usarlo para entrar según las regl
 
 ## 3. Reportar
 
-Usá la acción **Reportar** disponible para jugadores cuando encuentres un problema. Elegí el motivo y, si hace falta, agregá una explicación breve sin incluir datos sensibles innecesarios. Conservá el identificador del reporte si necesitás consultar su estado.
+Para reportar a un jugador, abrí su perfil o sus opciones en Amigos y tocá **Reportar**. Para reportar un grupo, abrí el grupo y tocá **Reportar grupo**. Elegí el motivo y, si hace falta, agregá una explicación breve sin incluir datos sensibles innecesarios.
 
-Un reporte inicia una revisión; no supone automáticamente una sanción. Para un problema con un grupo o con una función sin acción de reporte, contactá dailygamesbb@gmail.com, indicando el nombre/código del grupo y el motivo.
+Un reporte inicia una revisión; no supone automáticamente una sanción. Para un problema con una función sin acción de reporte, contactá dailygamesbb@gmail.com, indicando el motivo y, si aplica, el nombre o código del grupo.
 
 Revisamos los reportes según su gravedad. Los que indican un riesgo para una persona, como amenazas, publicación de datos personales o contenido sexual relacionado con menores, tienen prioridad y se atienden apenas tomamos conocimiento. Para los demás, nuestro objetivo es revisarlos dentro de **10 días hábiles desde su recepción**.
-
-[PENDIENTE: confirmar ubicación exacta de la acción de reporte en la versión final, incluida la denuncia de grupos.]
 
 ## 4. Bloquear
 
