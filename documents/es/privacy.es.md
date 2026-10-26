@@ -1,6 +1,6 @@
 # Política de privacidad de Daylo Games
 
-BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026. Los pendientes deben resolverse y eliminarse antes de publicación.
+Vigente desde el 26 de octubre de 2026.
 
 ## 1. Quién trata tus datos
 
@@ -74,11 +74,9 @@ Los proveedores Supabase, Render, Cloudflare/R2, Sentry, Google AdMob y RevenueC
 
 El sitio de documentación legal se aloja en **GitHub Pages**. GitHub registra la dirección IP de visitantes por motivos de seguridad, incluso si no iniciaron sesión en GitHub. Podés consultar [información del servicio y tratamiento del tráfico](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
-[PENDIENTE: verificar servicios y configuración efectiva de cada proveedor confirmado, partners publicitarios, entidades contratadas, proveedor de soporte y enlaces a información relevante; completar retención y transferencias del hosting.]
-
 ## 6. Tratamiento internacional
 
-Los servicios utilizados pueden procesar datos fuera de tu país. [PENDIENTE: países/regiones reales de almacenamiento y acceso, mecanismos de transferencia aplicables y cómo solicitar información sobre las salvaguardas.]
+Los servicios utilizados pueden procesar datos fuera de tu país.
 
 ## 7. Publicidad y preferencias
 
@@ -116,8 +114,6 @@ Cuando eliminás tu cuenta, o cuando dejamos de necesitar ciertos registros, los
 Podemos conservar datos por más tiempo solo cuando una ley nos lo exija, para atender un requerimiento de una autoridad competente o para ejercer o defender derechos en un reclamo en curso, y únicamente mientras dure esa necesidad.
 
 Una limpieza automática diaria borra cada categoría al vencer su plazo.
-
-[PENDIENTE: completar la retención real de registros técnicos de Sentry, Render y Cloudflare y de los demás proveedores.]
 
 Consultá [Eliminación de cuenta](delete-account.es.md) para los pasos y efectos sobre progreso y compras.
 

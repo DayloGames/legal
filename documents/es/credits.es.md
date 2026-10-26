@@ -1,6 +1,6 @@
 # Créditos y licencias de Daylo Games
 
-BORRADOR — no listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026.
+Última actualización: 26 de octubre de 2026.
 
 ## Imágenes de Picture Cross
 

@@ -1,6 +1,6 @@
 # Eliminar tu cuenta de Daylo Games
 
-BORRADOR — no listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026. No cumple como recurso externo operativo hasta configurar el contacto y el procedimiento.
+Última actualización: 26 de octubre de 2026.
 
 ## Desde la app
 

@@ -1,6 +1,6 @@
 # Reglas de comunidad de Daylo Games
 
-BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026. Forma parte de los [Términos de uso](terms.es.md).
+Vigentes desde el 26 de octubre de 2026. Forman parte de los [Términos de uso](terms.es.md).
 
 ## 1. Participación y juego limpio
 

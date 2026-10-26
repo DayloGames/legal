@@ -1,6 +1,6 @@
 # Compras, suscripciones y recompensas
 
-BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026. Anexo de los [Términos de uso](terms.es.md) de Daylo Games.
+Vigentes desde el 26 de octubre de 2026. Anexo de los [Términos de uso](terms.es.md) de Daylo Games.
 
 ## 1. Pago y entrega
 

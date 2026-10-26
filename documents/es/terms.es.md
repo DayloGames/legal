@@ -1,6 +1,6 @@
 # Términos de uso de Daylo Games
 
-BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026.
+Vigentes desde el 26 de octubre de 2026.
 
 ## 1. El servicio y su responsable
 

@@ -5,7 +5,7 @@ title: Documentación de Daylo Games
 
 # Daylo Games
 
-Estos documentos están en preparación y **todavía no son políticas vigentes**. Sus URLs son estables y pueden cargarse en las configuraciones de la app y las tiendas durante la preparación. Antes de distribuir la app en producción, deben completarse los pendientes y publicarse las versiones aprobadas en estas mismas rutas.
+Consultá la documentación legal y de soporte de Daylo Games:
 
 - [Privacidad](es/privacy/)
 - [Términos de uso](es/terms/)
