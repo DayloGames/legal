@@ -1,6 +1,6 @@
 # Reglas de comunidad de Daylo Games
 
-BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026. Forma parte de los [Términos de uso](terms.es.md).
+Vigentes desde el 26 de octubre de 2026. Forman parte de los [Términos de uso](terms.es.md).
 
 ## 1. Participación y juego limpio
 
@@ -31,8 +31,6 @@ Usá la acción **Reportar** disponible para jugadores cuando encuentres un prob
 Un reporte inicia una revisión; no supone automáticamente una sanción. Para un problema con un grupo o con una función sin acción de reporte, contactá dailygamesbb@gmail.com, indicando el nombre/código del grupo y el motivo.
 
 Revisamos los reportes según su gravedad. Los que indican un riesgo para una persona, como amenazas, publicación de datos personales o contenido sexual relacionado con menores, tienen prioridad y se atienden apenas tomamos conocimiento. Para los demás, nuestro objetivo es revisarlos dentro de **10 días hábiles desde su recepción**.
-
-[PENDIENTE: confirmar ubicación exacta de la acción de reporte en la versión final, incluida la denuncia de grupos.]
 
 ## 4. Bloquear
 

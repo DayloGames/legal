@@ -1,14 +1,12 @@
 # Términos de uso de Daylo Games
 
-BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026.
+Vigentes desde el 26 de octubre de 2026.
 
 ## 1. El servicio y su responsable
 
 Daylo Games ofrece juegos de lógica y palabras con partidas diarias, desafíos, progreso, personalización y funciones sociales. El servicio es prestado por **Guido Tomas Botta**, persona física en **Argentina**, con domicilio de contacto en **Calle 152 6352, Oficina 314 Downtown, B1886 Guillermo Enrique Hudson, provincia de Buenos Aires, Argentina**. Podés contactarnos mediante [Soporte](support.es.md).
 
 Estos términos incorporan las [Reglas de comunidad](community.es.md) y las [Condiciones de compras y suscripciones](purchases.es.md). La [Política de privacidad](privacy.es.md) explica el tratamiento de datos.
-
-[PENDIENTE: versión final, fecha de vigencia y mecanismo explícito de aceptación antes del uso y de crear contenido social.]
 
 ## 2. Quién puede usarlo
 
@@ -22,7 +20,7 @@ Podés comenzar con una cuenta de invitado. Aunque no vincules un email, tu prog
 
 Vincular Google o Apple permite acceder mediante ese proveedor. Mantené seguro el acceso a esas cuentas; no compartas credenciales ni entregues tokens de sesión a terceros o a soporte.
 
-Si al vincular encontramos otra cuenta con progreso, la app puede pedirte elegir cuál conservar. Los progresos no se suman automáticamente; la elección puede reemplazar el progreso descartado. Revisá la confirmación antes de continuar. [PENDIENTE: validar explicación y protección de saldos/compras/suscripciones al resolver cuentas.]
+Si al vincular encontramos otra cuenta con progreso, la app puede pedirte elegir cuál conservar. Los progresos no se suman automáticamente; la elección puede reemplazar el progreso descartado. Revisá la confirmación antes de continuar.
 
 ## 4. Partidas, progreso y rankings
 

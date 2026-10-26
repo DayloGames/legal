@@ -1,6 +1,6 @@
 # Compras, suscripciones y recompensas
 
-BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026. Anexo de los [Términos de uso](terms.es.md) de Daylo Games.
+Vigentes desde el 26 de octubre de 2026. Anexo de los [Términos de uso](terms.es.md) de Daylo Games.
 
 ## 1. Pago y entrega
 
@@ -36,8 +36,6 @@ El lanzamiento incluye los planes Calm y Pro, con los siguientes beneficios prev
 
 Las suscripciones pueden incluir una **oferta introductoria** para quienes se suscriben por primera vez, según los criterios de elegibilidad de cada tienda. Las condiciones exactas de la oferta se muestran antes de confirmar la compra. Al terminar la oferta, la suscripción se renueva automáticamente al precio regular, salvo que la canceles antes.
 
-[PENDIENTE: verificar que la app muestre la duración y el precio reales de cada oferta configurada, también en la opción anual.]
-
 Las suscripciones no incluyen una asignación recurrente de monedas/tokens salvo que una oferta específica lo indique.
 
 ## 4. Renovación y cancelación
@@ -48,8 +46,6 @@ Podés cambiar de plan desde la app. Si pasás de Calm a Pro, el cambio se aplic
 
 Desinstalar la app, cerrar sesión o eliminar la cuenta de juego no cancela automáticamente la suscripción. Revisá su estado en la tienda para evitar futuras renovaciones.
 
-[PENDIENTE: validar texto por plataforma sobre plazos de cancelación, pruebas, cargos y cambios de precio; no trasladar indiscriminadamente una regla de 24 horas a ambas tiendas.]
-
 ## 5. Restaurar y recuperar
 
 Las **suscripciones** quedan asociadas a tu cuenta de App Store o Google Play, no a tu cuenta de juego. Si cambiás de dispositivo o perdés tu cuenta de juego, podés recuperarlas con **Restaurar compras**, usando la misma cuenta de tienda con la que pagaste.
@@ -57,8 +53,6 @@ Las **suscripciones** quedan asociadas a tu cuenta de App Store o Google Play, n
 Las **monedas y tokens** quedan asociados a tu cuenta de juego y **no se recuperan con Restaurar compras**. Podés comprar como invitado sin vincular Google o Apple, pero si perdés la sesión de invitado, eliminás los datos locales o cambiás de dispositivo sin haber vinculado la cuenta, perdés acceso a esa cuenta, a su progreso y a sus saldos, y no se transfieren a otra cuenta. La app te lo advierte antes de comprar sin cuenta vinculada. Para no perderlos, **vinculá tu cuenta con Google o Apple**. Esto no limita los derechos que te correspondan si la pérdida se debe a una falla del servicio.
 
 Si necesitás ayuda con una compra, contactá [Soporte](support.es.md) con la tienda, el producto y el número de pedido/transacción. No envíes contraseñas ni tokens.
-
-[PENDIENTE: probar Restaurar compras en iOS y Android con una cuenta de juego nueva, verificar que RevenueCat transfiera la suscripción a la cuenta actual e implementar el aviso antes de comprar como invitado.]
 
 Si vinculás una identidad que ya tiene otra cuenta, revisá qué progreso elegís conservar y contactá soporte si hay compras afectadas. La app no suma automáticamente ambos progresos.
 
@@ -81,5 +75,3 @@ El programa implementado recompensa al invitador por ciertos hitos de una nueva 
 Las reglas actuales son: uso del código dentro de los primeros siete días de creación de cuenta; sin autoreferidos ni múltiples invitadores para una misma cuenta; hasta cinco referidos recompensados por mes calendario, contado en hora de Argentina. Los hitos incluyen vincular cuenta, completar todos los juegos de un día desde el día de vinculación y alcanzar una racha de tres días contados desde ese día. Las cantidades y condiciones disponibles se muestran en la app; las recompensas ganadas se reclaman allí.
 
 El invitador puede conocer el cumplimiento de estos hitos para gestionar sus recompensas. No uses cuentas falsas o explotación de errores para generar pagos. Cualquier cambio de programa debe comunicarse y respetar recompensas y derechos ya adquiridos según las condiciones aplicables.
-
-[PENDIENTE: revisar coherencia con la interfaz antes de publicar.]

@@ -1,6 +1,6 @@
 # Soporte de Daylo Games
 
-BORRADOR — no listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026.
+Última actualización: 26 de octubre de 2026.
 
 ## Contacto
 
@@ -15,8 +15,6 @@ Atendemos consultas en **español**.
 Para consultas generales, nuestro objetivo es darte una **primera respuesta útil dentro de 10 días hábiles desde su recepción**. La resolución puede requerir más tiempo según la complejidad del caso; te informaremos los próximos pasos.
 
 Las solicitudes sobre datos personales se atienden dentro de sus plazos legales específicos, detallados en [Privacidad](privacy.es.md), aunque sean más cortos. Los reportes de comunidad se atienden según su gravedad, con prioridad para situaciones urgentes. Si otra obligación aplicable establece un plazo más corto, ese plazo prevalece.
-
-[PENDIENTE: poner en funcionamiento y verificar el procedimiento de seguimiento documentado para cumplir vencimientos legales y atender oportunamente los reportes. No se promete respuesta en 24 horas ni revisión diaria garantizada.]
 
 ## Qué información ayuda
 

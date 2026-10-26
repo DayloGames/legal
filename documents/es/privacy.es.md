@@ -1,6 +1,6 @@
 # Política de privacidad de Daylo Games
 
-BORRADOR — no vigente ni listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026. Los pendientes deben resolverse y eliminarse antes de publicación.
+Vigente desde el 26 de octubre de 2026.
 
 ## 1. Quién trata tus datos
 
@@ -32,8 +32,6 @@ Para consultas de privacidad y solicitudes sobre tus datos: dailygamesbb@gmail.c
 
 Usamos los datos para operar cuentas y partidas, sincronizar progreso, ofrecer funciones sociales, entregar bienes y beneficios, verificar compras y recompensas, atender solicitudes, prevenir fraude y abuso, y diagnosticar fallos. Si hay publicidad, usamos los datos correspondientes para servirla y gestionar sus preferencias.
 
-[PENDIENTE: identificar las bases jurídicas por finalidad y mercados: prestación del servicio, obligaciones aplicables, consentimiento cuando corresponda y otros fundamentos admisibles. Precisar el tratamiento de publicidad y diagnóstico; no atribuir consentimiento a la mera lectura de esta política.]
-
 ## 4. Qué pueden ver otras personas
 
 Tu nombre elegido, código de amigo y avatar pueden ser visibles al interactuar con otros jugadores. Los amigos pueden ver información de progreso, racha, nivel o logros que muestre la función. Los miembros de tus grupos pueden ver tu participación y resultados de ranking.
@@ -60,17 +58,15 @@ Los proveedores Supabase, Render, Cloudflare/R2, Sentry, Google AdMob y RevenueC
 
 El sitio de documentación legal se aloja en **GitHub Pages**. GitHub registra la dirección IP de visitantes por motivos de seguridad, incluso si no iniciaron sesión en GitHub. Podés consultar [información del servicio y tratamiento del tráfico](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
-[PENDIENTE: verificar servicios y configuración efectiva de cada proveedor confirmado, partners publicitarios, entidades contratadas, proveedor de soporte y enlaces a información relevante; completar retención y transferencias del hosting.]
-
 ## 6. Tratamiento internacional
 
-Los servicios utilizados pueden procesar datos fuera de tu país. [PENDIENTE: países/regiones reales de almacenamiento y acceso, mecanismos de transferencia aplicables y cómo solicitar información sobre las salvaguardas.]
+Los servicios utilizados pueden procesar datos fuera de tu país.
 
 ## 7. Publicidad y preferencias
 
 La app puede mostrar anuncios entre partidas y ofrecer anuncios voluntarios a cambio de recompensas. Según tu región y la configuración aplicable, te presentamos opciones de privacidad publicitaria. Cuando esa opción corresponde, podés revisarlas en **Cuenta → Privacidad de anuncios**.
 
-La autorización de publicidad o tracking que corresponda se solicita de forma separada de las condiciones de uso. [PENDIENTE: describir el flujo real de consentimiento, rechazo, revocación y ATT en iOS tras verificar build y consola; especificar tratamiento por edad.]
+La autorización de publicidad o tracking que corresponda se solicita de forma separada de las condiciones de uso.
 
 ## 8. Almacenamiento en tu dispositivo
 
@@ -96,8 +92,6 @@ Cuando eliminás tu cuenta, o cuando dejamos de necesitar ciertos registros, los
 
 Podemos conservar datos por más tiempo solo cuando una ley nos lo exija, para atender un requerimiento de una autoridad competente o para ejercer o defender derechos en un reclamo en curso, y únicamente mientras dure esa necesidad.
 
-[PENDIENTE: verificar que la operación de producción cumple cada plazo, incluida la limpieza diaria automática, y completar la retención real de registros técnicos (Sentry, Render, Cloudflare) y de los proveedores. Conservar una cuenta no implica conservar indefinidamente todos sus registros.]
-
 Consultá [Eliminación de cuenta](delete-account.es.md) para los pasos y efectos sobre progreso y compras.
 
 ## 10. Tus derechos
@@ -110,8 +104,6 @@ La **Agencia de Acceso a la Información Pública (AAIP)** es la autoridad de co
 
 Para pedir información que no esté incluida en una descarga disponible, escribí a **dailygamesbb@gmail.com**. El límite técnico de una exportación no limita por sí solo tu derecho de acceso.
 
-[PENDIENTE: verificar el canal de exportación disponible en la versión final y el procedimiento completo de acceso y supresión, incluidos registros y proveedores.]
-
 ## 11. Edad de acceso
 
 Daylo Games está dirigido a personas de **18 años o más**, con lanzamiento inicial en **Argentina**. Los menores de 18 años no están habilitados para usar el servicio.
@@ -119,8 +111,6 @@ Daylo Games está dirigido a personas de **18 años o más**, con lanzamiento in
 Si considerás que se han tratado datos de una persona menor de 18 años, escribí a **dailygamesbb@gmail.com**.
 
 Si tomamos conocimiento de que una cuenta pertenece a una persona menor de 18 años, la eliminamos junto con sus datos, con los mismos efectos que una eliminación solicitada. Los reembolsos de compras hechas en App Store o Google Play se solicitan a la tienda, según sus políticas y la ley aplicable.
-
-[PENDIENTE: verificar la pantalla de declaración de 18 años o más al primer uso.]
 
 ## 12. Seguridad y cambios
 

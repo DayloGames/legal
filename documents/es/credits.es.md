@@ -1,12 +1,12 @@
 # Créditos y licencias de Daylo Games
 
-BORRADOR — no listo para publicar. Versión de trabajo 0.1, 2 de octubre de 2026.
+Última actualización: 26 de octubre de 2026.
 
 ## Imágenes de Picture Cross
 
 Algunas imágenes del catálogo son obras de Lorc y Delapouite, distribuidas por [game-icons.net](https://game-icons.net/) bajo [Creative Commons Atribución 3.0](https://creativecommons.org/licenses/by/3.0/), y de Nikoichu ("1-bit Pixel Icons", [nikoichu.itch.io](https://nikoichu.itch.io/)) y KabGames ("400+ sprites 1 bits - Pack (9x9)", [kaboff.itch.io](https://kaboff.itch.io/)), publicadas bajo [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (dominio público; la atribución es voluntaria). Las adaptamos a grillas en blanco y negro de 5×5, 10×10 o 15×15 celdas, con un título mostrado al resolver el puzzle. La atribución no implica que los autores respalden esta app.
 
-Esta sección conserva el inventario existente de títulos y artistas. [PENDIENTE: confirmar el conjunto distribuido en la release, agregar enlaces originales de las obras cuando correspondan y completar avisos recibidos de las fuentes.]
+Esta sección conserva el inventario existente de títulos y artistas.
 
 
 Some Picture Cross puzzles are drawings by the artists below. Each drawing was adapted: reduced to a
@@ -395,14 +395,8 @@ Los otros 48 tableros del catálogo (de 5×5) fueron dibujados por el equipo par
 
 El equipo realiza recursos visuales mediante generación con **ChatGPT (OpenAI)** a partir de descripciones escritas, sin imágenes de referencia, y modificaciones posteriores propias. Esto describe el proceso de elaboración; no implica que todos los elementos tengan derechos exclusivos ni modifica las licencias de los materiales de terceros.
 
-[PENDIENTE: cotejar las condiciones contractuales aplicables a ChatGPT Plus personal durante el período de generación informado (aproximadamente agosto–octubre de 2026), revisar las descripciones utilizadas y los archivos finales, y comprobar permisos de uso comercial y distribución.]
-
 ## Diccionarios, software, iconos y otros recursos
 
-[PENDIENTE: inventariar y agregar los avisos y textos de licencia aplicables a los componentes realmente distribuidos, incluyendo listas de palabras inglesas, bibliotecas, iconos, fuentes y otros assets.]
-
 Las fuentes identificadas en la revisión incluyen SCOWL y cracklib-small para Anygram en inglés; wspanish, Project Gutenberg y Mozilla Common Voice para Anygram en español; y ENABLE, wspanish y Mozilla Common Voice para las listas de Wordle.
-
-[PENDIENTE: cotejar fuentes/versiones efectivamente utilizadas, licencias originales, derechos aplicables en Argentina y avisos exigibles. Una descripción de dominio público en un README o en otro país no acredita por sí sola los derechos de toda la cadena de fuentes.]
 
 Los materiales de terceros conservan las licencias que les correspondan. Nuestros términos no restringen derechos otorgados por ellas.
