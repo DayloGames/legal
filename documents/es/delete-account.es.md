@@ -4,7 +4,7 @@
 
 ## Desde la app
 
-Para una cuenta vinculada, abrí **Perfil → Cuenta → Eliminar cuenta** y seguí la confirmación.
+Abrí **Perfil → Cuenta → Eliminar cuenta** y seguí la confirmación. Funciona igual para cuentas vinculadas y de invitado.
 
 La cuenta se inhabilita durante el proceso y no podés continuar usando su progreso, saldo, logros, artículos y acceso social. Algunos registros se eliminan en pasos posteriores, según los plazos informados abajo. El proceso no se puede deshacer una vez completado.
 
@@ -15,6 +15,13 @@ Escribí a **dailygamesbb@gmail.com**, con asunto **«Eliminar cuenta de Daylo G
 Indicá el email de acceso vinculado si lo tenés y/o el código de amigo. Si sos invitado, contanos que la cuenta no está vinculada y qué identificador conservás. No publiques la solicitud en GitHub ni envíes contraseñas o tokens. Te indicaremos una forma de verificar la titularidad con la información mínima necesaria.
 
 No necesitás reinstalar la app para iniciar la solicitud. El equipo de Daylo Games atiende las solicitudes recibidas en este buzón. Las solicitudes de supresión de datos se atienden dentro de los plazos legales explicados en [Privacidad](privacy.es.md).
+
+Para verificar que la cuenta es tuya te podemos pedir uno de estos datos:
+
+- el número de pedido de una compra (Apple Order ID o número GPA de Google Play), que llega por email al titular de la cuenta de la tienda;
+- un pedido enviado desde el email de Google o Apple con el que vinculaste la cuenta.
+
+El código de amigo o el nombre de usuario sirven para ubicar la cuenta, pero no alcanzan para borrarla porque otros jugadores también los conocen. Una vez verificada, eliminamos la cuenta y te confirmamos por email cuando terminó.
 
 ## Qué ocurre con los datos
 
@@ -37,4 +44,4 @@ Podés solicitar ayuda o un reembolso por los canales que correspondan a la tien
 
 ## Si seguís usando la app
 
-La implementación actual comienza una nueva sesión de invitado después de eliminar. Esa sesión es independiente y genera nuevos datos de juego; no recupera los eliminados.
+Después de eliminar, la app comienza una nueva sesión de invitado. Esa sesión es independiente y genera nuevos datos de juego; no recupera los eliminados. Si no querés seguir usando la app, podés desinstalarla.

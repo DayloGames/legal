@@ -36,6 +36,8 @@ El lanzamiento incluye los planes Calm y Pro, con los siguientes beneficios prev
 
 Las suscripciones pueden incluir una **oferta introductoria** para quienes se suscriben por primera vez, según los criterios de elegibilidad de cada tienda. Las condiciones exactas de la oferta se muestran antes de confirmar la compra. Al terminar la oferta, la suscripción se renueva automáticamente al precio regular, salvo que la canceles antes.
 
+Antes de suscribirte, la app muestra el precio de la oferta, cuánto dura y el precio regular que se cobra después, tal como los informa la tienda.
+
 Las suscripciones no incluyen una asignación recurrente de monedas/tokens salvo que una oferta específica lo indique.
 
 ## 4. Renovación y cancelación
@@ -45,6 +47,13 @@ Podés gestionar o cancelar la suscripción desde la cuenta de la tienda en la q
 Podés cambiar de plan desde la app. Si pasás de Calm a Pro, el cambio se aplica de inmediato y la tienda ajusta el cobro en proporción al tiempo que quedaba del plan anterior. Si pasás de Pro a Calm, el cambio se aplica cuando termina el período ya pagado. Si cambiás entre la opción mensual y la anual, la tienda aplica el cambio según sus reglas. En todos los casos, la tienda te muestra el importe y cuándo se aplica el cambio antes de que lo confirmes.
 
 Desinstalar la app, cerrar sesión o eliminar la cuenta de juego no cancela automáticamente la suscripción. Revisá su estado en la tienda para evitar futuras renovaciones.
+
+Los plazos para cancelar dependen de la tienda:
+
+- **App Store:** la suscripción se renueva salvo que la canceles al menos 24 horas antes de que termine el período actual.
+- **Google Play:** podés cancelar en cualquier momento y conservás el acceso hasta el final del período pagado.
+
+Si la tienda cambia el precio de una suscripción, te avisa antes de aplicarlo según sus reglas.
 
 ## 5. Restaurar y recuperar
 

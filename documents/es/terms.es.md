@@ -8,6 +8,8 @@ Daylo Games ofrece juegos de lógica y palabras con partidas diarias, desafíos,
 
 Estos términos incorporan las [Reglas de comunidad](community.es.md) y las [Condiciones de compras y suscripciones](purchases.es.md). La [Política de privacidad](privacy.es.md) explica el tratamiento de datos.
 
+Al abrir la app por primera vez, la app te pide declarar que tenés 18 años o más y aceptar estos términos antes de usarla.
+
 ## 2. Quién puede usarlo
 
 Para usar Daylo Games debés tener **18 años o más**. El lanzamiento inicial está limitado a **Argentina**. La autorización de una persona adulta no habilita el acceso de menores de 18 años.
@@ -20,7 +22,7 @@ Podés comenzar con una cuenta de invitado. Aunque no vincules un email, tu prog
 
 Vincular Google o Apple permite acceder mediante ese proveedor. Mantené seguro el acceso a esas cuentas; no compartas credenciales ni entregues tokens de sesión a terceros o a soporte.
 
-Si al vincular encontramos otra cuenta con progreso, la app puede pedirte elegir cuál conservar. Los progresos no se suman automáticamente; la elección puede reemplazar el progreso descartado. Revisá la confirmación antes de continuar.
+Si al vincular encontramos otra cuenta con progreso, la app puede pedirte elegir cuál conservar. Los progresos no se suman automáticamente; la elección puede reemplazar el progreso descartado. Antes de elegir, la app muestra el progreso y los saldos de monedas y tokens de las dos cuentas; los de la cuenta descartada se borran. Las suscripciones no se pierden: siguen en tu cuenta de App Store o Google Play y se recuperan con **Restaurar compras**. Revisá la confirmación antes de continuar.
 
 ## 4. Partidas, progreso y rankings
 
@@ -44,7 +46,7 @@ Las monedas y tokens sirven exclusivamente dentro del juego. No son depósitos, 
 
 Las compras, beneficios, renovaciones y solicitudes de reembolso se rigen por el [anexo comercial](purchases.es.md), las condiciones informadas al comprar y las reglas de la tienda, respetando tus derechos legales.
 
-Puede haber publicidad. Ver anuncios con recompensa es voluntario; una suscripción que elimina anuncios entre partidas puede seguir ofreciendo esos anuncios opcionales, como explica el anexo.
+Puede haber publicidad. Los anuncios los proveen terceros, como Google AdMob: no los elaboramos ni respaldamos sus productos, y podés reportar los inapropiados como se indica en [Soporte](support.es.md). Ver anuncios con recompensa es voluntario; una suscripción que elimina anuncios entre partidas puede seguir ofreciendo esos anuncios opcionales, como explica el anexo.
 
 ## 7. Propiedad intelectual
 
