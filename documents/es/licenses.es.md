@@ -6,849 +6,1678 @@ Los SDK de Google Mobile Ads y de Google Play se distribuyen bajo las condicione
 
 ## MIT
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| @babel/code-frame | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/compat-data | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/core | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/generator | 7.29.8 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-annotate-as-pure | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-compilation-targets | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-create-class-features-plugin | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-create-regexp-features-plugin | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-define-polyfill-provider | 0.6.8 | Copyright (c) 2014-present Nicolò Ribaudo and other contributors |
-| @babel/helper-globals | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-member-expression-to-functions | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-module-imports | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-module-transforms | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-optimise-call-expression | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-plugin-utils | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-remap-async-to-generator | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-replace-supers | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-skip-transparent-expression-wrappers | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-string-parser | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-validator-identifier | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-validator-option | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helper-wrap-function | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/helpers | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors<br>Copyright (c) 2014-present, Facebook, Inc. (ONLY ./src/helpers/regenerator* files) |
-| @babel/parser | 7.29.8 | Copyright (C) 2012-2014 by various contributors (see AUTHORS) |
-| @babel/plugin-proposal-decorators | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-proposal-export-default-from | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-async-generators | 7.8.4 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-bigint | 7.8.3 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-class-properties | 7.12.13 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-class-static-block | 7.14.5 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-decorators | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-dynamic-import | 7.8.3 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-export-default-from | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-flow | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-import-attributes | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-import-meta | 7.10.4 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-json-strings | 7.8.3 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-jsx | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-logical-assignment-operators | 7.10.4 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-nullish-coalescing-operator | 7.8.3 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-numeric-separator | 7.10.4 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-object-rest-spread | 7.8.3 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-optional-catch-binding | 7.8.3 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-optional-chaining | 7.8.3 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-private-property-in-object | 7.14.5 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-top-level-await | 7.14.5 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-syntax-typescript | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-arrow-functions | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-async-generator-functions | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-async-to-generator | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-block-scoping | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-class-properties | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-class-static-block | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-classes | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-destructuring | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-export-namespace-from | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-flow-strip-types | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-for-of | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-logical-assignment-operators | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-modules-commonjs | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-named-capturing-groups-regex | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-nullish-coalescing-operator | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-object-rest-spread | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-optional-catch-binding | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-optional-chaining | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-parameters | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-private-methods | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-private-property-in-object | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-react-display-name | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-react-jsx | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-react-jsx-development | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-react-jsx-self | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-react-jsx-source | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-react-pure-annotations | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-regenerator | 7.29.8 | Copyright (c) 2014-present Sebastian McKenzie and other contributors<br>Copyright (c) 2014-present Facebook, Inc. |
-| @babel/plugin-transform-runtime | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-shorthand-properties | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-template-literals | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-typescript | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/plugin-transform-unicode-regex | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/preset-typescript | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/runtime | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/template | 7.29.7 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/traverse | 7.29.8 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @babel/types | 7.29.8 | Copyright (c) 2014-present Sebastian McKenzie and other contributors |
-| @bcoe/v8-coverage | 0.2.3 | Copyright © 2015-2017 Charles Samborski |
-| @egjs/hammerjs | 2.0.17 | Copyright (c) 2018-present NAVER Corp.<br>Copyright (C) 2011-2017 by Jorik Tangelder (Eight Media) |
-| @expo/cli | 57.0.24 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/code-signing-certificates | 0.0.6 | Copyright (c) 2020-present 650 Industries, Inc. (aka Expo) |
-| @expo/config | 57.0.9 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/config-plugins | 57.0.9 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/config-types | 57.0.2 | Copyright (c) 2020-present 650 Industries, Inc. (aka Expo) |
-| @expo/devcert | 1.2.1 | Copyright Dave Wasmer |
-| @expo/devtools | 57.0.1 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/dom-webview | 57.0.1 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/env | 2.4.3 | Copyright (c) 2023-present 650 Industries, Inc. (aka Expo) |
-| @expo/expo-modules-macros-plugin | 0.6.1 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/fingerprint | 0.20.13 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/image-utils | 0.11.5 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/inline-modules | 0.1.7 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/json-file | 11.0.1 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/local-build-cache-provider | 57.0.8 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/log-box | 57.0.4 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/metro | 56.0.2 | Copyright (c) Meta Platforms, Inc. and affiliates.<br>Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/metro-config | 57.0.12 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/metro-file-map | 57.0.3 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/metro-runtime | 57.0.15 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/osascript | 2.7.1 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/package-manager | 1.13.1 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/plist | 0.8.1 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/prebuild-config | 57.0.16 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/require-utils | 57.0.5 | Copyright (c) 2025-present 650 Industries, Inc. (aka Expo) |
-| @expo/router-server | 57.0.9 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| @expo/schema-utils | 57.0.2 | Copyright (c) 2025-present 650 Industries, Inc. (aka Expo) |
-| @expo/sdk-runtime-versions | 1.0.0 | Copyright Expo |
-| @expo/spawn-async | 1.8.0 | Copyright (c) 2015 650 Industries |
-| @expo/sudo-prompt | 9.3.2 | Copyright (c) 2015 Joran Dirk Greef |
-| @expo/ui | 57.0.18 | Copyright 650 Industries, Inc. |
-| @expo/vector-icons | 15.1.1 | Copyright (c) 2015 Joel Arvidsson<br>Copyright (c) 2020 650 Industries |
-| @expo/ws-tunnel | 2.0.0 | — |
-| @istanbuljs/schema | 0.1.6 | Copyright (c) 2019 CFWare, LLC |
-| @jest/console | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/core | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/create-cache-key-function | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/diff-sequences | 30.5.0 | Copyright (c) Meta Platforms, Inc. and affiliates.<br>Copyright Contributors to the Jest project. |
-| @jest/environment | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/expect | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/expect-utils | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/fake-timers | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/get-type | 30.5.0 | Copyright (c) Meta Platforms, Inc. and affiliates.<br>Copyright Contributors to the Jest project. |
-| @jest/globals | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/reporters | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/schemas | 29.6.3 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/schemas | 30.5.0 | Copyright (c) Meta Platforms, Inc. and affiliates.<br>Copyright Contributors to the Jest project. |
-| @jest/source-map | 29.6.3 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/test-result | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/test-sequencer | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/transform | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jest/types | 29.6.3 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| @jridgewell/gen-mapping | 0.3.13 | Copyright 2024 Justin Ridgewell justin@ridgewell.name |
-| @jridgewell/remapping | 2.3.5 | Copyright 2024 Justin Ridgewell justin@ridgewell.name |
-| @jridgewell/resolve-uri | 3.1.2 | Copyright 2019 Justin Ridgewell jridgewell@google.com |
-| @jridgewell/source-map | 0.3.11 | Copyright 2024 Justin Ridgewell justin@ridgewell.name |
-| @jridgewell/sourcemap-codec | 1.5.5 | Copyright 2024 Justin Ridgewell justin@ridgewell.name |
-| @jridgewell/trace-mapping | 0.3.31 | Copyright 2024 Justin Ridgewell justin@ridgewell.name |
-| @radix-ui/primitive | 1.1.7 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-collection | 1.1.15 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-compose-refs | 1.1.5 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-context | 1.2.2 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-dialog | 1.1.23 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-direction | 1.1.4 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-dismissable-layer | 1.1.19 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-focus-guards | 1.1.6 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-focus-scope | 1.1.16 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-id | 1.1.4 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-portal | 1.1.17 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-presence | 1.1.10 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-primitive | 2.1.10 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-roving-focus | 1.1.19 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-slot | 1.3.3 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-tabs | 1.1.21 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-use-callback-ref | 1.1.4 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-use-controllable-state | 1.2.6 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-use-effect-event | 0.0.5 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-use-is-hydrated | 0.1.3 | Copyright (c) 2022 WorkOS |
-| @radix-ui/react-use-layout-effect | 1.1.4 | Copyright (c) 2022 WorkOS |
-| @react-native-async-storage/async-storage | 2.2.0 | Copyright (c) 2015-present, Facebook, Inc. |
-| @react-native-community/netinfo | 12.0.1 | Copyright (c) 2015-present, Facebook, Inc. |
-| @react-native-google-signin/google-signin | 16.1.5 | Copyright (c) 2015 Apptailor |
-| @react-native-masked-view/masked-view | 0.3.2 | Copyright (c) 2015-present, Facebook, Inc. |
-| @react-native/assets-registry | 0.86.3 | — |
-| @react-native/babel-plugin-codegen | 0.86.3 | — |
-| @react-native/babel-preset | 0.86.3 | — |
-| @react-native/codegen | 0.86.3 | — |
-| @react-native/community-cli-plugin | 0.86.3 | — |
-| @react-native/debugger-shell | 0.86.3 | — |
-| @react-native/dev-middleware | 0.86.3 | — |
-| @react-native/gradle-plugin | 0.86.3 | — |
-| @react-native/jest-preset | 0.86.3 | — |
-| @react-native/js-polyfills | 0.86.3 | — |
-| @react-native/metro-babel-transformer | 0.86.3 | — |
-| @react-native/metro-config | 0.86.3 | — |
-| @react-native/normalize-colors | 0.86.3 | — |
-| @react-native/virtualized-lists | 0.86.3 | — |
-| @revenuecat/purchases-js | 1.67.1 | Copyright (c) 2023 RevenueCat |
-| @revenuecat/purchases-js-hybrid-mappings | 19.5.0 | Copyright RevenueCat, Inc. |
-| @revenuecat/purchases-typescript-internal | 19.5.0 | Copyright RevenueCat, Inc. |
-| @sentry-internal/browser-utils | 10.37.0 | Copyright (c) 2020 Functional Software, Inc. dba Sentry |
-| @sentry-internal/feedback | 10.37.0 | Copyright (c) 2023 Functional Software, Inc. dba Sentry |
-| @sentry-internal/replay | 10.37.0 | Copyright (c) 2022 Functional Software, Inc. dba Sentry |
-| @sentry-internal/replay-canvas | 10.37.0 | Copyright (c) 2024 Functional Software, Inc. dba Sentry |
-| @sentry/babel-plugin-component-annotate | 4.8.0 | Copyright (c) 2024, Sentry |
-| @sentry/browser | 10.37.0 | Copyright (c) 2019 Functional Software, Inc. dba Sentry |
-| @sentry/core | 10.37.0 | Copyright (c) 2019 Functional Software, Inc. dba Sentry |
-| @sentry/react | 10.37.0 | Copyright (c) 2019 Functional Software, Inc. dba Sentry |
-| @sentry/react-native | 7.11.0 | Copyright (c) 2017-2024 Sentry |
-| @sentry/types | 10.37.0 | Copyright (c) 2019 Functional Software, Inc. dba Sentry |
-| @sinclair/typebox | 0.27.12 | Copyright (c) 2017-2023 Haydn Paterson (sinclair) haydn.developer@gmail.com |
-| @sinclair/typebox | 0.34.52 | Copyright (c) 2017-2026 Haydn Paterson |
-| @supabase/auth-js | 2.112.4 | Copyright (c) 2020 Supabase |
-| @supabase/functions-js | 2.112.4 | Copyright (c) 2020 Supabase |
-| @supabase/phoenix | 0.4.5 | Copyright (c) 2014 Chris McCord |
-| @supabase/postgrest-js | 2.112.4 | Copyright (c) 2020 Supabase |
-| @supabase/realtime-js | 2.112.4 | Copyright (c) 2020 Supabase |
-| @supabase/storage-js | 2.112.4 | Copyright (c) 2020 Supabase |
-| @supabase/supabase-js | 2.112.4 | Copyright (c) 2020 Supabase |
-| @tanstack/query-core | 5.102.2 | Copyright (c) 2021-present Tanner Linsley |
-| @tanstack/react-query | 5.102.2 | Copyright (c) 2021-present Tanner Linsley |
-| @testing-library/react-native | 13.3.3 | Copyright (c) 2018 Callstack and Rally Health |
-| @types/babel__core | 7.20.5 | Copyright (c) Microsoft Corporation. |
-| @types/babel__generator | 7.27.0 | Copyright (c) Microsoft Corporation. |
-| @types/babel__template | 7.4.4 | Copyright (c) Microsoft Corporation. |
-| @types/babel__traverse | 7.28.0 | Copyright (c) Microsoft Corporation. |
-| @types/graceful-fs | 4.1.9 | Copyright (c) Microsoft Corporation. |
-| @types/hammerjs | 2.0.46 | Copyright (c) Microsoft Corporation. |
-| @types/istanbul-lib-coverage | 2.0.6 | Copyright (c) Microsoft Corporation. |
-| @types/istanbul-lib-report | 3.0.3 | Copyright (c) Microsoft Corporation. |
-| @types/istanbul-reports | 3.0.4 | Copyright (c) Microsoft Corporation. |
-| @types/node | 26.2.0 | Copyright (c) Microsoft Corporation. |
-| @types/react | 19.2.18 | Copyright (c) Microsoft Corporation. |
-| @types/react-test-renderer | 19.1.0 | Copyright (c) Microsoft Corporation. |
-| @types/stack-utils | 2.0.3 | Copyright (c) Microsoft Corporation. |
-| @types/yargs | 17.0.35 | Copyright (c) Microsoft Corporation. |
-| @types/yargs-parser | 21.0.3 | Copyright (c) Microsoft Corporation. |
-| @xmldom/xmldom | 0.8.14 | Copyright 2019 - present Christopher J. Brody and other contributors, as listed in: https://github.com/xmldom/xmldom/graphs/contributors<br>Copyright 2012 - 2017 @jindw jindw@xidea.org and other contributors, as listed in: https://github.com/jindw/xmldom/graphs/contributors |
-| @xmldom/xmldom | 0.9.11 | Copyright 2019 - present Christopher J. Brody and other contributors, as listed in: https://github.com/xmldom/xmldom/graphs/contributors<br>Copyright 2012 - 2017 @jindw jindw@xidea.org and other contributors, as listed in: https://github.com/jindw/xmldom/graphs/contributors |
-| abort-controller | 3.0.0 | Copyright (c) 2017 Toru Nagashima |
-| accepts | 1.3.8 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2015 Douglas Christopher Wilson doug@somethingdoug.com |
-| accepts | 2.0.0 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2015 Douglas Christopher Wilson doug@somethingdoug.com |
-| acorn | 8.18.0 | Copyright (C) 2012-2022 by various contributors (see AUTHORS) |
-| agent-base | 6.0.2 | Copyright Nathan Rajlich |
-| agent-base | 7.1.4 | Copyright (c) 2013 Nathan Rajlich nathan@tootallnate.net |
-| agent-cli-detector | 0.1.7 | Copyright (c) 2026 David Mokos |
-| anser | 1.4.10 | Copyright (c) 2012-20 Ionică Bizău bizauionica@gmail.com (https://ionicabizau.net) |
-| ansi-escapes | 4.3.2 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| ansi-regex | 4.1.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| ansi-regex | 5.0.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| ansi-styles | 3.2.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| ansi-styles | 4.3.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| ansi-styles | 5.2.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| arg | 5.0.2 | Copyright (c) 2021 Vercel, Inc. |
-| argparse | 1.0.10 | Copyright (C) 2012 by Vitaly Puzrin |
-| aria-hidden | 1.2.6 | Copyright (c) 2017 Anton Korzunov |
-| asap | 2.0.6 | Copyright 2009–2014 Contributors. All rights reserved. |
-| babel-jest | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| babel-plugin-jest-hoist | 29.6.3 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| babel-plugin-polyfill-corejs2 | 0.4.17 | Copyright (c) 2014-present Nicolò Ribaudo and other contributors |
-| babel-plugin-polyfill-corejs3 | 0.13.0 | Copyright (c) 2014-present Nicolò Ribaudo and other contributors |
-| babel-plugin-polyfill-regenerator | 0.6.8 | Copyright (c) 2014-present Nicolò Ribaudo and other contributors |
-| babel-plugin-react-compiler | 1.0.0 | — |
-| babel-plugin-react-native-web | 0.21.2 | Copyright (c) Nicolas Gallagher. |
-| babel-plugin-syntax-hermes-parser | 0.36.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| babel-plugin-syntax-hermes-parser | 0.36.1 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| babel-plugin-transform-flow-enums | 0.0.2 | Copyright (c) Facebook, Inc. and its affiliates. |
-| babel-preset-current-node-syntax | 1.2.0 | Copyright (c) 2020 Nicolò Ribaudo and other contributors |
-| babel-preset-expo | 57.0.11 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| babel-preset-jest | 29.6.3 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| balanced-match | 1.0.2 | Copyright (c) 2013 Julian Gruber &lt;julian@juliangruber.com&gt; |
-| balanced-match | 4.0.4 | — |
-| base64-js | 1.5.1 | Copyright (c) 2014 Jameson Little |
-| bplist-creator | 0.1.0 | Copyright (c) 2012 Near Infinity Corporation |
-| bplist-parser | 0.3.1 | Copyright Joe Ferner |
-| bplist-parser | 0.3.2 | Copyright Joe Ferner |
-| brace-expansion | 1.1.18 | Copyright (c) 2013 Julian Gruber julian@juliangruber.com |
-| brace-expansion | 5.0.9 | Copyright Julian Gruber julian@juliangruber.com |
-| braces | 3.0.3 | Copyright (c) 2014-present, Jon Schlinkert. |
-| browserslist | 4.28.8 | Copyright 2014 Andrey Sitnik andrey@sitnik.es and other contributors<br>COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER |
-| buffer-from | 1.1.2 | Copyright (c) 2016, 2018 Linus Unnebäck |
-| bytes | 3.1.2 | Copyright (c) 2012-2014 TJ Holowaychuk tj@vision-media.ca<br>Copyright (c) 2015 Jed Watson jed.watson@me.com |
-| callsites | 3.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| camelcase | 5.3.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| camelcase | 6.3.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| chalk | 2.4.2 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| chalk | 4.1.2 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| char-regex | 1.0.2 | Copyright (c) 2019 Richie Bendall |
-| ci-info | 2.0.0 | Copyright (c) 2016-2018 Thomas Watson Steen |
-| ci-info | 3.9.0 | Copyright (c) 2016 Thomas Watson Steen |
-| cjs-module-lexer | 1.4.3 | Copyright (C) 2018-2020 Guy Bedford |
-| cli-cursor | 2.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| cli-spinners | 2.9.2 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| client-only | 0.0.1 | — |
-| clone | 1.0.4 | Copyright © 2011-2015 Paul Vorbach paul@vorba.ch<br>COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER |
-| co | 4.6.0 | Copyright (c) 2014 TJ Holowaychuk &lt;tj@vision-media.ca&gt; |
-| collect-v8-coverage | 1.0.3 | Copyright (c) 2019 Simen Bekkhus |
-| color | 4.2.3 | Copyright (c) 2012 Heather Arthur |
-| color-convert | 1.9.3 | Copyright (c) 2011-2016 Heather Arthur fayearthur@gmail.com |
-| color-convert | 2.0.1 | Copyright (c) 2011-2016 Heather Arthur fayearthur@gmail.com |
-| color-name | 1.1.3 | Copyright (c) 2015 Dmitry Ivanov |
-| color-name | 1.1.4 | Copyright (c) 2015 Dmitry Ivanov |
-| color-string | 1.9.1 | Copyright (c) 2011 Heather Arthur fayearthur@gmail.com |
-| commander | 2.20.3 | Copyright (c) 2011 TJ Holowaychuk tj@vision-media.ca |
-| commander | 7.2.0 | Copyright (c) 2011 TJ Holowaychuk tj@vision-media.ca |
-| commander | 12.1.0 | Copyright (c) 2011 TJ Holowaychuk tj@vision-media.ca |
-| compressible | 2.0.18 | Copyright (c) 2013 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2014 Jeremiah Senkpiel fishrock123@rocketmail.com<br>Copyright (c) 2015 Douglas Christopher Wilson doug@somethingdoug.com |
-| compression | 1.8.1 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2014-2015 Douglas Christopher Wilson doug@somethingdoug.com |
-| concat-map | 0.0.1 | COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER |
-| connect | 3.7.0 | Copyright (c) 2010 Sencha Inc.<br>Copyright (c) 2011 LearnBoost<br>Copyright (c) 2011-2014 TJ Holowaychuk<br>Copyright (c) 2015 Douglas Christopher Wilson |
-| convert-source-map | 2.0.0 | Copyright 2013 Thorsten Lorenz. |
-| core-js-compat | 3.50.0 | Copyright (c) 2013–2025 Denis Pushkarev (zloirock.ru)<br>Copyright (c) 2025–2026 CoreJS Company (core-js.io) |
-| create-jest | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| cross-spawn | 7.0.6 | Copyright (c) 2018 Made With MOXY Lda hello@moxy.studio |
-| css-tree | 1.1.3 | Copyright (C) 2016-2019 by Roman Dvornov |
-| csstype | 3.2.3 | Copyright (c) 2017-2018 Fredrik Nicol |
-| debug | 2.6.9 | Copyright (c) 2014 TJ Holowaychuk tj@vision-media.ca |
-| debug | 3.2.7 | Copyright (c) 2014 TJ Holowaychuk tj@vision-media.ca |
-| debug | 4.4.3 | Copyright (c) 2014-2017 TJ Holowaychuk tj@vision-media.ca<br>Copyright (c) 2018-2021 Josh Junon |
-| decode-uri-component | 0.2.2 | Copyright (c) 2017, Sam Verschueren sam.verschueren@gmail.com (github.com/SamVerschueren) |
-| dedent | 1.7.2 | Copyright Desmond Brand |
-| deepmerge | 4.3.1 | Copyright (c) 2012 James Halliday, Josh Duff, and other contributors |
-| defaults | 1.0.4 | Copyright (c) 2022 Sindre Sorhus<br>Copyright (c) 2015 Elijah Insua |
-| depd | 2.0.0 | Copyright (c) 2014-2018 Douglas Christopher Wilson |
-| dequal | 2.0.3 | Copyright (c) Luke Edwards luke.edwards05@gmail.com (lukeed.com) |
-| destroy | 1.2.0 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2015-2022 Douglas Christopher Wilson doug@somethingdoug.com |
-| detect-newline | 3.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| detect-node-es | 1.1.0 | Copyright (c) 2017 Ilya Kantor |
-| diff-sequences | 29.6.3 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| dnssd-advertise | 1.1.6 | Copyright (c) Phil Pluckthun,<br>Copyright (c) 650 Industries, Inc. (aka Expo), |
-| dom-serializer | 2.0.0 | Copyright (c) 2014 The cheeriojs contributors |
-| ee-first | 1.1.1 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com |
-| emittery | 0.13.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| emoji-regex | 8.0.0 | Copyright Mathias Bynens |
-| encodeurl | 1.0.2 | Copyright (c) 2016 Douglas Christopher Wilson |
-| encodeurl | 2.0.0 | Copyright (c) 2016 Douglas Christopher Wilson |
-| error-ex | 1.3.4 | Copyright (c) 2015 JD Ballard |
-| error-stack-parser | 2.1.4 | Copyright (c) 2017 Eric Wendelin and other contributors |
-| es-errors | 1.3.0 | Copyright (c) 2024 Jordan Harband |
-| escalade | 3.2.0 | Copyright (c) Luke Edwards luke.edwards05@gmail.com (lukeed.com) |
-| escape-html | 1.0.3 | Copyright (c) 2012-2013 TJ Holowaychuk<br>Copyright (c) 2015 Andreas Lubbe<br>Copyright (c) 2015 Tiancheng "Timothy" Gu |
-| escape-string-regexp | 1.0.5 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| escape-string-regexp | 2.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| escape-string-regexp | 4.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| etag | 1.8.1 | Copyright (c) 2014-2016 Douglas Christopher Wilson |
-| event-target-shim | 5.0.1 | Copyright (c) 2015 Toru Nagashima |
-| execa | 5.1.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| exit | 0.1.2 | Copyright "Cowboy" Ben Alman |
-| expect | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| expo | 57.0.22 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-apple-authentication | 57.0.2 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-application | 57.0.3 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-asset | 57.0.17 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-audio | 57.0.5 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-build-properties | 57.0.22 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-constants | 57.0.18 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-crypto | 57.0.3 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-dev-client | 57.0.19 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-dev-launcher | 57.0.20 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-dev-menu | 57.0.18 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-dev-menu-interface | 57.0.0 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-file-system | 57.0.7 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-font | 57.0.4 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-glass-effect | 57.0.3 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-haptics | 57.0.3 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-image | 57.0.5 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-json-utils | 57.0.2 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-keep-awake | 57.0.2 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-linear-gradient | 57.0.2 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-linking | 57.0.10 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-localization | 57.0.2 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-manifests | 57.0.2 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-modules-autolinking | 57.0.13 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-modules-core | 57.0.18 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-modules-jsi | 57.1.0 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-router | 57.0.21 | Copyright 650 Industries, Inc. |
-| expo-secure-store | 57.0.4 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-server | 57.0.3 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-splash-screen | 57.0.9 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-status-bar | 57.0.1 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-symbols | 57.0.3 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-system-ui | 57.0.4 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-updates-interface | 57.0.2 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| expo-web-browser | 57.0.3 | Copyright (c) 2015-present 650 Industries, Inc. (aka Expo) |
-| fast-deep-equal | 3.1.3 | Copyright (c) 2017 Evgeny Poberezkin |
-| fast-json-stable-stringify | 2.1.0 | Copyright (c) 2017 Evgeny Poberezkin<br>Copyright (c) 2013 James Halliday<br>COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER |
-| fdir | 6.5.0 | Copyright 2023 Abdullah Atta |
-| fetch-nodeshim | 0.4.10 | Copyright (c) Phil Pluckthun,<br>Copyright (c) 650 Industries, Inc. (aka Expo),<br>Copyright (c) 2016 - 2020 Node Fetch Team,<br>Copyright (c) Remix Software Inc. 2020-2021,<br>Copyright (c) Shopify Inc. 2022-2024 |
-| fill-range | 7.1.1 | Copyright (c) 2014-present, Jon Schlinkert. |
-| filter-obj | 1.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| finalhandler | 1.1.2 | Copyright (c) 2014-2017 Douglas Christopher Wilson doug@somethingdoug.com |
-| find-up | 4.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| flow-enums-runtime | 0.0.6 | Copyright (c) Facebook, Inc. and its affiliates. |
-| fresh | 0.5.2 | Copyright (c) 2012 TJ Holowaychuk tj@vision-media.ca<br>Copyright (c) 2016-2017 Douglas Christopher Wilson doug@somethingdoug.com |
-| function-bind | 1.1.2 | Copyright (c) 2013 Raynos. |
-| gensync | 1.0.0-beta.2 | Copyright 2018 Logan Smyth loganfsmyth@gmail.com |
-| get-nonce | 1.0.1 | Copyright (c) 2020 Anton Korzunov |
-| get-package-type | 0.1.0 | Copyright (c) 2020 CFWare, LLC |
-| get-stream | 6.0.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| getenv | 2.0.0 | Copyright (c) 2012-2019 Christoph Tavan dev@tavan.de |
-| has-flag | 3.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| has-flag | 4.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| hasown | 2.0.4 | Copyright (c) Jordan Harband and contributors |
-| hermes-compiler | 250829098.0.17 | — |
-| hermes-estree | 0.35.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| hermes-estree | 0.36.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| hermes-estree | 0.36.1 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| hermes-parser | 0.35.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| hermes-parser | 0.36.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| hermes-parser | 0.36.1 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| html-escaper | 2.0.2 | Copyright (C) 2017-present by Andrea Giammarchi - @WebReflection |
-| html-parse-stringify | 4.0.1 | Copyright (c) 2025 Henrik Joreteg henrik@joreteg.com<br>Copyright (c) 2026-present i18next (https://github.com/i18next) |
-| http-errors | 2.0.1 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com |
-| https-proxy-agent | 5.0.1 | Copyright Nathan Rajlich |
-| https-proxy-agent | 7.0.6 | Copyright (c) 2013 Nathan Rajlich nathan@tootallnate.net |
-| i18next | 26.4.0 | Copyright (c) 2011-present i18next |
-| iceberg-js | 0.8.1 | Copyright (c) 2025 Supabase |
-| ignore | 5.3.2 | Copyright kael |
-| import-local | 3.2.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| imurmurhash | 0.1.4 | Copyright Jens Taylor |
-| indent-string | 4.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| invariant | 2.2.4 | Copyright (c) 2013-present, Facebook, Inc. |
-| is-arrayish | 0.2.1 | Copyright (c) 2015 JD Ballard |
-| is-arrayish | 0.3.4 | Copyright (c) 2015 JD Ballard |
-| is-core-module | 2.16.2 | Copyright (c) 2014 Dave Justice<br>COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER |
-| is-docker | 2.2.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| is-fullwidth-code-point | 3.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| is-generator-fn | 2.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| is-number | 7.0.0 | Copyright (c) 2014-present, Jon Schlinkert. |
-| is-plain-obj | 2.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| is-stream | 2.0.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| is-wsl | 2.2.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| jest | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-changed-files | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-circus | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-cli | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-config | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-diff | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-diff | 30.5.1 | Copyright (c) Meta Platforms, Inc. and affiliates.<br>Copyright Contributors to the Jest project. |
-| jest-docblock | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-each | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-environment-node | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-get-type | 29.6.3 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-haste-map | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-leak-detector | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-matcher-utils | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-matcher-utils | 30.5.1 | Copyright (c) Meta Platforms, Inc. and affiliates.<br>Copyright Contributors to the Jest project. |
-| jest-message-util | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-mock | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-pnp-resolver | 1.2.3 | — |
-| jest-regex-util | 29.6.3 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-resolve | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-resolve-dependencies | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-runner | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-runtime | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-snapshot | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-util | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-validate | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-watcher | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jest-worker | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| jimp-compact | 0.16.1 | — |
-| js-tokens | 4.0.0 | Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell |
-| js-yaml | 3.15.1 | Copyright (C) 2011-2015 by Vitaly Puzrin |
-| js-yaml | 4.3.1 | Copyright (C) 2011-2015 by Vitaly Puzrin |
-| jsesc | 3.1.0 | Copyright Mathias Bynens |
-| json-parse-even-better-errors | 2.3.1 | Copyright 2017 Kat Marchán<br>Copyright npm, Inc. |
-| json5 | 2.2.3 | Copyright (c) 2012-2018 Aseem Kishore, and [others]. |
-| kleur | 3.0.3 | Copyright (c) Luke Edwards luke.edwards05@gmail.com (lukeed.com) |
-| lan-network | 0.2.1 | Copyright (c) Phil Pluckthun, |
-| leven | 3.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| lines-and-columns | 1.2.4 | Copyright (c) 2015 Brian Donovan |
-| locate-path | 5.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| lodash.debounce | 4.0.8 | Copyright jQuery Foundation and other contributors https://jquery.org/<br>Copyright and related rights for sample code are waived via CC0. Sample |
-| lodash.throttle | 4.1.1 | Copyright jQuery Foundation and other contributors https://jquery.org/<br>Copyright and related rights for sample code are waived via CC0. Sample |
-| log-symbols | 2.2.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| loose-envify | 1.4.0 | Copyright (c) 2015 Andres Suarez zertosh@gmail.com |
-| make-dir | 4.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| memoize-one | 5.2.1 | Copyright (c) 2019 Alexander Reardon |
-| merge-options | 3.0.4 | Copyright (c) Michael Mayer michael@schnittstabil.de |
-| merge-stream | 2.0.0 | Copyright (c) Stephen Sugden me@stephensugden.com (stephensugden.com) |
-| metro | 0.84.5 | — |
-| metro-babel-transformer | 0.84.5 | — |
-| metro-cache | 0.84.5 | — |
-| metro-cache-key | 0.84.5 | — |
-| metro-config | 0.84.5 | — |
-| metro-core | 0.84.5 | — |
-| metro-file-map | 0.84.5 | — |
-| metro-minify-terser | 0.84.5 | — |
-| metro-resolver | 0.84.5 | — |
-| metro-runtime | 0.84.5 | — |
-| metro-source-map | 0.84.5 | — |
-| metro-symbolicate | 0.84.5 | — |
-| metro-transform-plugins | 0.84.5 | — |
-| metro-transform-worker | 0.84.5 | — |
-| micromatch | 4.0.8 | Copyright (c) 2014-present, Jon Schlinkert. |
-| mime | 1.6.0 | Copyright (c) 2010 Benjamin Thomas, Robert Kieffer |
-| mime-db | 1.52.0 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2015-2022 Douglas Christopher Wilson doug@somethingdoug.com |
-| mime-db | 1.54.0 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2015-2022 Douglas Christopher Wilson doug@somethingdoug.com |
-| mime-types | 2.1.35 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2015 Douglas Christopher Wilson doug@somethingdoug.com |
-| mime-types | 3.0.2 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2015 Douglas Christopher Wilson doug@somethingdoug.com |
-| mimic-fn | 1.2.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| mimic-fn | 2.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| min-indent | 1.0.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com), James Kyle me@thejameskyle.com (thejameskyle.com) |
-| mkdirp | 1.0.4 | Copyright James Halliday (mail@substack.net) and Isaac Z. Schlueter (i@izs.me) |
-| ms | 2.0.0 | Copyright (c) 2016 Zeit, Inc. |
-| ms | 2.1.3 | Copyright (c) 2020 Vercel, Inc. |
-| multitars | 1.0.2 | Copyright (c) Phil Pluckthun,<br>Copyright (c) 650 Industries, Inc. (aka Expo), |
-| nanoid | 3.3.18 | Copyright 2017 Andrey Sitnik andrey@sitnik.ru<br>COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER |
-| natural-compare | 1.4.0 | Copyright Lauri Rooden |
-| negotiator | 0.6.3 | Copyright (c) 2012-2014 Federico Romero<br>Copyright (c) 2012-2014 Isaac Z. Schlueter<br>Copyright (c) 2014-2015 Douglas Christopher Wilson |
-| negotiator | 0.6.4 | Copyright (c) 2012-2014 Federico Romero<br>Copyright (c) 2012-2014 Isaac Z. Schlueter<br>Copyright (c) 2014-2015 Douglas Christopher Wilson |
-| negotiator | 1.0.0 | Copyright (c) 2012-2014 Federico Romero<br>Copyright (c) 2012-2014 Isaac Z. Schlueter<br>Copyright (c) 2014-2015 Douglas Christopher Wilson |
-| node-fetch | 2.7.0 | Copyright (c) 2016 David Frank |
-| node-int64 | 0.4.0 | Copyright (c) 2014 Robert Kieffer |
-| node-releases | 2.0.53 | Copyright (c) 2017 Sergey Rubanov (https://github.com/chicoxyzzy) |
-| normalize-path | 3.0.0 | Copyright (c) 2014-2018, Jon Schlinkert. |
-| npm-run-path | 4.0.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| nullthrows | 1.1.1 | Copyright (c) 2016 Andres Suarez |
-| ob1 | 0.84.5 | — |
-| on-finished | 2.3.0 | Copyright (c) 2013 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2014 Douglas Christopher Wilson doug@somethingdoug.com |
-| on-finished | 2.4.1 | Copyright (c) 2013 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2014 Douglas Christopher Wilson doug@somethingdoug.com |
-| on-headers | 1.1.0 | Copyright (c) 2014 Douglas Christopher Wilson |
-| onetime | 2.0.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| onetime | 5.1.2 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| open | 7.4.2 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| ora | 3.4.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| p-limit | 2.3.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| p-limit | 3.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| p-locate | 4.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| p-try | 2.2.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| parse-json | 5.2.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| parse-png | 2.1.0 | Copyright (c) Kevin Mårtensson kevinmartensson@gmail.com (github.com/kevva) |
-| parseurl | 1.3.3 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2014-2017 Douglas Christopher Wilson doug@somethingdoug.com |
-| path-exists | 4.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| path-is-absolute | 1.0.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| path-key | 3.1.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| path-parse | 1.0.7 | Copyright (c) 2015 Javier Blanco |
-| picomatch | 2.3.2 | Copyright (c) 2017-present, Jon Schlinkert. |
-| picomatch | 4.0.5 | Copyright (c) 2017-present, Jon Schlinkert. |
-| pirates | 4.0.7 | Copyright (c) 2016-2018 Ari Porad |
-| pkg-dir | 4.2.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| plist | 3.1.1 | Copyright (c) 2010-2017 Nathan Rajlich nathan@tootallnate.net |
-| pngjs | 3.4.0 | — |
-| postcss | 8.5.26 | Copyright 2013 Andrey Sitnik andrey@sitnik.es<br>COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER |
-| pretty-format | 29.7.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| pretty-format | 30.5.1 | Copyright (c) Meta Platforms, Inc. and affiliates.<br>Copyright Contributors to the Jest project. |
-| progress | 2.0.3 | Copyright (c) 2017 TJ Holowaychuk tj@vision-media.ca |
-| promise | 8.3.0 | Copyright (c) 2014 Forbes Lindesay |
-| prompts | 2.4.2 | Copyright (c) 2018 Terkel Gjervig Nielsen |
-| proxy-from-env | 1.1.0 | Copyright (C) 2016-2018 Rob Wu rob@robwu.nl<br>COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER |
-| pure-rand | 6.1.0 | Copyright (c) 2018 Nicolas DUBIEN |
-| query-string | 7.1.3 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (http://sindresorhus.com) |
-| range-parser | 1.2.1 | Copyright (c) 2012-2014 TJ Holowaychuk tj@vision-media.ca<br>Copyright (c) 2015-2016 Douglas Christopher Wilson doug@somethingdoug.com |
-| react | 19.2.3 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| react-devtools-core | 6.1.5 | — |
-| react-fast-compare | 3.2.2 | Copyright (c) 2018 Formidable Labs<br>Copyright (c) 2017 Evgeny Poberezkin |
-| react-freeze | 1.0.4 | Copyright (c) 2021 Software Mansion |
-| react-i18next | 17.0.12 | Copyright (c) 2015-present i18next |
-| react-is | 16.13.1 | Copyright (c) Facebook, Inc. and its affiliates. |
-| react-is | 18.3.1 | Copyright (c) Facebook, Inc. and its affiliates. |
-| react-is | 19.2.8 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| react-native | 0.86.3 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| react-native-drawer-layout | 4.2.10 | Copyright (c) 2017 React Native Community |
-| react-native-gesture-handler | 2.32.0 | Copyright (c) 2016 Software Mansion swmansion.com |
-| react-native-is-edge-to-edge | 1.3.1 | Copyright (c) 2024 Mathieu Acthernoene |
-| react-native-purchases | 10.11.0 | Copyright (c) 2023 RevenueCat |
-| react-native-reanimated | 4.5.1 | Copyright (c) 2016 Software Mansion swmansion.com |
-| react-native-safe-area-context | 5.7.0 | Copyright (c) 2019 Th3rd Wave |
-| react-native-screens | 4.26.2 | Copyright (c) 2018 Software Mansion swmansion.com |
-| react-native-svg | 15.15.4 | Copyright (c) [2015-2016] [Horcrux] |
-| react-native-worklets | 0.10.1 | Copyright (c) 2024 nobody |
-| react-refresh | 0.14.2 | Copyright (c) Facebook, Inc. and its affiliates. |
-| react-remove-scroll | 2.7.2 | Copyright (c) 2017 Anton Korzunov |
-| react-remove-scroll-bar | 2.3.8 | Copyright Anton Korzunov |
-| react-style-singleton | 2.2.3 | Copyright (c) 2017 Anton Korzunov |
-| react-test-renderer | 19.2.3 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| redent | 3.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| regenerate | 1.4.2 | Copyright Mathias Bynens |
-| regenerate-unicode-properties | 10.2.2 | Copyright Mathias Bynens |
-| regenerator-runtime | 0.13.11 | Copyright (c) 2014-present, Facebook, Inc. |
-| regexpu-core | 6.4.0 | Copyright Mathias Bynens |
-| regjsgen | 0.8.0 | Copyright Benjamin Tan |
-| require-directory | 2.1.1 | Copyright (c) 2011 Troy Goode troygoode@gmail.com |
-| resolve | 1.22.12 | Copyright (c) 2012 James Halliday |
-| resolve-cwd | 3.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| resolve-from | 5.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| resolve-workspace-root | 2.0.1 | Copyright (c) 2024-present Cedric van Putten me@cedric.dev |
-| resolve.exports | 2.0.3 | Copyright (c) Luke Edwards luke.edwards05@gmail.com (lukeed.com) |
-| restore-cursor | 2.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| safe-buffer | 5.2.1 | Copyright (c) Feross Aboukhadijeh |
-| sandbox-cli-detector | 0.2.0 | Copyright (c) 2026 David Mokos |
-| scheduler | 0.27.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| send | 0.19.2 | Copyright (c) 2012 TJ Holowaychuk<br>Copyright (c) 2014-2022 Douglas Christopher Wilson |
-| serialize-error | 2.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| serve-static | 1.16.3 | Copyright (c) 2010 Sencha Inc.<br>Copyright (c) 2011 LearnBoost<br>Copyright (c) 2011 TJ Holowaychuk<br>Copyright (c) 2014-2016 Douglas Christopher Wilson |
-| server-only | 0.0.1 | — |
-| sf-symbols-typescript | 2.2.0 | Copyright (c) 2023 Fernando Rojo |
-| shallowequal | 1.1.0 | Copyright (c) 2017 Alberto Leal mailforalberto@gmail.com (github.com/dashed) |
-| shebang-command | 2.0.0 | Copyright (c) Kevin Mårtensson kevinmartensson@gmail.com (github.com/kevva) |
-| shebang-regex | 3.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| shell-quote | 1.10.0 | Copyright (c) 2013 James Halliday (mail@substack.net) |
-| simple-plist | 1.3.1 | Copyright (c) 2013 Joe Wollard<br>COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER |
-| simple-swizzle | 0.2.4 | Copyright (c) 2015 Josh Junon |
-| sisteransi | 1.0.5 | Copyright (c) 2018 Terkel Gjervig Nielsen |
-| slash | 3.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| slugify | 1.6.9 | Copyright (c) Simeon Velichkov simeonvelichkov@gmail.com |
-| source-map-support | 0.5.13 | Copyright (c) 2014 Evan Wallace |
-| source-map-support | 0.5.21 | Copyright (c) 2014 Evan Wallace |
-| split-on-first | 1.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| stack-utils | 2.0.6 | Copyright (c) 2016-2022 Isaac Z. Schlueter i@izs.me, James Talmage james@talmage.io (github.com/jamestalmage), and Contributors |
-| stackframe | 1.3.4 | Copyright (c) 2017 Eric Wendelin and other contributors |
-| stacktrace-parser | 0.1.11 | Copyright (c) 2014-2019 Georg Tavonius |
-| standard-navigation | 0.0.5 | Copyright Satyajit Sahoo |
-| statuses | 1.5.0 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com |
-| statuses | 2.0.2 | Copyright (c) 2014 Jonathan Ong me@jongleberry.com<br>Copyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com |
-| strict-uri-encode | 2.0.0 | Copyright (c) Kevin Martensson kevinmartensson@gmail.com (github.com/kevva) |
-| string-length | 4.0.2 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| string-width | 4.2.3 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| strip-ansi | 5.2.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| strip-ansi | 6.0.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| strip-bom | 4.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| strip-final-newline | 2.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| strip-indent | 3.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| strip-json-comments | 3.1.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| structured-headers | 0.4.1 | Copyright Evert Pot |
-| supports-color | 5.5.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| supports-color | 7.2.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| supports-color | 8.1.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| supports-hyperlinks | 2.3.0 | Copyright (c) James Talmage james@talmage.io (github.com/jamestalmage) |
-| supports-preserve-symlinks-flag | 1.0.0 | Copyright (c) 2022 Inspect JS |
-| terminal-link | 2.1.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| throat | 5.0.0 | Copyright (c) 2013 Forbes Lindesay |
-| tinyglobby | 0.2.17 | Copyright (c) 2024 Madeline Gurriarán |
-| to-regex-range | 5.0.1 | Copyright (c) 2015-present, Jon Schlinkert. |
-| toidentifier | 1.0.1 | Copyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com |
-| toqr | 0.1.1 | Copyright (c) Phil Pluckthun,<br>Copyright (c) 650 Industries, Inc. (aka Expo), |
-| tr46 | 0.0.3 | Copyright Sebastian Mayr |
-| type-detect | 4.0.8 | Copyright (c) 2013 Jake Luer jake@alogicalparadox.com (http://alogicalparadox.com) |
-| undici-types | 8.3.0 | Copyright (c) Matteo Collina and Undici contributors |
-| unicode-canonical-property-names-ecmascript | 2.0.1 | Copyright Mathias Bynens |
-| unicode-match-property-ecmascript | 2.0.0 | Copyright Mathias Bynens |
-| unicode-match-property-value-ecmascript | 2.2.1 | Copyright Mathias Bynens |
-| unicode-property-aliases-ecmascript | 2.2.0 | Copyright Mathias Bynens |
-| unpipe | 1.0.0 | Copyright (c) 2015 Douglas Christopher Wilson doug@somethingdoug.com |
-| update-browserslist-db | 1.3.1 | Copyright 2022 Andrey Sitnik andrey@sitnik.es and other contributors<br>COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER |
-| use-callback-ref | 1.3.3 | Copyright (c) 2017 Anton Korzunov |
-| use-deep-compare-effect | 1.8.1 | Copyright (c) 2020 Kent C. Dodds |
-| use-latest-callback | 0.2.6 | Copyright (c) 2023 Satyajit Sahoo |
-| use-sidecar | 1.1.3 | Copyright (c) 2017 Anton Korzunov |
-| use-sync-external-store | 1.6.0 | Copyright (c) Meta Platforms, Inc. and affiliates. |
-| utils-merge | 1.0.1 | Copyright (c) 2013-2017 Jared Hanson<br>COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER |
-| uuid | 7.0.3 | Copyright (c) 2010-2016 Robert Kieffer and other contributors |
-| vary | 1.1.2 | Copyright (c) 2014-2017 Douglas Christopher Wilson |
-| vaul | 1.1.2 | Copyright (c) 2023 Emil Kowalski |
-| vlq | 1.0.1 | Copyright (c) 2017 [these people](https://github.com/Rich-Harris/vlq/graphs/contributors) |
-| warn-once | 0.1.1 | Copyright (c) 2022 Satyajit Sahoo |
-| wcwidth | 1.0.1 | Copyright (C) 2012 by Jun Woong. |
-| whatwg-fetch | 3.6.20 | Copyright (c) 2014-2023 GitHub, Inc. |
-| whatwg-url | 5.0.0 | Copyright (c) 2015–2016 Sebastian Mayr |
-| whatwg-url-minimum | 0.1.2 | Copyright (c) Phil Pluckthun,<br>Copyright (c) 650 Industries, Inc. (aka Expo),<br>Copyright (c) Sebastian Mayr |
-| wrap-ansi | 7.0.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| ws | 7.5.13 | Copyright (c) 2011 Einar Otto Stangvik einaros@gmail.com |
-| ws | 8.21.3 | Copyright (c) 2011 Einar Otto Stangvik einaros@gmail.com<br>Copyright (c) 2013 Arnout Kazemier and contributors<br>Copyright (c) 2016 Luigi Pinca and contributors<br>COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER |
-| xml2js | 0.6.0 | Copyright 2010, 2011, 2012, 2013. All rights reserved. |
-| xmlbuilder | 11.0.1 | Copyright (c) 2013 Ozgur Ozcitak |
-| xmlbuilder | 15.1.1 | Copyright (c) 2013 Ozgur Ozcitak |
-| yargs | 17.7.3 | Copyright 2010 James Halliday (mail@substack.net); Modified work Copyright 2014 Contributors (ben@npmjs.com) |
-| yocto-queue | 0.1.0 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https://sindresorhus.com) |
-| zod | 3.25.76 | Copyright (c) 2025 Colin McDonnell |
-| zod | 4.4.3 | Copyright (c) 2025 Colin McDonnell |
+- **@babel/code-frame 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/compat-data 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/core 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/generator 7.29.8**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-annotate-as-pure 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-compilation-targets 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-create-class-features-plugin 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-create-regexp-features-plugin 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-define-polyfill-provider 0.6.8**
+  - Copyright (c) 2014-present Nicolò Ribaudo and other contributors
+- **@babel/helper-globals 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-member-expression-to-functions 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-module-imports 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-module-transforms 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-optimise-call-expression 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-plugin-utils 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-remap-async-to-generator 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-replace-supers 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-skip-transparent-expression-wrappers 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-string-parser 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-validator-identifier 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-validator-option 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helper-wrap-function 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/helpers 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+  - Copyright (c) 2014-present, Facebook, Inc. (ONLY ./src/helpers/regenerator&#42; files)
+- **@babel/parser 7.29.8**
+  - Copyright (C) 2012-2014 by various contributors (see AUTHORS)
+- **@babel/plugin-proposal-decorators 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-proposal-export-default-from 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-async-generators 7.8.4**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-bigint 7.8.3**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-class-properties 7.12.13**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-class-static-block 7.14.5**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-decorators 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-dynamic-import 7.8.3**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-export-default-from 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-flow 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-import-attributes 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-import-meta 7.10.4**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-json-strings 7.8.3**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-jsx 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-logical-assignment-operators 7.10.4**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-nullish-coalescing-operator 7.8.3**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-numeric-separator 7.10.4**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-object-rest-spread 7.8.3**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-optional-catch-binding 7.8.3**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-optional-chaining 7.8.3**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-private-property-in-object 7.14.5**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-top-level-await 7.14.5**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-syntax-typescript 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-arrow-functions 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-async-generator-functions 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-async-to-generator 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-block-scoping 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-class-properties 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-class-static-block 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-classes 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-destructuring 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-export-namespace-from 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-flow-strip-types 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-for-of 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-logical-assignment-operators 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-modules-commonjs 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-named-capturing-groups-regex 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-nullish-coalescing-operator 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-object-rest-spread 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-optional-catch-binding 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-optional-chaining 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-parameters 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-private-methods 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-private-property-in-object 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-react-display-name 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-react-jsx 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-react-jsx-development 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-react-jsx-self 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-react-jsx-source 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-react-pure-annotations 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-regenerator 7.29.8**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+  - Copyright (c) 2014-present Facebook, Inc.
+- **@babel/plugin-transform-runtime 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-shorthand-properties 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-template-literals 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-typescript 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/plugin-transform-unicode-regex 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/preset-typescript 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/runtime 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/template 7.29.7**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/traverse 7.29.8**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@babel/types 7.29.8**
+  - Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- **@bcoe/v8-coverage 0.2.3**
+  - Copyright © 2015-2017 Charles Samborski
+  - Copyright (c) 2017, Contributors
+- **@egjs/hammerjs 2.0.17**
+  - Copyright (c) 2018-present NAVER Corp.
+  - Copyright (C) 2011-2017 by Jorik Tangelder (Eight Media)
+- **@expo/cli 57.0.24**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/code-signing-certificates 0.0.6**
+  - Copyright (c) 2020-present 650 Industries, Inc. (aka Expo)
+- **@expo/config 57.0.9**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/config-plugins 57.0.9**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/config-types 57.0.2**
+  - Copyright (c) 2020-present 650 Industries, Inc. (aka Expo)
+- **@expo/devcert 1.2.1**
+  - Copyright Dave Wasmer
+- **@expo/devtools 57.0.1**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/dom-webview 57.0.1**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/env 2.4.3**
+  - Copyright (c) 2023-present 650 Industries, Inc. (aka Expo)
+- **@expo/expo-modules-macros-plugin 0.6.1**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/fingerprint 0.20.13**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/image-utils 0.11.5**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/inline-modules 0.1.7**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/json-file 11.0.1**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/local-build-cache-provider 57.0.8**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/log-box 57.0.4**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/metro 56.0.2**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/metro-config 57.0.12**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/metro-file-map 57.0.3**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/metro-runtime 57.0.15**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/osascript 2.7.1**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/package-manager 1.13.1**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/plist 0.8.1**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/prebuild-config 57.0.16**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/require-utils 57.0.5**
+  - Copyright (c) 2025-present 650 Industries, Inc. (aka Expo)
+- **@expo/router-server 57.0.9**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **@expo/schema-utils 57.0.2**
+  - Copyright (c) 2025-present 650 Industries, Inc. (aka Expo)
+- **@expo/sdk-runtime-versions 1.0.0**
+  - Copyright Expo
+- **@expo/spawn-async 1.8.0**
+  - Copyright (c) 2015 650 Industries
+- **@expo/sudo-prompt 9.3.2**
+  - Copyright (c) 2015 Joran Dirk Greef
+- **@expo/ui 57.0.18**
+  - Copyright 650 Industries, Inc.
+- **@expo/vector-icons 15.1.1**
+  - Copyright (c) 2015 Joel Arvidsson
+  - Copyright (c) 2020 650 Industries
+- **@expo/ws-tunnel 2.0.0**
+  - —
+- **@istanbuljs/schema 0.1.6**
+  - Copyright (c) 2019 CFWare, LLC
+- **@jest/console 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/core 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/create-cache-key-function 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/diff-sequences 30.5.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+  - Copyright Contributors to the Jest project.
+- **@jest/environment 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/expect 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/expect-utils 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/fake-timers 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/get-type 30.5.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+  - Copyright Contributors to the Jest project.
+- **@jest/globals 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/reporters 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/schemas 29.6.3**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/schemas 30.5.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+  - Copyright Contributors to the Jest project.
+- **@jest/source-map 29.6.3**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/test-result 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/test-sequencer 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/transform 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jest/types 29.6.3**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **@jridgewell/gen-mapping 0.3.13**
+  - Copyright 2024 Justin Ridgewell &#60;justin@ridgewell.name&#62;
+- **@jridgewell/remapping 2.3.5**
+  - Copyright 2024 Justin Ridgewell &#60;justin@ridgewell.name&#62;
+- **@jridgewell/resolve-uri 3.1.2**
+  - Copyright 2019 Justin Ridgewell &#60;jridgewell@google.com&#62;
+- **@jridgewell/source-map 0.3.11**
+  - Copyright 2024 Justin Ridgewell &#60;justin@ridgewell.name&#62;
+- **@jridgewell/sourcemap-codec 1.5.5**
+  - Copyright 2024 Justin Ridgewell &#60;justin@ridgewell.name&#62;
+- **@jridgewell/trace-mapping 0.3.31**
+  - Copyright 2024 Justin Ridgewell &#60;justin@ridgewell.name&#62;
+- **@radix-ui/primitive 1.1.7**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-collection 1.1.15**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-compose-refs 1.1.5**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-context 1.2.2**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-dialog 1.1.23**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-direction 1.1.4**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-dismissable-layer 1.1.19**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-focus-guards 1.1.6**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-focus-scope 1.1.16**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-id 1.1.4**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-portal 1.1.17**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-presence 1.1.10**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-primitive 2.1.10**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-roving-focus 1.1.19**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-slot 1.3.3**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-tabs 1.1.21**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-use-callback-ref 1.1.4**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-use-controllable-state 1.2.6**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-use-effect-event 0.0.5**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-use-is-hydrated 0.1.3**
+  - Copyright (c) 2022 WorkOS
+- **@radix-ui/react-use-layout-effect 1.1.4**
+  - Copyright (c) 2022 WorkOS
+- **@react-native-async-storage/async-storage 2.2.0**
+  - Copyright (c) 2015-present, Facebook, Inc.
+- **@react-native-community/netinfo 12.0.1**
+  - Copyright (c) 2015-present, Facebook, Inc.
+- **@react-native-google-signin/google-signin 16.1.5**
+  - Copyright (c) 2015 Apptailor
+- **@react-native-masked-view/masked-view 0.3.2**
+  - Copyright (c) 2015-present, Facebook, Inc.
+- **@react-native/assets-registry 0.86.3**
+  - —
+- **@react-native/babel-plugin-codegen 0.86.3**
+  - —
+- **@react-native/babel-preset 0.86.3**
+  - —
+- **@react-native/codegen 0.86.3**
+  - —
+- **@react-native/community-cli-plugin 0.86.3**
+  - —
+- **@react-native/debugger-shell 0.86.3**
+  - —
+- **@react-native/dev-middleware 0.86.3**
+  - —
+- **@react-native/gradle-plugin 0.86.3**
+  - —
+- **@react-native/jest-preset 0.86.3**
+  - —
+- **@react-native/js-polyfills 0.86.3**
+  - —
+- **@react-native/metro-babel-transformer 0.86.3**
+  - —
+- **@react-native/metro-config 0.86.3**
+  - —
+- **@react-native/normalize-colors 0.86.3**
+  - —
+- **@react-native/virtualized-lists 0.86.3**
+  - —
+- **@revenuecat/purchases-js 1.67.1**
+  - Copyright (c) 2023 RevenueCat
+- **@revenuecat/purchases-js-hybrid-mappings 19.5.0**
+  - Copyright RevenueCat, Inc.
+- **@revenuecat/purchases-typescript-internal 19.5.0**
+  - Copyright RevenueCat, Inc.
+- **@sentry-internal/browser-utils 10.37.0**
+  - Copyright (c) 2020 Functional Software, Inc. dba Sentry
+- **@sentry-internal/feedback 10.37.0**
+  - Copyright (c) 2023 Functional Software, Inc. dba Sentry
+- **@sentry-internal/replay 10.37.0**
+  - Copyright (c) 2022 Functional Software, Inc. dba Sentry
+- **@sentry-internal/replay-canvas 10.37.0**
+  - Copyright (c) 2024 Functional Software, Inc. dba Sentry
+- **@sentry/babel-plugin-component-annotate 4.8.0**
+  - Copyright (c) 2024, Sentry
+- **@sentry/browser 10.37.0**
+  - Copyright (c) 2019 Functional Software, Inc. dba Sentry
+- **@sentry/core 10.37.0**
+  - Copyright (c) 2019 Functional Software, Inc. dba Sentry
+- **@sentry/react 10.37.0**
+  - Copyright (c) 2019 Functional Software, Inc. dba Sentry
+- **@sentry/react-native 7.11.0**
+  - Copyright (c) 2017-2024 Sentry
+- **@sentry/types 10.37.0**
+  - Copyright (c) 2019 Functional Software, Inc. dba Sentry
+- **@sinclair/typebox 0.27.12**
+  - Copyright (c) 2017-2023 Haydn Paterson (sinclair) &#60;haydn.developer@gmail.com&#62;
+- **@sinclair/typebox 0.34.52**
+  - Copyright (c) 2017-2026 Haydn Paterson
+- **@supabase/auth-js 2.112.4**
+  - Copyright (c) 2020 Supabase
+- **@supabase/functions-js 2.112.4**
+  - Copyright (c) 2020 Supabase
+- **@supabase/phoenix 0.4.5**
+  - Copyright (c) 2014 Chris McCord
+- **@supabase/postgrest-js 2.112.4**
+  - Copyright (c) 2020 Supabase
+- **@supabase/realtime-js 2.112.4**
+  - Copyright (c) 2020 Supabase
+- **@supabase/storage-js 2.112.4**
+  - Copyright (c) 2020 Supabase
+- **@supabase/supabase-js 2.112.4**
+  - Copyright (c) 2020 Supabase
+- **@tanstack/query-core 5.102.2**
+  - Copyright (c) 2021-present Tanner Linsley
+- **@tanstack/react-query 5.102.2**
+  - Copyright (c) 2021-present Tanner Linsley
+- **@testing-library/react-native 13.3.3**
+  - Copyright (c) 2018 Callstack and Rally Health
+- **@types/babel&#95;&#95;core 7.20.5**
+  - Copyright (c) Microsoft Corporation.
+- **@types/babel&#95;&#95;generator 7.27.0**
+  - Copyright (c) Microsoft Corporation.
+- **@types/babel&#95;&#95;template 7.4.4**
+  - Copyright (c) Microsoft Corporation.
+- **@types/babel&#95;&#95;traverse 7.28.0**
+  - Copyright (c) Microsoft Corporation.
+- **@types/graceful-fs 4.1.9**
+  - Copyright (c) Microsoft Corporation.
+- **@types/hammerjs 2.0.46**
+  - Copyright (c) Microsoft Corporation.
+- **@types/istanbul-lib-coverage 2.0.6**
+  - Copyright (c) Microsoft Corporation.
+- **@types/istanbul-lib-report 3.0.3**
+  - Copyright (c) Microsoft Corporation.
+- **@types/istanbul-reports 3.0.4**
+  - Copyright (c) Microsoft Corporation.
+- **@types/node 26.2.0**
+  - Copyright (c) Microsoft Corporation.
+- **@types/react 19.2.18**
+  - Copyright (c) Microsoft Corporation.
+- **@types/react-test-renderer 19.1.0**
+  - Copyright (c) Microsoft Corporation.
+- **@types/stack-utils 2.0.3**
+  - Copyright (c) Microsoft Corporation.
+- **@types/yargs 17.0.35**
+  - Copyright (c) Microsoft Corporation.
+- **@types/yargs-parser 21.0.3**
+  - Copyright (c) Microsoft Corporation.
+- **@xmldom/xmldom 0.8.14**
+  - Copyright 2019 - present Christopher J. Brody and other contributors, as listed in: https://github.com/xmldom/xmldom/graphs/contributors
+  - Copyright 2012 - 2017 @jindw &#60;jindw@xidea.org&#62; and other contributors, as listed in: https://github.com/jindw/xmldom/graphs/contributors
+- **@xmldom/xmldom 0.9.11**
+  - Copyright 2019 - present Christopher J. Brody and other contributors, as listed in: https://github.com/xmldom/xmldom/graphs/contributors
+  - Copyright 2012 - 2017 @jindw &#60;jindw@xidea.org&#62; and other contributors, as listed in: https://github.com/jindw/xmldom/graphs/contributors
+- **abort-controller 3.0.0**
+  - Copyright (c) 2017 Toru Nagashima
+- **accepts 1.3.8**
+  - Copyright (c) 2014 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2015 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **accepts 2.0.0**
+  - Copyright (c) 2014 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2015 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **acorn 8.18.0**
+  - Copyright (C) 2012-2022 by various contributors (see AUTHORS)
+- **agent-base 6.0.2**
+  - Copyright Nathan Rajlich
+- **agent-base 7.1.4**
+  - Copyright (c) 2013 Nathan Rajlich &#60;nathan@tootallnate.net&#62;
+- **agent-cli-detector 0.1.7**
+  - Copyright (c) 2026 David Mokos
+- **anser 1.4.10**
+  - Copyright (c) 2012-20 Ionică Bizău &#60;bizauionica@gmail.com&#62; (https://ionicabizau.net)
+- **ansi-escapes 4.3.2**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **ansi-regex 4.1.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **ansi-regex 5.0.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **ansi-styles 3.2.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **ansi-styles 4.3.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **ansi-styles 5.2.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **arg 5.0.2**
+  - Copyright (c) 2021 Vercel, Inc.
+- **argparse 1.0.10**
+  - Copyright (C) 2012 by Vitaly Puzrin
+- **aria-hidden 1.2.6**
+  - Copyright (c) 2017 Anton Korzunov
+- **asap 2.0.6**
+  - Copyright 2009–2014 Contributors. All rights reserved.
+- **babel-jest 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **babel-plugin-jest-hoist 29.6.3**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **babel-plugin-polyfill-corejs2 0.4.17**
+  - Copyright (c) 2014-present Nicolò Ribaudo and other contributors
+- **babel-plugin-polyfill-corejs3 0.13.0**
+  - Copyright (c) 2014-present Nicolò Ribaudo and other contributors
+- **babel-plugin-polyfill-regenerator 0.6.8**
+  - Copyright (c) 2014-present Nicolò Ribaudo and other contributors
+- **babel-plugin-react-compiler 1.0.0**
+  - —
+- **babel-plugin-react-native-web 0.21.2**
+  - Copyright (c) Nicolas Gallagher.
+- **babel-plugin-syntax-hermes-parser 0.36.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **babel-plugin-syntax-hermes-parser 0.36.1**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **babel-plugin-transform-flow-enums 0.0.2**
+  - Copyright (c) Facebook, Inc. and its affiliates.
+- **babel-preset-current-node-syntax 1.2.0**
+  - Copyright (c) 2020 Nicolò Ribaudo and other contributors
+- **babel-preset-expo 57.0.11**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **babel-preset-jest 29.6.3**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **balanced-match 1.0.2**
+  - Copyright (c) 2013 Julian Gruber &#38;lt;julian@juliangruber.com&#38;gt;
+- **balanced-match 4.0.4**
+  - —
+- **base64-js 1.5.1**
+  - Copyright (c) 2014 Jameson Little
+- **bplist-creator 0.1.0**
+  - Copyright (c) 2012 Near Infinity Corporation
+- **bplist-parser 0.3.1**
+  - Copyright Joe Ferner
+- **bplist-parser 0.3.2**
+  - Copyright Joe Ferner
+- **brace-expansion 1.1.18**
+  - Copyright (c) 2013 Julian Gruber &#60;julian@juliangruber.com&#62;
+- **brace-expansion 5.0.9**
+  - Copyright Julian Gruber &#60;julian@juliangruber.com&#62;
+- **braces 3.0.3**
+  - Copyright (c) 2014-present, Jon Schlinkert.
+- **browserslist 4.28.8**
+  - Copyright 2014 Andrey Sitnik &#60;andrey@sitnik.es&#62; and other contributors
+- **buffer-from 1.1.2**
+  - Copyright (c) 2016, 2018 Linus Unnebäck
+- **bytes 3.1.2**
+  - Copyright (c) 2012-2014 TJ Holowaychuk &#60;tj@vision-media.ca&#62;
+  - Copyright (c) 2015 Jed Watson &#60;jed.watson@me.com&#62;
+- **callsites 3.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **camelcase 5.3.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **camelcase 6.3.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **chalk 2.4.2**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **chalk 4.1.2**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **char-regex 1.0.2**
+  - Copyright (c) 2019 Richie Bendall
+- **ci-info 2.0.0**
+  - Copyright (c) 2016-2018 Thomas Watson Steen
+- **ci-info 3.9.0**
+  - Copyright (c) 2016 Thomas Watson Steen
+- **cjs-module-lexer 1.4.3**
+  - Copyright (C) 2018-2020 Guy Bedford
+- **cli-cursor 2.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **cli-spinners 2.9.2**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **client-only 0.0.1**
+  - —
+- **clone 1.0.4**
+  - Copyright © 2011-2015 Paul Vorbach &#60;paul@vorba.ch&#62;
+- **co 4.6.0**
+  - Copyright (c) 2014 TJ Holowaychuk &#38;lt;tj@vision-media.ca&#38;gt;
+- **collect-v8-coverage 1.0.3**
+  - Copyright (c) 2019 Simen Bekkhus
+- **color 4.2.3**
+  - Copyright (c) 2012 Heather Arthur
+- **color-convert 1.9.3**
+  - Copyright (c) 2011-2016 Heather Arthur &#60;fayearthur@gmail.com&#62;
+- **color-convert 2.0.1**
+  - Copyright (c) 2011-2016 Heather Arthur &#60;fayearthur@gmail.com&#62;
+- **color-name 1.1.3**
+  - Copyright (c) 2015 Dmitry Ivanov
+- **color-name 1.1.4**
+  - Copyright (c) 2015 Dmitry Ivanov
+- **color-string 1.9.1**
+  - Copyright (c) 2011 Heather Arthur &#60;fayearthur@gmail.com&#62;
+- **commander 2.20.3**
+  - Copyright (c) 2011 TJ Holowaychuk &#60;tj@vision-media.ca&#62;
+- **commander 7.2.0**
+  - Copyright (c) 2011 TJ Holowaychuk &#60;tj@vision-media.ca&#62;
+- **commander 12.1.0**
+  - Copyright (c) 2011 TJ Holowaychuk &#60;tj@vision-media.ca&#62;
+- **compressible 2.0.18**
+  - Copyright (c) 2013 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2014 Jeremiah Senkpiel &#60;fishrock123@rocketmail.com&#62;
+  - Copyright (c) 2015 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **compression 1.8.1**
+  - Copyright (c) 2014 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2014-2015 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **concat-map 0.0.1**
+  - Copyright James Halliday
+- **connect 3.7.0**
+  - Copyright (c) 2010 Sencha Inc.
+  - Copyright (c) 2011 LearnBoost
+  - Copyright (c) 2011-2014 TJ Holowaychuk
+  - Copyright (c) 2015 Douglas Christopher Wilson
+- **convert-source-map 2.0.0**
+  - Copyright 2013 Thorsten Lorenz.
+- **core-js-compat 3.50.0**
+  - Copyright (c) 2013–2025 Denis Pushkarev (zloirock.ru)
+  - Copyright (c) 2025–2026 CoreJS Company (core-js.io)
+- **create-jest 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **cross-spawn 7.0.6**
+  - Copyright (c) 2018 Made With MOXY Lda &#60;hello@moxy.studio&#62;
+- **css-tree 1.1.3**
+  - Copyright (C) 2016-2019 by Roman Dvornov
+- **csstype 3.2.3**
+  - Copyright (c) 2017-2018 Fredrik Nicol
+- **debug 2.6.9**
+  - Copyright (c) 2014 TJ Holowaychuk &#60;tj@vision-media.ca&#62;
+- **debug 3.2.7**
+  - Copyright (c) 2014 TJ Holowaychuk &#60;tj@vision-media.ca&#62;
+- **debug 4.4.3**
+  - Copyright (c) 2014-2017 TJ Holowaychuk &#60;tj@vision-media.ca&#62;
+  - Copyright (c) 2018-2021 Josh Junon
+- **decode-uri-component 0.2.2**
+  - Copyright (c) 2017, Sam Verschueren &#60;sam.verschueren@gmail.com&#62; (github.com/SamVerschueren)
+- **dedent 1.7.2**
+  - Copyright Desmond Brand
+- **deepmerge 4.3.1**
+  - Copyright (c) 2012 James Halliday, Josh Duff, and other contributors
+- **defaults 1.0.4**
+  - Copyright (c) 2022 Sindre Sorhus
+  - Copyright (c) 2015 Elijah Insua
+- **depd 2.0.0**
+  - Copyright (c) 2014-2018 Douglas Christopher Wilson
+- **dequal 2.0.3**
+  - Copyright (c) Luke Edwards &#60;luke.edwards05@gmail.com&#62; (lukeed.com)
+- **destroy 1.2.0**
+  - Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+  - Copyright (c) 2015-2022 Douglas Christopher Wilson doug@somethingdoug.com
+- **detect-newline 3.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **detect-node-es 1.1.0**
+  - Copyright (c) 2017 Ilya Kantor
+- **diff-sequences 29.6.3**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **dnssd-advertise 1.1.6**
+  - Copyright (c) Phil Pluckthun,
+  - Copyright (c) 650 Industries, Inc. (aka Expo),
+- **dom-serializer 2.0.0**
+  - Copyright (c) 2014 The cheeriojs contributors
+- **ee-first 1.1.1**
+  - Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+- **emittery 0.13.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **emoji-regex 8.0.0**
+  - Copyright Mathias Bynens &#60;https://mathiasbynens.be/&#62;
+- **encodeurl 1.0.2**
+  - Copyright (c) 2016 Douglas Christopher Wilson
+- **encodeurl 2.0.0**
+  - Copyright (c) 2016 Douglas Christopher Wilson
+- **error-ex 1.3.4**
+  - Copyright (c) 2015 JD Ballard
+- **error-stack-parser 2.1.4**
+  - Copyright (c) 2017 Eric Wendelin and other contributors
+- **es-errors 1.3.0**
+  - Copyright (c) 2024 Jordan Harband
+- **escalade 3.2.0**
+  - Copyright (c) Luke Edwards &#60;luke.edwards05@gmail.com&#62; (lukeed.com)
+- **escape-html 1.0.3**
+  - Copyright (c) 2012-2013 TJ Holowaychuk
+  - Copyright (c) 2015 Andreas Lubbe
+  - Copyright (c) 2015 Tiancheng "Timothy" Gu
+- **escape-string-regexp 1.0.5**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **escape-string-regexp 2.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **escape-string-regexp 4.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **etag 1.8.1**
+  - Copyright (c) 2014-2016 Douglas Christopher Wilson
+- **event-target-shim 5.0.1**
+  - Copyright (c) 2015 Toru Nagashima
+- **execa 5.1.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **exit 0.1.2**
+  - Copyright (c) 2013 "Cowboy" Ben Alman
+- **expect 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **expo 57.0.22**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-apple-authentication 57.0.2**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-application 57.0.3**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-asset 57.0.17**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-audio 57.0.5**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-build-properties 57.0.22**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-constants 57.0.18**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-crypto 57.0.3**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-dev-client 57.0.19**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-dev-launcher 57.0.20**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-dev-menu 57.0.18**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-dev-menu-interface 57.0.0**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-file-system 57.0.7**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-font 57.0.4**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-glass-effect 57.0.3**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-haptics 57.0.3**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-image 57.0.5**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-json-utils 57.0.2**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-keep-awake 57.0.2**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-linear-gradient 57.0.2**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-linking 57.0.10**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-localization 57.0.2**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-manifests 57.0.2**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-modules-autolinking 57.0.13**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-modules-core 57.0.18**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-modules-jsi 57.1.0**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-router 57.0.21**
+  - Copyright 650 Industries, Inc.
+- **expo-secure-store 57.0.4**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-server 57.0.3**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-splash-screen 57.0.9**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-status-bar 57.0.1**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-symbols 57.0.3**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-system-ui 57.0.4**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-updates-interface 57.0.2**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **expo-web-browser 57.0.3**
+  - Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+- **fast-deep-equal 3.1.3**
+  - Copyright (c) 2017 Evgeny Poberezkin
+- **fast-json-stable-stringify 2.1.0**
+  - Copyright (c) 2017 Evgeny Poberezkin
+  - Copyright (c) 2013 James Halliday
+- **fdir 6.5.0**
+  - Copyright 2023 Abdullah Atta
+- **fetch-nodeshim 0.4.10**
+  - Copyright (c) Phil Pluckthun,
+  - Copyright (c) 650 Industries, Inc. (aka Expo),
+  - Copyright (c) 2016 - 2020 Node Fetch Team,
+  - Copyright (c) Remix Software Inc. 2020-2021,
+  - Copyright (c) Shopify Inc. 2022-2024
+- **fill-range 7.1.1**
+  - Copyright (c) 2014-present, Jon Schlinkert.
+- **filter-obj 1.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **finalhandler 1.1.2**
+  - Copyright (c) 2014-2017 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **find-up 4.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **flow-enums-runtime 0.0.6**
+  - Copyright (c) Facebook, Inc. and its affiliates.
+- **fresh 0.5.2**
+  - Copyright (c) 2012 TJ Holowaychuk &#60;tj@vision-media.ca&#62;
+  - Copyright (c) 2016-2017 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **function-bind 1.1.2**
+  - Copyright (c) 2013 Raynos.
+- **gensync 1.0.0-beta.2**
+  - Copyright 2018 Logan Smyth &#60;loganfsmyth@gmail.com&#62;
+- **get-nonce 1.0.1**
+  - Copyright (c) 2020 Anton Korzunov
+- **get-package-type 0.1.0**
+  - Copyright (c) 2020 CFWare, LLC
+- **get-stream 6.0.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **getenv 2.0.0**
+  - Copyright (c) 2012-2019 Christoph Tavan &#60;dev@tavan.de&#62;
+- **has-flag 3.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **has-flag 4.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **hasown 2.0.4**
+  - Copyright (c) Jordan Harband and contributors
+- **hermes-compiler 250829098.0.17**
+  - —
+- **hermes-estree 0.35.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **hermes-estree 0.36.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **hermes-estree 0.36.1**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **hermes-parser 0.35.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **hermes-parser 0.36.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **hermes-parser 0.36.1**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **html-escaper 2.0.2**
+  - Copyright (C) 2017-present by Andrea Giammarchi - @WebReflection
+- **html-parse-stringify 4.0.1**
+  - Copyright (c) 2025 Henrik Joreteg &#60;henrik@joreteg.com&#62;
+  - Copyright (c) 2026-present i18next (https://github.com/i18next)
+- **http-errors 2.0.1**
+  - Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+  - Copyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com
+- **https-proxy-agent 5.0.1**
+  - Copyright Nathan Rajlich
+- **https-proxy-agent 7.0.6**
+  - Copyright (c) 2013 Nathan Rajlich &#60;nathan@tootallnate.net&#62;
+- **i18next 26.4.0**
+  - Copyright (c) 2011-present i18next
+- **iceberg-js 0.8.1**
+  - Copyright (c) 2025 Supabase
+- **ignore 5.3.2**
+  - Copyright (c) 2013 Kael Zhang &#60;i@kael.me&#62;, contributors
+- **import-local 3.2.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **imurmurhash 0.1.4**
+  - Copyright Jens Taylor
+- **indent-string 4.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **invariant 2.2.4**
+  - Copyright (c) 2013-present, Facebook, Inc.
+- **is-arrayish 0.2.1**
+  - Copyright (c) 2015 JD Ballard
+- **is-arrayish 0.3.4**
+  - Copyright (c) 2015 JD Ballard
+- **is-core-module 2.16.2**
+  - Copyright (c) 2014 Dave Justice
+- **is-docker 2.2.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **is-fullwidth-code-point 3.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **is-generator-fn 2.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **is-number 7.0.0**
+  - Copyright (c) 2014-present, Jon Schlinkert.
+- **is-plain-obj 2.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **is-stream 2.0.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **is-wsl 2.2.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **jest 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-changed-files 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-circus 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-cli 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-config 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-diff 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-diff 30.5.1**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+  - Copyright Contributors to the Jest project.
+- **jest-docblock 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-each 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-environment-node 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-get-type 29.6.3**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-haste-map 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-leak-detector 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-matcher-utils 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-matcher-utils 30.5.1**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+  - Copyright Contributors to the Jest project.
+- **jest-message-util 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-mock 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-pnp-resolver 1.2.3**
+  - —
+- **jest-regex-util 29.6.3**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-resolve 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-resolve-dependencies 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-runner 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-runtime 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-snapshot 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-util 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-validate 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-watcher 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jest-worker 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **jimp-compact 0.16.1**
+  - —
+- **js-tokens 4.0.0**
+  - Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell
+- **js-yaml 3.15.1**
+  - Copyright (C) 2011-2015 by Vitaly Puzrin
+- **js-yaml 4.3.1**
+  - Copyright (C) 2011-2015 by Vitaly Puzrin
+- **jsesc 3.1.0**
+  - Copyright Mathias Bynens &#60;https://mathiasbynens.be/&#62;
+- **json-parse-even-better-errors 2.3.1**
+  - Copyright 2017 Kat Marchán
+  - Copyright npm, Inc.
+- **json5 2.2.3**
+  - Copyright (c) 2012-2018 Aseem Kishore, and &#91;others&#93;.
+- **kleur 3.0.3**
+  - Copyright (c) Luke Edwards &#60;luke.edwards05@gmail.com&#62; (lukeed.com)
+- **lan-network 0.2.1**
+  - Copyright (c) Phil Pluckthun,
+- **leven 3.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **lines-and-columns 1.2.4**
+  - Copyright (c) 2015 Brian Donovan
+- **locate-path 5.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **lodash.debounce 4.0.8**
+  - Copyright jQuery Foundation and other contributors &#60;https://jquery.org/&#62;
+- **lodash.throttle 4.1.1**
+  - Copyright jQuery Foundation and other contributors &#60;https://jquery.org/&#62;
+- **log-symbols 2.2.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **loose-envify 1.4.0**
+  - Copyright (c) 2015 Andres Suarez &#60;zertosh@gmail.com&#62;
+- **make-dir 4.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **memoize-one 5.2.1**
+  - Copyright (c) 2019 Alexander Reardon
+- **merge-options 3.0.4**
+  - Copyright (c) Michael Mayer &#60;michael@schnittstabil.de&#62;
+- **merge-stream 2.0.0**
+  - Copyright (c) Stephen Sugden &#60;me@stephensugden.com&#62; (stephensugden.com)
+- **metro 0.84.5**
+  - —
+- **metro-babel-transformer 0.84.5**
+  - —
+- **metro-cache 0.84.5**
+  - —
+- **metro-cache-key 0.84.5**
+  - —
+- **metro-config 0.84.5**
+  - —
+- **metro-core 0.84.5**
+  - —
+- **metro-file-map 0.84.5**
+  - —
+- **metro-minify-terser 0.84.5**
+  - —
+- **metro-resolver 0.84.5**
+  - —
+- **metro-runtime 0.84.5**
+  - —
+- **metro-source-map 0.84.5**
+  - —
+- **metro-symbolicate 0.84.5**
+  - —
+- **metro-transform-plugins 0.84.5**
+  - —
+- **metro-transform-worker 0.84.5**
+  - —
+- **micromatch 4.0.8**
+  - Copyright (c) 2014-present, Jon Schlinkert.
+- **mime 1.6.0**
+  - Copyright (c) 2010 Benjamin Thomas, Robert Kieffer
+- **mime-db 1.52.0**
+  - Copyright (c) 2014 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2015-2022 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **mime-db 1.54.0**
+  - Copyright (c) 2014 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2015-2022 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **mime-types 2.1.35**
+  - Copyright (c) 2014 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2015 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **mime-types 3.0.2**
+  - Copyright (c) 2014 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2015 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **mimic-fn 1.2.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **mimic-fn 2.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **min-indent 1.0.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com), James Kyle &#60;me@thejameskyle.com&#62; (thejameskyle.com)
+- **mkdirp 1.0.4**
+  - Copyright James Halliday (mail@substack.net) and Isaac Z. Schlueter (i@izs.me)
+- **ms 2.0.0**
+  - Copyright (c) 2016 Zeit, Inc.
+- **ms 2.1.3**
+  - Copyright (c) 2020 Vercel, Inc.
+- **multitars 1.0.2**
+  - Copyright (c) Phil Pluckthun,
+  - Copyright (c) 650 Industries, Inc. (aka Expo),
+- **nanoid 3.3.18**
+  - Copyright 2017 Andrey Sitnik &#60;andrey@sitnik.ru&#62;
+- **natural-compare 1.4.0**
+  - Copyright Lauri Rooden
+- **negotiator 0.6.3**
+  - Copyright (c) 2012-2014 Federico Romero
+  - Copyright (c) 2012-2014 Isaac Z. Schlueter
+  - Copyright (c) 2014-2015 Douglas Christopher Wilson
+- **negotiator 0.6.4**
+  - Copyright (c) 2012-2014 Federico Romero
+  - Copyright (c) 2012-2014 Isaac Z. Schlueter
+  - Copyright (c) 2014-2015 Douglas Christopher Wilson
+- **negotiator 1.0.0**
+  - Copyright (c) 2012-2014 Federico Romero
+  - Copyright (c) 2012-2014 Isaac Z. Schlueter
+  - Copyright (c) 2014-2015 Douglas Christopher Wilson
+- **node-fetch 2.7.0**
+  - Copyright (c) 2016 David Frank
+- **node-int64 0.4.0**
+  - Copyright (c) 2014 Robert Kieffer
+- **node-releases 2.0.53**
+  - Copyright (c) 2017 Sergey Rubanov (https://github.com/chicoxyzzy)
+- **normalize-path 3.0.0**
+  - Copyright (c) 2014-2018, Jon Schlinkert.
+- **npm-run-path 4.0.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **nullthrows 1.1.1**
+  - Copyright (c) 2016 Andres Suarez
+- **ob1 0.84.5**
+  - —
+- **on-finished 2.3.0**
+  - Copyright (c) 2013 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2014 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **on-finished 2.4.1**
+  - Copyright (c) 2013 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2014 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **on-headers 1.1.0**
+  - Copyright (c) 2014 Douglas Christopher Wilson
+- **onetime 2.0.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **onetime 5.1.2**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **open 7.4.2**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **ora 3.4.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **p-limit 2.3.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **p-limit 3.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **p-locate 4.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **p-try 2.2.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **parse-json 5.2.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **parse-png 2.1.0**
+  - Copyright (c) Kevin Mårtensson &#60;kevinmartensson@gmail.com&#62; (github.com/kevva)
+- **parseurl 1.3.3**
+  - Copyright (c) 2014 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2014-2017 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **path-exists 4.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **path-is-absolute 1.0.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **path-key 3.1.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **path-parse 1.0.7**
+  - Copyright (c) 2015 Javier Blanco
+- **picomatch 2.3.2**
+  - Copyright (c) 2017-present, Jon Schlinkert.
+- **picomatch 4.0.5**
+  - Copyright (c) 2017-present, Jon Schlinkert.
+- **pirates 4.0.7**
+  - Copyright (c) 2016-2018 Ari Porad
+- **pkg-dir 4.2.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **plist 3.1.1**
+  - Copyright (c) 2010-2017 Nathan Rajlich &#60;nathan@tootallnate.net&#62;
+- **pngjs 3.4.0**
+  - —
+- **postcss 8.5.26**
+  - Copyright 2013 Andrey Sitnik &#60;andrey@sitnik.es&#62;
+- **pretty-format 29.7.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **pretty-format 30.5.1**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+  - Copyright Contributors to the Jest project.
+- **progress 2.0.3**
+  - Copyright (c) 2017 TJ Holowaychuk &#60;tj@vision-media.ca&#62;
+- **promise 8.3.0**
+  - Copyright (c) 2014 Forbes Lindesay
+- **prompts 2.4.2**
+  - Copyright (c) 2018 Terkel Gjervig Nielsen
+- **proxy-from-env 1.1.0**
+  - Copyright (C) 2016-2018 Rob Wu &#60;rob@robwu.nl&#62;
+- **pure-rand 6.1.0**
+  - Copyright (c) 2018 Nicolas DUBIEN
+- **query-string 7.1.3**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (http://sindresorhus.com)
+- **range-parser 1.2.1**
+  - Copyright (c) 2012-2014 TJ Holowaychuk &#60;tj@vision-media.ca&#62;
+  - Copyright (c) 2015-2016 Douglas Christopher Wilson &#60;doug@somethingdoug.com
+- **react 19.2.3**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **react-devtools-core 6.1.5**
+  - —
+- **react-fast-compare 3.2.2**
+  - Copyright (c) 2018 Formidable Labs
+  - Copyright (c) 2017 Evgeny Poberezkin
+- **react-freeze 1.0.4**
+  - Copyright (c) 2021 Software Mansion
+- **react-i18next 17.0.12**
+  - Copyright (c) 2015-present i18next
+- **react-is 16.13.1**
+  - Copyright (c) Facebook, Inc. and its affiliates.
+- **react-is 18.3.1**
+  - Copyright (c) Facebook, Inc. and its affiliates.
+- **react-is 19.2.8**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **react-native 0.86.3**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **react-native-drawer-layout 4.2.10**
+  - Copyright (c) 2017 React Native Community
+- **react-native-gesture-handler 2.32.0**
+  - Copyright (c) 2016 Software Mansion &#60;swmansion.com&#62;
+- **react-native-is-edge-to-edge 1.3.1**
+  - Copyright (c) 2024 Mathieu Acthernoene
+- **react-native-purchases 10.11.0**
+  - Copyright (c) 2023 RevenueCat
+- **react-native-reanimated 4.5.1**
+  - Copyright (c) 2016 Software Mansion &#60;swmansion.com&#62;
+- **react-native-safe-area-context 5.7.0**
+  - Copyright (c) 2019 Th3rd Wave
+- **react-native-screens 4.26.2**
+  - Copyright (c) 2018 Software Mansion &#60;swmansion.com&#62;
+- **react-native-svg 15.15.4**
+  - Copyright (c) &#91;2015-2016&#93; &#91;Horcrux&#93;
+- **react-native-worklets 0.10.1**
+  - Copyright (c) 2024 nobody
+- **react-refresh 0.14.2**
+  - Copyright (c) Facebook, Inc. and its affiliates.
+- **react-remove-scroll 2.7.2**
+  - Copyright (c) 2017 Anton Korzunov
+- **react-remove-scroll-bar 2.3.8**
+  - Copyright Anton Korzunov
+- **react-style-singleton 2.2.3**
+  - Copyright (c) 2017 Anton Korzunov
+- **react-test-renderer 19.2.3**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **redent 3.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **regenerate 1.4.2**
+  - Copyright Mathias Bynens &#60;https://mathiasbynens.be/&#62;
+- **regenerate-unicode-properties 10.2.2**
+  - Copyright Mathias Bynens &#60;https://mathiasbynens.be/&#62;
+- **regenerator-runtime 0.13.11**
+  - Copyright (c) 2014-present, Facebook, Inc.
+- **regexpu-core 6.4.0**
+  - Copyright Mathias Bynens &#60;https://mathiasbynens.be/&#62;
+- **regjsgen 0.8.0**
+  - Copyright 2014-2020 Benjamin Tan &#60;https://ofcr.se/&#62;
+- **require-directory 2.1.1**
+  - Copyright (c) 2011 Troy Goode &#60;troygoode@gmail.com&#62;
+- **resolve 1.22.12**
+  - Copyright (c) 2012 James Halliday
+- **resolve-cwd 3.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **resolve-from 5.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **resolve-workspace-root 2.0.1**
+  - Copyright (c) 2024-present Cedric van Putten &#60;me@cedric.dev&#62;
+- **resolve.exports 2.0.3**
+  - Copyright (c) Luke Edwards &#60;luke.edwards05@gmail.com&#62; (lukeed.com)
+- **restore-cursor 2.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **safe-buffer 5.2.1**
+  - Copyright (c) Feross Aboukhadijeh
+- **sandbox-cli-detector 0.2.0**
+  - Copyright (c) 2026 David Mokos
+- **scheduler 0.27.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **send 0.19.2**
+  - Copyright (c) 2012 TJ Holowaychuk
+  - Copyright (c) 2014-2022 Douglas Christopher Wilson
+- **serialize-error 2.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **serve-static 1.16.3**
+  - Copyright (c) 2010 Sencha Inc.
+  - Copyright (c) 2011 LearnBoost
+  - Copyright (c) 2011 TJ Holowaychuk
+  - Copyright (c) 2014-2016 Douglas Christopher Wilson
+- **server-only 0.0.1**
+  - —
+- **sf-symbols-typescript 2.2.0**
+  - Copyright (c) 2023 Fernando Rojo
+- **shallowequal 1.1.0**
+  - Copyright (c) 2017 Alberto Leal &#60;mailforalberto@gmail.com&#62; (github.com/dashed)
+- **shebang-command 2.0.0**
+  - Copyright (c) Kevin Mårtensson &#60;kevinmartensson@gmail.com&#62; (github.com/kevva)
+- **shebang-regex 3.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **shell-quote 1.10.0**
+  - Copyright (c) 2013 James Halliday (mail@substack.net)
+- **simple-plist 1.3.1**
+  - Copyright (c) 2013 Joe Wollard
+- **simple-swizzle 0.2.4**
+  - Copyright (c) 2015 Josh Junon
+- **sisteransi 1.0.5**
+  - Copyright (c) 2018 Terkel Gjervig Nielsen
+- **slash 3.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **slugify 1.6.9**
+  - Copyright (c) Simeon Velichkov &#60;simeonvelichkov@gmail.com&#62;
+- **source-map-support 0.5.13**
+  - Copyright (c) 2014 Evan Wallace
+- **source-map-support 0.5.21**
+  - Copyright (c) 2014 Evan Wallace
+- **split-on-first 1.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **stack-utils 2.0.6**
+  - Copyright (c) 2016-2022 Isaac Z. Schlueter &#60;i@izs.me&#62;, James Talmage &#60;james@talmage.io&#62; (github.com/jamestalmage), and Contributors
+- **stackframe 1.3.4**
+  - Copyright (c) 2017 Eric Wendelin and other contributors
+- **stacktrace-parser 0.1.11**
+  - Copyright (c) 2014-2019 Georg Tavonius
+- **standard-navigation 0.0.5**
+  - Copyright Satyajit Sahoo
+- **statuses 1.5.0**
+  - Copyright (c) 2014 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2016 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **statuses 2.0.2**
+  - Copyright (c) 2014 Jonathan Ong &#60;me@jongleberry.com&#62;
+  - Copyright (c) 2016 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **strict-uri-encode 2.0.0**
+  - Copyright (c) Kevin Martensson &#60;kevinmartensson@gmail.com&#62; (github.com/kevva)
+- **string-length 4.0.2**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **string-width 4.2.3**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **strip-ansi 5.2.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **strip-ansi 6.0.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **strip-bom 4.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **strip-final-newline 2.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **strip-indent 3.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **strip-json-comments 3.1.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **structured-headers 0.4.1**
+  - Copyright Evert Pot
+- **supports-color 5.5.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **supports-color 7.2.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **supports-color 8.1.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **supports-hyperlinks 2.3.0**
+  - Copyright (c) James Talmage &#60;james@talmage.io&#62; (github.com/jamestalmage)
+- **supports-preserve-symlinks-flag 1.0.0**
+  - Copyright (c) 2022 Inspect JS
+- **terminal-link 2.1.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **throat 5.0.0**
+  - Copyright (c) 2013 Forbes Lindesay
+- **tinyglobby 0.2.17**
+  - Copyright (c) 2024 Madeline Gurriarán
+- **to-regex-range 5.0.1**
+  - Copyright (c) 2015-present, Jon Schlinkert.
+- **toidentifier 1.0.1**
+  - Copyright (c) 2016 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **toqr 0.1.1**
+  - Copyright (c) Phil Pluckthun,
+  - Copyright (c) 650 Industries, Inc. (aka Expo),
+- **tr46 0.0.3**
+  - Copyright Sebastian Mayr
+- **type-detect 4.0.8**
+  - Copyright (c) 2013 Jake Luer &#60;jake@alogicalparadox.com&#62; (http://alogicalparadox.com)
+- **undici-types 8.3.0**
+  - Copyright (c) Matteo Collina and Undici contributors
+- **unicode-canonical-property-names-ecmascript 2.0.1**
+  - Copyright Mathias Bynens &#60;https://mathiasbynens.be/&#62;
+- **unicode-match-property-ecmascript 2.0.0**
+  - Copyright Mathias Bynens &#60;https://mathiasbynens.be/&#62;
+- **unicode-match-property-value-ecmascript 2.2.1**
+  - Copyright Mathias Bynens &#60;https://mathiasbynens.be/&#62;
+- **unicode-property-aliases-ecmascript 2.2.0**
+  - Copyright Mathias Bynens &#60;https://mathiasbynens.be/&#62;
+- **unpipe 1.0.0**
+  - Copyright (c) 2015 Douglas Christopher Wilson &#60;doug@somethingdoug.com&#62;
+- **update-browserslist-db 1.3.1**
+  - Copyright 2022 Andrey Sitnik &#60;andrey@sitnik.es&#62; and other contributors
+- **use-callback-ref 1.3.3**
+  - Copyright (c) 2017 Anton Korzunov
+- **use-deep-compare-effect 1.8.1**
+  - Copyright (c) 2020 Kent C. Dodds
+- **use-latest-callback 0.2.6**
+  - Copyright (c) 2023 Satyajit Sahoo
+- **use-sidecar 1.1.3**
+  - Copyright (c) 2017 Anton Korzunov
+- **use-sync-external-store 1.6.0**
+  - Copyright (c) Meta Platforms, Inc. and affiliates.
+- **utils-merge 1.0.1**
+  - Copyright (c) 2013-2017 Jared Hanson
+- **uuid 7.0.3**
+  - Copyright (c) 2010-2016 Robert Kieffer and other contributors
+- **vary 1.1.2**
+  - Copyright (c) 2014-2017 Douglas Christopher Wilson
+- **vaul 1.1.2**
+  - Copyright (c) 2023 Emil Kowalski
+- **vlq 1.0.1**
+  - Copyright (c) 2017 &#91;these people&#93;(https://github.com/Rich-Harris/vlq/graphs/contributors)
+- **warn-once 0.1.1**
+  - Copyright (c) 2022 Satyajit Sahoo
+- **wcwidth 1.0.1**
+  - Copyright (C) 2012 by Jun Woong.
+- **whatwg-fetch 3.6.20**
+  - Copyright (c) 2014-2023 GitHub, Inc.
+- **whatwg-url 5.0.0**
+  - Copyright (c) 2015–2016 Sebastian Mayr
+- **whatwg-url-minimum 0.1.2**
+  - Copyright (c) Phil Pluckthun,
+  - Copyright (c) 650 Industries, Inc. (aka Expo),
+  - Copyright (c) Sebastian Mayr
+- **wrap-ansi 7.0.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **ws 7.5.13**
+  - Copyright (c) 2011 Einar Otto Stangvik &#60;einaros@gmail.com&#62;
+- **ws 8.21.3**
+  - Copyright (c) 2011 Einar Otto Stangvik &#60;einaros@gmail.com&#62;
+  - Copyright (c) 2013 Arnout Kazemier and contributors
+  - Copyright (c) 2016 Luigi Pinca and contributors
+- **xml2js 0.6.0**
+  - Copyright 2010, 2011, 2012, 2013. All rights reserved.
+- **xmlbuilder 11.0.1**
+  - Copyright (c) 2013 Ozgur Ozcitak
+- **xmlbuilder 15.1.1**
+  - Copyright (c) 2013 Ozgur Ozcitak
+- **yargs 17.7.3**
+  - Copyright 2010 James Halliday (mail@substack.net); Modified work Copyright 2014 Contributors (ben@npmjs.com)
+- **yocto-queue 0.1.0**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
+- **zod 3.25.76**
+  - Copyright (c) 2025 Colin McDonnell
+- **zod 4.4.3**
+  - Copyright (c) 2025 Colin McDonnell
 
 ## ISC
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| @isaacs/ttlcache | 1.4.1 | Copyright (c) 2022-2023 - Isaac Z. Schlueter and Contributors |
-| @istanbuljs/load-nyc-config | 1.1.0 | Copyright (c) 2019, Contributors |
-| @ungap/structured-clone | 1.3.3 | Copyright (c) 2021, Andrea Giammarchi, @WebReflection |
-| anymatch | 3.1.3 | Copyright (c) 2019 Elan Shanker, Paul Miller (https://paulmillr.com) |
-| boolbase | 1.0.0 | Copyright Felix Boehm |
-| cliui | 8.0.1 | Copyright (c) 2015, Contributors |
-| electron-to-chromium | 1.5.411 | Copyright 2018 Kilian Valkhof |
-| fs.realpath | 1.0.0 | Copyright (c) Isaac Z. Schlueter and Contributors<br>Copyright Joyent, Inc. and other Node contributors. |
-| get-caller-file | 2.0.5 | Copyright 2018 Stefan Penner |
-| glob | 7.2.3 | Copyright (c) Isaac Z. Schlueter and Contributors |
-| graceful-fs | 4.2.11 | Copyright (c) 2011-2022 Isaac Z. Schlueter, Ben Noordhuis, and Contributors |
-| hosted-git-info | 7.0.2 | Copyright (c) 2015, Rebecca Turner |
-| inflight | 1.0.6 | Copyright (c) Isaac Z. Schlueter |
-| inherits | 2.0.4 | Copyright (c) Isaac Z. Schlueter |
-| isexe | 2.0.0 | Copyright (c) Isaac Z. Schlueter and Contributors |
-| lru-cache | 5.1.1 | Copyright (c) Isaac Z. Schlueter and Contributors |
-| lru-cache | 10.4.3 | Copyright (c) 2010-2023 Isaac Z. Schlueter and Contributors |
-| minimatch | 3.1.5 | Copyright (c) Isaac Z. Schlueter and Contributors |
-| npm-package-arg | 11.0.3 | Copyright (c) npm, Inc. |
-| once | 1.4.0 | Copyright (c) Isaac Z. Schlueter and Contributors |
-| picocolors | 1.1.1 | Copyright (c) 2021-2024 Oleksii Raspopov, Kostiantyn Denysov, Anton Verinov |
-| proc-log | 4.2.0 | Copyright (c) GitHub, Inc. |
-| semver | 6.3.1 | Copyright (c) Isaac Z. Schlueter and Contributors |
-| semver | 7.8.5 | Copyright (c) Isaac Z. Schlueter and Contributors |
-| setprototypeof | 1.2.0 | Copyright (c) 2015, Wes Todd |
-| signal-exit | 3.0.7 | Copyright (c) 2015, Contributors |
-| test-exclude | 6.0.0 | Copyright (c) 2016, Contributors |
-| v8-to-istanbul | 9.3.0 | Copyright (c) 2017, Contributors |
-| validate-npm-package-name | 5.0.1 | Copyright (c) 2015, npm, Inc |
-| which | 2.0.2 | Copyright (c) Isaac Z. Schlueter and Contributors |
-| wrappy | 1.0.2 | Copyright (c) Isaac Z. Schlueter and Contributors |
-| write-file-atomic | 4.0.2 | Copyright (c) 2015, Rebecca Turner |
-| y18n | 5.0.8 | Copyright (c) 2015, Contributors |
-| yallist | 3.1.1 | Copyright (c) Isaac Z. Schlueter and Contributors |
-| yaml | 2.9.0 | Copyright Eemeli Aro eemeli@gmail.com |
-| yargs-parser | 21.1.1 | Copyright (c) 2016, Contributors |
+- **@isaacs/ttlcache 1.4.1**
+  - Copyright (c) 2022-2023 - Isaac Z. Schlueter and Contributors
+- **@istanbuljs/load-nyc-config 1.1.0**
+  - Copyright (c) 2019, Contributors
+- **@ungap/structured-clone 1.3.3**
+  - Copyright (c) 2021, Andrea Giammarchi, @WebReflection
+- **anymatch 3.1.3**
+  - Copyright (c) 2019 Elan Shanker, Paul Miller (https://paulmillr.com)
+- **boolbase 1.0.0**
+  - Copyright Felix Boehm
+- **cliui 8.0.1**
+  - Copyright (c) 2015, Contributors
+- **electron-to-chromium 1.5.411**
+  - Copyright 2018 Kilian Valkhof
+- **fs.realpath 1.0.0**
+  - Copyright (c) Isaac Z. Schlueter and Contributors
+  - Copyright Joyent, Inc. and other Node contributors.
+- **get-caller-file 2.0.5**
+  - Copyright 2018 Stefan Penner
+- **glob 7.2.3**
+  - Copyright (c) Isaac Z. Schlueter and Contributors
+- **graceful-fs 4.2.11**
+  - Copyright (c) 2011-2022 Isaac Z. Schlueter, Ben Noordhuis, and Contributors
+- **hosted-git-info 7.0.2**
+  - Copyright (c) 2015, Rebecca Turner
+- **inflight 1.0.6**
+  - Copyright (c) Isaac Z. Schlueter
+- **inherits 2.0.4**
+  - Copyright (c) Isaac Z. Schlueter
+- **isexe 2.0.0**
+  - Copyright (c) Isaac Z. Schlueter and Contributors
+- **lru-cache 5.1.1**
+  - Copyright (c) Isaac Z. Schlueter and Contributors
+- **lru-cache 10.4.3**
+  - Copyright (c) 2010-2023 Isaac Z. Schlueter and Contributors
+- **minimatch 3.1.5**
+  - Copyright (c) Isaac Z. Schlueter and Contributors
+- **npm-package-arg 11.0.3**
+  - Copyright (c) npm, Inc.
+- **once 1.4.0**
+  - Copyright (c) Isaac Z. Schlueter and Contributors
+- **picocolors 1.1.1**
+  - Copyright (c) 2021-2024 Oleksii Raspopov, Kostiantyn Denysov, Anton Verinov
+- **proc-log 4.2.0**
+  - Copyright (c) GitHub, Inc.
+- **semver 6.3.1**
+  - Copyright (c) Isaac Z. Schlueter and Contributors
+- **semver 7.8.5**
+  - Copyright (c) Isaac Z. Schlueter and Contributors
+- **setprototypeof 1.2.0**
+  - Copyright (c) 2015, Wes Todd
+- **signal-exit 3.0.7**
+  - Copyright (c) 2015, Contributors
+- **test-exclude 6.0.0**
+  - Copyright (c) 2016, Contributors
+- **v8-to-istanbul 9.3.0**
+  - Copyright (c) 2017, Contributors
+- **validate-npm-package-name 5.0.1**
+  - Copyright (c) 2015, npm, Inc
+- **which 2.0.2**
+  - Copyright (c) Isaac Z. Schlueter and Contributors
+- **wrappy 1.0.2**
+  - Copyright (c) Isaac Z. Schlueter and Contributors
+- **write-file-atomic 4.0.2**
+  - Copyright (c) 2015, Rebecca Turner
+- **y18n 5.0.8**
+  - Copyright (c) 2015, Contributors
+- **yallist 3.1.1**
+  - Copyright (c) Isaac Z. Schlueter and Contributors
+- **yaml 2.9.0**
+  - Copyright Eemeli Aro &#60;eemeli@gmail.com&#62;
+- **yargs-parser 21.1.1**
+  - Copyright (c) 2016, Contributors
 
 ## BSD-3-Clause
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| @expo/xcpretty | 4.4.4 | Copyright Evan Bacon |
-| @react-native/debugger-frontend | 0.86.3 | — |
-| @sinonjs/commons | 3.0.1 | Copyright (c) 2018, Sinon.JS |
-| @sinonjs/fake-timers | 10.3.0 | Copyright (c) 2010-2014, Christian Johansen, christian@cjohansen.no. All rights reserved. |
-| babel-plugin-istanbul | 6.1.1 | Copyright (c) 2016, Istanbul Code Coverage |
-| hoist-non-react-statics | 3.3.2 | Copyright (c) 2015, Yahoo! Inc. All rights reserved. |
-| istanbul-lib-coverage | 3.2.2 | Copyright 2012-2015 Yahoo! Inc. |
-| istanbul-lib-instrument | 5.2.1 | Copyright 2012-2015 Yahoo! Inc. |
-| istanbul-lib-instrument | 6.0.3 | Copyright 2012-2015 Yahoo! Inc. |
-| istanbul-lib-report | 3.0.1 | Copyright 2012-2015 Yahoo! Inc. |
-| istanbul-lib-source-maps | 4.0.1 | Copyright 2015 Yahoo! Inc. |
-| istanbul-reports | 3.2.0 | Copyright 2012-2015 Yahoo! Inc. |
-| makeerror | 1.0.12 | Copyright (c) 2014, Naitik Shah. All rights reserved. |
-| rtl-detect | 1.1.2 | Copyright 2015 Yahoo Inc. |
-| source-map | 0.5.7 | Copyright (c) 2009-2011, Mozilla Foundation and contributors |
-| source-map | 0.6.1 | Copyright (c) 2009-2011, Mozilla Foundation and contributors |
-| source-map-js | 1.2.1 | Copyright (c) 2009-2011, Mozilla Foundation and contributors |
-| sprintf-js | 1.0.3 | Copyright (c) 2007-2014, Alexandru Marasteanu hello [at) alexei (dot] ro |
-| tmpl | 1.0.5 | Copyright (c) 2014, Naitik Shah. All rights reserved. |
+- **@expo/xcpretty 4.4.4**
+  - Copyright Evan Bacon
+- **@react-native/debugger-frontend 0.86.3**
+  - —
+- **@sinonjs/commons 3.0.1**
+  - Copyright (c) 2018, Sinon.JS
+- **@sinonjs/fake-timers 10.3.0**
+  - Copyright (c) 2010-2014, Christian Johansen, christian@cjohansen.no. All rights reserved.
+- **babel-plugin-istanbul 6.1.1**
+  - Copyright (c) 2016, Istanbul Code Coverage
+- **hoist-non-react-statics 3.3.2**
+  - Copyright (c) 2015, Yahoo&#33; Inc. All rights reserved.
+- **istanbul-lib-coverage 3.2.2**
+  - Copyright 2012-2015 Yahoo&#33; Inc.
+- **istanbul-lib-instrument 5.2.1**
+  - Copyright 2012-2015 Yahoo&#33; Inc.
+- **istanbul-lib-instrument 6.0.3**
+  - Copyright 2012-2015 Yahoo&#33; Inc.
+- **istanbul-lib-report 3.0.1**
+  - Copyright 2012-2015 Yahoo&#33; Inc.
+- **istanbul-lib-source-maps 4.0.1**
+  - Copyright 2015 Yahoo&#33; Inc.
+- **istanbul-reports 3.2.0**
+  - Copyright 2012-2015 Yahoo&#33; Inc.
+- **makeerror 1.0.12**
+  - Copyright (c) 2014, Naitik Shah. All rights reserved.
+- **rtl-detect 1.1.2**
+  - Copyright 2015 Yahoo Inc.
+- **source-map 0.5.7**
+  - Copyright (c) 2009-2011, Mozilla Foundation and contributors
+- **source-map 0.6.1**
+  - Copyright (c) 2009-2011, Mozilla Foundation and contributors
+- **source-map-js 1.2.1**
+  - Copyright (c) 2009-2011, Mozilla Foundation and contributors
+- **sprintf-js 1.0.3**
+  - Copyright (c) 2007-2014, Alexandru Marasteanu &#60;hello &#91;at) alexei (dot&#93; ro&#62;
+- **tmpl 1.0.5**
+  - Copyright (c) 2014, Naitik Shah. All rights reserved.
 
 ## Apache-2.0
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| @iabtcf/core | 1.5.6 | copyright license to reproduce, prepare Derivative Works of,<br>(c) You must retain, in the Source form of any Derivative Works |
-| baseline-browser-mapping | 2.11.15 | copyright license to reproduce, prepare Derivative Works of,<br>(c) You must retain, in the Source form of any Derivative Works |
-| bser | 2.1.1 | Copyright Wez Furlong |
-| chrome-launcher | 0.15.2 | copyright license to reproduce, prepare Derivative Works of,<br>(c) You must retain, in the Source form of any Derivative Works<br>Copyright 2014 Google Inc. |
-| chromium-edge-launcher | 0.3.0 | copyright license to reproduce, prepare Derivative Works of,<br>(c) You must retain, in the Source form of any Derivative Works<br>Copyright 2014 Google Inc. |
-| detect-libc | 2.1.2 | copyright license to reproduce, prepare Derivative Works of,<br>(c) You must retain, in the Source form of any Derivative Works |
-| exponential-backoff | 3.1.3 | copyright license to reproduce, prepare Derivative Works of,<br>(c) You must retain, in the Source form of any Derivative Works<br>Copyright 2019 Coveo Solutions Inc. |
-| fb-watchman | 2.0.2 | Copyright Wez Furlong |
-| human-signals | 2.1.0 | copyright license to reproduce, prepare Derivative Works of,<br>(c) You must retain, in the Source form of any Derivative Works<br>Copyright 2019 ehmicky ehmicky@gmail.com |
-| lighthouse-logger | 1.4.2 | copyright license to reproduce, prepare Derivative Works of,<br>(c) You must retain, in the Source form of any Derivative Works<br>Copyright 2014 Google Inc. |
-| marky | 1.3.0 | Copyright 2016 Nolan Lawson |
-| react-native-google-mobile-ads | 17.2.0 | Copyright (c) 2021-present Invertase Limited oss@invertase.io<br>Copyright (c) 2016-present Invertase Limited oss@invertase.io |
-| typescript | 6.0.3 | Copyright Microsoft Corp. |
-| walker | 1.0.8 | Copyright 2013 Naitik Shah |
-| xcode | 3.0.1 | copyright license to reproduce, prepare Derivative Works of,<br>(c) You must retain, in the Source form of any Derivative Works |
+- **@iabtcf/core 1.5.6**
+  - Copyright Chris Paterson
+- **baseline-browser-mapping 2.11.15**
+  - —
+- **bser 2.1.1**
+  - Copyright Wez Furlong
+- **chrome-launcher 0.15.2**
+  - Copyright 2014 Google Inc.
+- **chromium-edge-launcher 0.3.0**
+  - Copyright 2014 Google Inc.
+- **detect-libc 2.1.2**
+  - Copyright Lovell Fuller
+- **exponential-backoff 3.1.3**
+  - Copyright 2019 Coveo Solutions Inc.
+- **fb-watchman 2.0.2**
+  - Copyright Wez Furlong
+- **human-signals 2.1.0**
+  - Copyright 2019 ehmicky &#60;ehmicky@gmail.com&#62;
+- **lighthouse-logger 1.4.2**
+  - Copyright 2014 Google Inc.
+- **marky 1.3.0**
+  - Copyright 2016 Nolan Lawson
+- **react-native-google-mobile-ads 17.2.0**
+  - Copyright (c) 2021-present Invertase Limited &#60;oss@invertase.io&#62;
+  - Copyright (c) 2016-present Invertase Limited &#60;oss@invertase.io&#62;
+- **typescript 6.0.3**
+  - Copyright Microsoft Corp.
+- **walker 1.0.8**
+  - Copyright 2013 Naitik Shah
+- **xcode 3.0.1**
+  - Copyright 2012-2020 The Apache Software Foundation
 
 ## BSD-2-Clause
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| css-select | 5.2.2 | Copyright (c) Felix Böhm |
-| css-what | 6.2.2 | Copyright (c) Felix Böhm |
-| domelementtype | 2.3.0 | Copyright (c) Felix Böhm |
-| domhandler | 5.0.3 | Copyright (c) Felix Böhm |
-| domutils | 3.2.2 | Copyright (c) Felix Böhm |
-| entities | 4.5.0 | Copyright (c) Felix Böhm |
-| esprima | 4.0.1 | Copyright Ariya Hidayat |
-| fontfaceobserver | 2.3.0 | Copyright (c) 2014 - Bram Stein |
-| nth-check | 2.1.1 | Copyright (c) Felix Böhm |
-| regjsparser | 0.13.2 | Copyright 'Julian Viereck' |
-| terser | 5.50.0 | Copyright 2012-2018 (c) Mihai Bazon mihai.bazon@gmail.com |
-| webidl-conversions | 3.0.1 | Copyright (c) 2014, Domenic Denicola |
+- **css-select 5.2.2**
+  - Copyright (c) Felix Böhm
+- **css-what 6.2.2**
+  - Copyright (c) Felix Böhm
+- **domelementtype 2.3.0**
+  - Copyright (c) Felix Böhm
+- **domhandler 5.0.3**
+  - Copyright (c) Felix Böhm
+- **domutils 3.2.2**
+  - Copyright (c) Felix Böhm
+- **entities 4.5.0**
+  - Copyright (c) Felix Böhm
+- **esprima 4.0.1**
+  - Copyright JS Foundation and other contributors, https://js.foundation/
+- **fontfaceobserver 2.3.0**
+  - Copyright (c) 2014 - Bram Stein
+- **nth-check 2.1.1**
+  - Copyright (c) Felix Böhm
+- **regjsparser 0.13.2**
+  - Copyright (c) Julian Viereck and Contributors, All Rights Reserved.
+- **terser 5.50.0**
+  - Copyright 2012-2018 (c) Mihai Bazon &#60;mihai.bazon@gmail.com&#62;
+- **webidl-conversions 3.0.1**
+  - Copyright (c) 2014, Domenic Denicola
 
 ## BlueOak-1.0.0
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| glob | 13.0.6 | copyright in it. |
-| lru-cache | 11.5.2 | copyright in it. |
-| minimatch | 10.2.6 | copyright in it. |
-| minipass | 7.1.3 | copyright in it. |
-| path-scurry | 2.0.2 | copyright in it. |
-| sax | 1.6.1 | copyright in it. |
+- **glob 13.0.6**
+  - Copyright Isaac Z. Schlueter
+- **lru-cache 11.5.2**
+  - Copyright Isaac Z. Schlueter
+- **minimatch 10.2.6**
+  - Copyright Isaac Z. Schlueter
+- **minipass 7.1.3**
+  - Copyright Isaac Z. Schlueter
+- **path-scurry 2.0.2**
+  - Copyright Isaac Z. Schlueter
+- **sax 1.6.1**
+  - Copyright Isaac Z. Schlueter
 
 ## FSL-1.1-MIT
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| @sentry/cli | 2.58.4 | Copyright 2008-2025 Functional Software, Inc. dba Sentry |
-| @sentry/cli-linux-x64 | 2.58.4 | — |
+- **@sentry/cli 2.58.4**
+  - Copyright 2008-2025 Functional Software, Inc. dba Sentry
+- **@sentry/cli-linux-x64 2.58.4**
+  - —
 
 ## Unlicense
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| big-integer | 1.6.52 | Copyright Peter Olson |
-| stream-buffers | 2.2.0 | Copyright Sam Day |
+- **big-integer 1.6.52**
+  - Copyright Peter Olson
+- **stream-buffers 2.2.0**
+  - Copyright Sam Day
 
 ## 0BSD
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| jsc-safe-url | 0.2.4 | Copyright Rob Hogan |
-| tslib | 2.8.1 | Copyright (c) Microsoft Corporation. |
+- **jsc-safe-url 0.2.4**
+  - Copyright Rob Hogan
+- **tslib 2.8.1**
+  - Copyright (c) Microsoft Corporation.
 
 ## MPL-2.0
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| lightningcss | 1.33.0 | (c) under Patent Claims infringed by Covered Software in the absence of |
-| lightningcss-linux-x64-gnu | 1.33.0 | (c) under Patent Claims infringed by Covered Software in the absence of |
+- **lightningcss 1.33.0**
+  - —
+- **lightningcss-linux-x64-gnu 1.33.0**
+  - —
 
 ## MIT AND Apache-2.0
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| @expo-google-fonts/material-symbols | 0.4.44 | Copyright (c) 2020 Expo |
+- **@expo-google-fonts/material-symbols 0.4.44**
+  - Copyright (c) 2020 Expo
 
 ## Python-2.0
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| argparse | 2.0.1 | Copyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam, |
+- **argparse 2.0.1**
+  - Copyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam, The Netherlands. All rights reserved.
 
 ## CC-BY-4.0
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| caniuse-lite | 1.0.30001809 | copyright and certain other rights. Our licenses are<br>copyright--then that use is not regulated by the license. Our |
+- **caniuse-lite 1.0.30001809**
+  - Copyright Ben Briggs
 
 ## (MIT OR Apache-2.0)
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| fb-dotslash | 0.5.8 | — |
+- **fb-dotslash 0.5.8**
+  - —
 
 ## CC0-1.0
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| mdn-data | 2.0.14 | Copyright and Related Rights in the Work and the meaning and intended legal<br>Copyright and Related Rights in the Work or (ii) assert any associated claims |
+- **mdn-data 2.0.14**
+  - Copyright Mozilla Developer Network
 
 ## (BSD-3-Clause OR GPL-2.0)
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| node-forge | 1.4.0 | Copyright (c) 2010, Digital Bazaar, Inc.<br>Copyright (C) 1989, 1991 Free Software Foundation, Inc. |
+- **node-forge 1.4.0**
+  - Copyright (c) 2010, Digital Bazaar, Inc.
+  - Copyright (C) 1989, 1991 Free Software Foundation, Inc.
 
 ## (MIT OR CC0-1.0)
 
-| Componente | Versión | Titulares |
-| --- | --- | --- |
-| type-fest | 0.7.1 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (sindresorhus.com) |
-| type-fest | 0.21.3 | Copyright (c) Sindre Sorhus sindresorhus@gmail.com (https:/sindresorhus.com) |
+- **type-fest 0.7.1**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
+- **type-fest 0.21.3**
+  - Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https:/sindresorhus.com)
+
+## Avisos de los componentes
+
+Estos componentes incluyen un archivo de avisos que su licencia pide reproducir.
+
+### xcode 3.0.1 (NOTICE)
+
+```text
+Apache Cordova
+Copyright 2012-2020 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+```
+
+### tslib 2.8.1 (CopyrightNotice.txt)
+
+```text
+/******************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+```
 
 ## Textos de las licencias
 
@@ -1765,6 +2594,8 @@ defined by the Mozilla Public License, v. 2.0.
 
 ### MIT AND Apache-2.0
 
+**LICENSE**
+
 ```text
 MIT License
 
@@ -1787,6 +2618,212 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+**LICENSE&#95;FONT**
+
+```text
+Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
 ```
 
 ### Python-2.0
@@ -2102,7 +3139,7 @@ exhaustive, and do not form part of our licenses.
      such as asking that all changes be marked or described.
      Although not required by our licenses, you are encouraged to
      respect those requests where reasonable. More_considerations
-     for the public:
+     for the public: 
 	wiki.creativecommons.org/Considerations_for_licensees
 
 =======================================================================
@@ -2450,9 +3487,7 @@ Creative Commons may be contacted at creativecommons.org.
 
 ### (MIT OR Apache-2.0)
 
-```text
 Sin archivo de licencia en el paquete. Texto de referencia: https://spdx.org/licenses/
-```
 
 ### CC0-1.0
 
