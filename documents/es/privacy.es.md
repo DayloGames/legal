@@ -8,7 +8,7 @@ Vigente desde el 26 de octubre de 2026.
 
 Las personas del equipo de Daylo Games que atienden soporte, moderación y operación acceden solo a los datos necesarios para esas tareas y están sujetas a deber de confidencialidad.
 
-Para consultas de privacidad y solicitudes sobre tus datos: dailygamesbb@gmail.com. Para ayuda general, consultá [Soporte](support.es.md).
+Para consultas de privacidad y solicitudes sobre tus datos: support@daylogames.com. Para ayuda general, consultá [Soporte](support.es.md).
 
 ## 2. Datos que usamos
 
@@ -119,21 +119,21 @@ Consultá [Eliminación de cuenta](delete-account.es.md) para los pasos y efecto
 
 ## 10. Tus derechos
 
-Podés solicitar acceso, corrección o eliminación de tus datos y ejercer otros derechos que correspondan por tu legislación. Escribí a dailygamesbb@gmail.com. Podremos pedir información mínima para verificar que la solicitud es tuya, sin pedir tu contraseña.
+Podés solicitar acceso, corrección o eliminación de tus datos y ejercer otros derechos que correspondan por tu legislación. Escribí a support@daylogames.com. Podremos pedir información mínima para verificar que la solicitud es tuya, sin pedir tu contraseña.
 
 Para Argentina, la Ley 25.326 establece **diez días corridos desde la intimación fehaciente** para proporcionar la información solicitada en ejercicio del derecho de acceso (artículo 14), y un máximo de **cinco días hábiles desde la recepción del reclamo o la detección del error o falsedad** para realizar la rectificación, actualización o supresión que corresponda (artículo 16). Estos plazos se refieren a la atención del derecho, no solamente al envío de un acuse de recibo. [Texto legal](https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/actualizacion).
 
 La **Agencia de Acceso a la Información Pública (AAIP)** es la autoridad de control en Argentina. Si no recibís respuesta dentro del plazo aplicable o la respuesta es insuficiente, podés [presentar una denuncia ante la AAIP](https://www.argentina.gob.ar/servicio/denunciar-incumplimientos-de-la-ley-de-proteccion-de-datos-personales), sin perjuicio de las vías judiciales disponibles. Conservá constancia de tu solicitud y de las respuestas recibidas.
 
-Para pedir información que no esté incluida en una descarga disponible, escribí a **dailygamesbb@gmail.com**. El límite técnico de una exportación no limita por sí solo tu derecho de acceso.
+Para pedir información que no esté incluida en una descarga disponible, escribí a **support@daylogames.com**. El límite técnico de una exportación no limita por sí solo tu derecho de acceso.
 
-Para pedir una copia de tus datos, escribí a **dailygamesbb@gmail.com** desde el email vinculado a tu cuenta o indicando cómo verificar que la cuenta es tuya (ver [Eliminación de cuenta](delete-account.es.md)). Te enviamos los datos de tu cuenta en un archivo dentro de los 10 días corridos.
+Para pedir una copia de tus datos, escribí a **support@daylogames.com** desde el email vinculado a tu cuenta o indicando cómo verificar que la cuenta es tuya (ver [Eliminación de cuenta](delete-account.es.md)). Te enviamos los datos de tu cuenta en un archivo dentro de los 10 días corridos.
 
 ## 11. Edad de acceso
 
 Daylo Games está dirigido a personas de **18 años o más**, con lanzamiento inicial en **Argentina**. Los menores de 18 años no están habilitados para usar el servicio.
 
-Si considerás que se han tratado datos de una persona menor de 18 años, escribí a **dailygamesbb@gmail.com**.
+Si considerás que se han tratado datos de una persona menor de 18 años, escribí a **support@daylogames.com**.
 
 Si tomamos conocimiento de que una cuenta pertenece a una persona menor de 18 años, la eliminamos junto con sus datos, con los mismos efectos que una eliminación solicitada. Los reembolsos de compras hechas en App Store o Google Play se solicitan a la tienda, según sus políticas y la ley aplicable.
 
