@@ -2,7 +2,7 @@
 
 Este repositorio público contiene los documentos legales de Daylo Games y el sitio que los publica. Los textos fuente están en [`documents/es/`](documents/es/).
 
-GitHub Pages publica el sitio en `https://daylogames.github.io/legal/`. El flujo manual **Publish legal site** genera las páginas en `/es/`, conserva redirecciones desde las antiguas rutas `/borradores/es/` y compila el directorio `site/` con Jekyll.
+GitHub Pages publica el sitio en `https://daylogames.github.io/legal/`, y el sitio `daylo-web` (Cloudflare Worker) lo sirve también en `https://daylogames.com/legal/` mediante un proxy en `src/pages/legal/[...path].ts`. El flujo manual **Publish legal site** genera las páginas en `/es/`, conserva redirecciones desde las antiguas rutas `/borradores/es/` y compila el directorio `site/` con Jekyll.
 
 Para publicar, seleccionar **GitHub Actions** como fuente en **Settings → Pages** y ejecutar el flujo desde **Actions**. Las actualizaciones deben conservar las mismas URLs.
 
