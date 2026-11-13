@@ -2,21 +2,21 @@
 
 Este archivo reúne las verificaciones y los datos que todavía faltan. No se copia al directorio `site/` ni se publica en el sitio legal. Quitar los avisos de los documentos públicos no significa que estos puntos estén resueltos.
 
-Última revisión: 26 de octubre de 2026.
+Última revisión: 13 de noviembre de 2026.
 
 ## Prioridad alta — privacidad y operación
 
 ### 1. Inventario real de proveedores y encargados
 
 - **Documento relacionado:** Política de privacidad, §5.
-- **Falta:** confirmar los servicios activos y la configuración efectiva de Supabase, Render, Cloudflare/R2, Sentry, AdMob, RevenueCat, Apple y Google; identificar partners publicitarios, entidades contratadas y cualquier proveedor usado para soporte.
+- **Falta:** confirmar los servicios activos y la configuración efectiva de Supabase, Render, Cloudflare/R2, Sentry, AdMob, RevenueCat, Apple y Google, y de Expo (650 Industries) para el envío de notificaciones push, junto con Apple Push Notification service y Firebase Cloud Messaging; identificar partners publicitarios, entidades contratadas y cualquier proveedor usado para soporte.
 - **Datos a reunir:** entidad legal, función, categorías de datos, región de procesamiento, plazo de retención, subencargados y enlace de privacidad.
 - **Criterio de cierre:** inventario contrastado contra producción y consolas, con enlaces y texto público corregidos si existen diferencias.
 
 ### 2. Transferencias internacionales
 
 - **Documento relacionado:** Política de privacidad, §6.
-- **Falta:** identificar los países o regiones reales de almacenamiento y acceso para cada proveedor, el mecanismo jurídico aplicable a cada transferencia y las salvaguardas disponibles.
+- **Falta:** identificar los países o regiones reales de almacenamiento y acceso para cada proveedor (incluido Expo, con sede en Estados Unidos, que procesa el token de envío y el contenido de cada notificación), el mecanismo jurídico aplicable a cada transferencia y las salvaguardas disponibles.
 - **Criterio de cierre:** mapa de transferencias validado, mecanismo documentado y canal definido para solicitar información sobre las salvaguardas.
 
 ### 3. Retención de registros técnicos y datos de proveedores

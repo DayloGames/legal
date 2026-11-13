@@ -16,6 +16,8 @@ Para consultas de privacidad y solicitudes sobre tus datos: support@daylogames.c
 
 **Perfil y preferencias.** Guardamos el nombre de usuario que elegís, tu código de amigo, avatar y artículos seleccionados, idioma, tema y datos de configuración necesarios para sincronizar preferencias. Usamos la zona horaria del dispositivo para organizar días y rachas; esto no requiere ubicación GPS.
 
+**Notificaciones.** Si permitís las notificaciones en tu teléfono, guardamos un token de envío que generan Apple o Google para ese teléfono, un identificador de instalación aleatorio creado por la app (no es un identificador del hardware ni el ID de publicidad), el estado del permiso, el idioma, la zona horaria y la versión de la app, y tus preferencias de notificaciones. También registramos qué avisos te enviamos, si llegaron y si los abriste. El recordatorio diario, los avisos de amistad y las invitaciones a versus vienen activados; las novedades de Daylo (juegos, contenido, eventos u ofertas) solo te llegan si las activás. Podés cambiar cada tipo en **Perfil → Notificaciones**, o desactivarlas todas desde los ajustes de tu teléfono.
+
 **Partidas y progreso.** Guardamos partidas, tableros en curso, resultados enviados, tiempos, errores, pistas, días completados, rachas, experiencia, logros y desbloqueos para operar el juego, permitir reanudarlo y revisar resultados o posibles abusos.
 
 **Economía y compras.** Guardamos saldo y movimientos de monedas/tokens, artículos obtenidos y datos de compras como producto, tienda, identificador de transacción, fechas, devoluciones y estado de suscripción. Los pagos los procesa la tienda correspondiente; la app no solicita tu número completo de tarjeta.
@@ -43,6 +45,8 @@ Usamos tus datos con estos fundamentos (Ley 25.326, art. 5):
 | Reportes, moderación y prevención de fraude y abuso | Es necesario para aplicar los Términos y las [Reglas de comunidad](community.es.md), que forman parte del servicio. |
 | Diagnóstico de fallos y seguridad | Es necesario para que el servicio funcione de forma estable y segura. Se limita a datos técnicos y al identificador de cuenta. |
 | Anuncios no personalizados y anuncios con recompensa | Forman parte del servicio gratuito que aceptás en los Términos. |
+| Recordatorio diario y avisos de amistad y versus | Es necesario para prestar las funciones del servicio que aceptás en los Términos, si permitiste las notificaciones en tu teléfono. Podés desactivarlos cuando quieras. |
+| Notificaciones de novedades, eventos y ofertas de Daylo | Tu consentimiento, que das al activarlas en **Perfil → Notificaciones**. Podés retirarlo cuando quieras desde el mismo lugar. |
 | Anuncios personalizados y seguimiento publicitario | Tu consentimiento, cuando corresponde pedirlo. Podés retirarlo cuando quieras (sección 7). |
 | Atender solicitudes sobre tus datos y consultas de soporte | Cumplir obligaciones legales (Ley 25.326, arts. 14 a 16) y responder lo que nos pedís. |
 
@@ -53,6 +57,8 @@ Leer esta política no equivale a dar tu consentimiento.
 Tu nombre elegido, código de amigo y avatar pueden ser visibles al interactuar con otros jugadores. Los amigos pueden ver información de progreso, racha, nivel o logros que muestre la función. Los miembros de tus grupos pueden ver tu participación y resultados de ranking.
 
 Los grupos se comparten mediante códigos; tratá sus códigos como invitaciones y compartilos con cuidado. Bloquear a alguien limita las interacciones y visibilidad entre ambas cuentas en las funciones que aplican ese control; no lo expulsa automáticamente de un grupo compartido ni oculta tu información a sus demás miembros.
+
+Cuando enviás una solicitud de amistad, aceptás una o invitás a alguien a un versus, tu nombre de usuario aparece en la notificación que recibe esa persona, que puede verse en la pantalla bloqueada de su teléfono.
 
 Si participás en referidos, quien te invitó puede conocer el cumplimiento de los hitos que generan recompensas, como la vinculación de una cuenta y determinados avances de juego.
 
@@ -70,7 +76,8 @@ Los proveedores Supabase, Render, Cloudflare/R2, Sentry, Google AdMob y RevenueC
 | Sentry | Diagnóstico de fallos, con datos técnicos e identificadores; las capturas de registros y rendimiento dependen de la configuración. |
 | Google AdMob y proveedores configurados | Publicidad y consentimiento; identificación de cuenta y verificación de recompensas de anuncios opcionales. |
 | RevenueCat | Verificación y gestión de compras/suscripciones asociadas a tu identificador de cuenta. |
-| Apple y Google | Inicio de sesión y pagos mediante sus tiendas, bajo sus propias condiciones y políticas. |
+| Apple y Google | Inicio de sesión y pagos mediante sus tiendas, bajo sus propias condiciones y políticas. También entregan las notificaciones a tu teléfono (Apple Push Notification service y Firebase Cloud Messaging). |
+| Expo (650 Industries) | Envío de notificaciones: recibe el token de envío y el contenido de cada aviso, que puede incluir el nombre de usuario de quien lo originó, y lo entrega a Apple o Google. |
 
 El sitio de documentación legal se aloja en **GitHub Pages**. GitHub registra la dirección IP de visitantes por motivos de seguridad, incluso si no iniciaron sesión en GitHub. Podés consultar [información del servicio y tratamiento del tráfico](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
@@ -90,7 +97,7 @@ Los anuncios los proveen terceros. Podés reportar un anuncio inapropiado desde 
 
 ## 8. Almacenamiento en tu dispositivo
 
-Usamos almacenamiento local para mantener la sesión, preferencias, frecuencia de anuncios, el último anuncio mostrado (lugar y hora, para un posible reporte) y datos necesarios de los servicios integrados. Eliminar la app o sus datos locales puede hacer que pierdas acceso al progreso de invitado. Desinstalar no constituye una solicitud de eliminación de datos del servidor ni cancela una suscripción.
+Usamos almacenamiento local para mantener la sesión, preferencias, el identificador y la credencial de instalación para notificaciones (en el almacenamiento seguro del sistema), frecuencia de anuncios, el último anuncio mostrado (lugar y hora, para un posible reporte) y datos necesarios de los servicios integrados. Eliminar la app o sus datos locales puede hacer que pierdas acceso al progreso de invitado. Desinstalar no constituye una solicitud de eliminación de datos del servidor ni cancela una suscripción.
 
 ## 9. Conservación y eliminación
 
@@ -102,13 +109,17 @@ Cuando eliminás tu cuenta, o cuando dejamos de necesitar ciertos registros, los
 
 | Datos | Plazo máximo | Para qué |
 | --- | --- | --- |
-| Datos de una cuenta eliminada: perfil, progreso, saldos, amistades, membresías en grupos, personalización e identidad de acceso | **5 días hábiles** desde que pedís la eliminación | Completar el proceso de eliminación. |
+| Datos de una cuenta eliminada: perfil, progreso, saldos, amistades, membresías en grupos, personalización, notificaciones (preferencias, instalaciones y avisos) e identidad de acceso | **5 días hábiles** desde que pedís la eliminación | Completar el proceso de eliminación. |
 | Copias de seguridad | **30 días** desde la copia; se reemplazan solas | Recuperar el servicio ante fallas. Si una copia se restaura, volvemos a aplicar las eliminaciones ya pedidas. |
 | Registro mínimo de cada compra: tienda, número de pedido, producto, fecha e importe, sin perfil ni progreso | **5 años** desde la compra | Atender reclamos, devoluciones y contracargos durante los plazos de prescripción. |
 | Registro de solicitudes de acceso, corrección o eliminación: fecha, tipo, email de contacto y fechas de respuesta y de ejecución | **5 años** desde la solicitud | Demostrar que atendimos tus derechos en plazo. No incluye los datos eliminados. |
 | Reportes de otros jugadores y de grupos | **6 meses** desde que se reciben | Detectar reincidencia y atender pedidos de revisión. |
 | Registro de una vinculación entre una cuenta de invitado y otra existente | **30 días** desde que se completa | Completar la operación y evitar abusos del programa de referidos. |
 | Comentarios y reportes de anuncios enviados desde la app | **1 año** desde el envío | Revisar el problema y responderte. |
+| Registro de envío de cada notificación: entrega, intentos y respuesta de los servicios de envío | **30 días** desde que termina el envío | Reintentar, evitar duplicados y diagnosticar fallas de entrega. |
+| Contenido personal de cada notificación, como el nombre de quien la originó | **30 días** desde la notificación | Armar el aviso y reintentarlo. |
+| Registro mínimo de cada notificación, sin contenido: tipo y clave para no repetirla | **90 días** desde la notificación, o desde el cierre de la campaña | Evitar avisos duplicados. |
+| Instalación para notificaciones de un teléfono sin uso: token, identificador y estado del permiso | Se desactiva a los **90 días** sin uso y se borra a los **180 días** | Dejar de enviar a teléfonos que ya no usan la app. |
 | Emails de soporte | **1 año** desde que se cierra la consulta | Seguir consultas y reclamos. Si hay un reclamo de compra pendiente, hasta que se resuelva. |
 
 Podemos conservar datos por más tiempo solo cuando una ley nos lo exija, para atender un requerimiento de una autoridad competente o para ejercer o defender derechos en un reclamo en curso, y únicamente mientras dure esa necesidad.
