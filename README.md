@@ -2,6 +2,8 @@
 
 Este repositorio público contiene los documentos legales de Daylo Games y el sitio que los publica. Los textos fuente están en [`documents/es/`](documents/es/).
 
+La [propuesta de reglas de Versus](propuestas/versus/01-reglas-versus.es.md), su [integración en los términos](propuestas/versus/02-integracion-y-futuras-recompensas.es.md) y la [guía de comunicación para iOS y Android](propuestas/versus/03-comunicacion-y-lanzamiento.es.md) son borradores de trabajo. No se incluyen en el sitio legal ni están vigentes; los archivos del repositorio sí son públicos.
+
 GitHub Pages publica el sitio en `https://daylogames.github.io/legal/`. El flujo manual **Publish legal site** genera las páginas en `/es/`, conserva redirecciones desde las antiguas rutas `/borradores/es/` y compila el directorio `site/` con Jekyll.
 
 Para publicar, seleccionar **GitHub Actions** como fuente en **Settings → Pages** y ejecutar el flujo desde **Actions**. Las actualizaciones deben conservar las mismas URLs.

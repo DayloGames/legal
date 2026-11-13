@@ -2,7 +2,7 @@
 
 Este archivo reúne las verificaciones y los datos que todavía faltan. No se copia al directorio `site/` ni se publica en el sitio legal. Quitar los avisos de los documentos públicos no significa que estos puntos estén resueltos.
 
-Última revisión: 26 de octubre de 2026.
+Última revisión: 10 de noviembre de 2026.
 
 ## Prioridad alta — privacidad y operación
 
@@ -38,6 +38,14 @@ Este archivo reúne las verificaciones y los datos que todavía faltan. No se co
 
 - **Falta:** antes de distribuir fuera de Argentina, revisar jurisdicción, consumidor, privacidad, menores, publicidad, tiendas, domicilio o canales obligatorios y traducciones para cada país.
 - **Criterio de cierre:** checklist por mercado e idioma, traducción revisada y contenido publicado en su ruta estable antes de habilitar la distribución.
+
+### 6. Lanzamiento del modo Versus
+
+- **Propuesta:** [Reglas](propuestas/versus/01-reglas-versus.es.md), [integración y recompensas futuras](propuestas/versus/02-integracion-y-futuras-recompensas.es.md) y [comunicación y lanzamiento](propuestas/versus/03-comunicacion-y-lanzamiento.es.md). Son borradores fuera del sitio legal, visibles en este repositorio público.
+- **Verificado en el código local el 10 de noviembre de 2026:** crear cuesta **30 tokens**, solo para el creador; los invitados juegan gratis y no hay premios. La API informa el precio y cobra en la transacción de creación, con protección de reintentos y rechazo sin cobro si falta saldo. La app muestra el precio, pide confirmación y actualiza el saldo. Se retiró de los borradores la alternativa gratuita.
+- **También falta:** habilitar la consulta de reglas desde la app y su aceptación verificable antes de usar Versus; hoy la detección de nueva versión borra la aceptación local y vuelve a pedirla en el siguiente inicio. Contrastar con clientes anteriores y sesiones abiertas.
+- **Documentos relacionados:** términos, compras por el costo de creación, privacidad por visibilidad/estadísticas y retención, y nuevo anexo Versus. Fijar fecha y versiones, archivar textos anteriores, contrastar con el despliegue y revisar el encuadre legal antes de publicar.
+- **Criterio de cierre:** mecánica, costo, soporte para correcciones/restituciones, reglas publicadas, enlaces, aceptación registrada y comunicación de tiendas coincidentes con el lanzamiento. Los premios o un pozo futuro requieren una revisión nueva.
 
 ## Puntos cerrados por los cambios incorporados en `main`
 
