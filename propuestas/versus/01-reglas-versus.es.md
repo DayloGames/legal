@@ -6,7 +6,7 @@ Versión propuesta: `versus-v1`. Vigentes desde: **[FECHA DE ENTRADA EN VIGENCIA
 
 ## 1. Responsable y alcance
 
-Versus es un modo competitivo de juegos de lógica y palabras de Daylo Games, organizado y operado por **Guido Tomas Botta**, persona física en Argentina, con domicilio de contacto en **Calle 152 6352, Oficina 314 Downtown, B1886 Guillermo Enrique Hudson, provincia de Buenos Aires, Argentina**. Contacto: **dailygamesbb@gmail.com**.
+Versus es un modo competitivo de juegos de lógica y palabras de Daylo Games, organizado y operado por **Guido Tomas Botta**, persona física en Argentina, con domicilio de contacto en **Calle 152 6352, Oficina 314 Downtown, B1886 Guillermo Enrique Hudson, provincia de Buenos Aires, Argentina**. Contacto: **support@daylogames.com**.
 
 Estas reglas complementan los [Términos de uso](https://daylogames.com/legal/es/terms/), las [Condiciones de compras y suscripciones](https://daylogames.com/legal/es/purchases/) y las [Reglas de comunidad](https://daylogames.com/legal/es/community/). La [Política de privacidad](https://daylogames.com/legal/es/privacy/) explica el tratamiento de datos. Estas reglas describen específicamente Versus, sin reducir tus derechos legales ni las condiciones de compras ya realizadas.
 
@@ -77,7 +77,7 @@ Si existe una falla de Daylo que impida jugar o validar resultados de manera raz
 
 No prometemos restaurar una posición concreta cuando el resultado no pueda verificarse. Revisaremos el caso y los registros disponibles; un error de Daylo no queda automáticamente a cargo del usuario.
 
-Para reclamar, escribí a **dailygamesbb@gmail.com** con tu código de amigo, el desafío, el juego, la fecha aproximada y una descripción del problema. No envíes contraseñas ni tokens de sesión. Recomendamos avisar cuanto antes para facilitar la revisión de registros temporales; esa recomendación no acorta plazos legales ni exige renunciar a derechos.
+Para reclamar, escribí a **support@daylogames.com** con tu código de amigo, el desafío, el juego, la fecha aproximada y una descripción del problema. No envíes contraseñas ni tokens de sesión. Recomendamos avisar cuanto antes para facilitar la revisión de registros temporales; esa recomendación no acorta plazos legales ni exige renunciar a derechos.
 
 ## 8. Visibilidad e historial
 

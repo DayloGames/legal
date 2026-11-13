@@ -80,4 +80,4 @@ Publicaremos nuevas versiones y comunicaremos cambios relevantes con la anticipa
 
 Para el lanzamiento en Argentina, estos términos se rigen por las leyes de la **República Argentina**, incluidas las normas de protección de consumidores y datos personales aplicables.
 
-Podés contactarnos a **dailygamesbb@gmail.com** para consultas o reclamos. Ese canal no impide acudir a las autoridades administrativas o tribunales competentes ni exige agotar primero una negociación privada. No se impone arbitraje obligatorio ni una jurisdicción exclusiva que restrinja derechos legales.
+Podés contactarnos a **support@daylogames.com** para consultas o reclamos. Ese canal no impide acudir a las autoridades administrativas o tribunales competentes ni exige agotar primero una negociación privada. No se impone arbitraje obligatorio ni una jurisdicción exclusiva que restrinja derechos legales.

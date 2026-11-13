@@ -4,9 +4,9 @@
 
 ## Contacto
 
-Escribinos a **dailygamesbb@gmail.com** para problemas de acceso, partidas, compras o comunidad. El servicio es prestado por **Guido Tomas Botta**, persona física en **Argentina**, con domicilio de contacto en **Calle 152 6352, Oficina 314 Downtown, B1886 Guillermo Enrique Hudson, provincia de Buenos Aires, Argentina**.
+Escribinos a **support@daylogames.com** para problemas de acceso, partidas, compras o comunidad. El servicio es prestado por **Guido Tomas Botta**, persona física en **Argentina**, con domicilio de contacto en **Calle 152 6352, Oficina 314 Downtown, B1886 Guillermo Enrique Hudson, provincia de Buenos Aires, Argentina**.
 
-Para consultas sobre datos personales: **dailygamesbb@gmail.com**.
+Para consultas sobre datos personales: **support@daylogames.com**.
 
 El equipo de Daylo Games atiende este buzón para soporte, solicitudes sobre datos y reportes.
 

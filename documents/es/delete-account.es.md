@@ -10,7 +10,7 @@ La cuenta se inhabilita durante el proceso y no podés continuar usando su progr
 
 ## Sin la app instalada o sin acceso
 
-Escribí a **dailygamesbb@gmail.com**, con asunto **«Eliminar cuenta de Daylo Games»**.
+Escribí a **support@daylogames.com**, con asunto **«Eliminar cuenta de Daylo Games»**.
 
 Indicá el email de acceso vinculado si lo tenés y/o el código de amigo. Si sos invitado, contanos que la cuenta no está vinculada y qué identificador conservás. No publiques la solicitud en GitHub ni envíes contraseñas o tokens. Te indicaremos una forma de verificar la titularidad con la información mínima necesaria.
 

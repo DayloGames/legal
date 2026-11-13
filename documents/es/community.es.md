@@ -28,7 +28,7 @@ Compartir un código de grupo permite a otros usarlo para entrar según las regl
 
 Para reportar a un jugador, abrí su perfil o sus opciones en Amigos y tocá **Reportar**. Para reportar un grupo, abrí el grupo y tocá **Reportar grupo**. Elegí el motivo y, si hace falta, agregá una explicación breve sin incluir datos sensibles innecesarios.
 
-Un reporte inicia una revisión; no supone automáticamente una sanción. Para un problema con una función sin acción de reporte, contactá dailygamesbb@gmail.com, indicando el motivo y, si aplica, el nombre o código del grupo.
+Un reporte inicia una revisión; no supone automáticamente una sanción. Para un problema con una función sin acción de reporte, contactá support@daylogames.com, indicando el motivo y, si aplica, el nombre o código del grupo.
 
 Revisamos los reportes según su gravedad. Los que indican un riesgo para una persona, como amenazas, publicación de datos personales o contenido sexual relacionado con menores, tienen prioridad y se atienden apenas tomamos conocimiento. Para los demás, nuestro objetivo es revisarlos dentro de **10 días hábiles desde su recepción**.
 
@@ -42,7 +42,7 @@ El bloqueo no elimina su cuenta, no lo expulsa automáticamente de grupos compar
 
 El equipo de Daylo Games atiende los reportes y pedidos de revisión recibidos en el buzón de contacto.
 
-Según la gravedad y la reiteración, podemos reemplazar por uno genérico un nombre de usuario o de grupo que incumpla estas reglas, y eliminar la cuenta ante incumplimientos graves o reiterados de estas reglas o de los [Términos](terms.es.md). Cuando eliminamos una cuenta por incumplimiento, te avisamos el motivo si tenemos un medio de contacto, y podés pedir que revisemos la decisión escribiendo a dailygamesbb@gmail.com. No te pediremos la contraseña ni datos de pago completos.
+Según la gravedad y la reiteración, podemos reemplazar por uno genérico un nombre de usuario o de grupo que incumpla estas reglas, y eliminar la cuenta ante incumplimientos graves o reiterados de estas reglas o de los [Términos](terms.es.md). Cuando eliminamos una cuenta por incumplimiento, te avisamos el motivo si tenemos un medio de contacto, y podés pedir que revisemos la decisión escribiendo a support@daylogames.com. No te pediremos la contraseña ni datos de pago completos.
 
 La eliminación tiene los mismos efectos sobre progreso y saldos que una eliminación solicitada. No cancela una suscripción: cancelala en la tienda. Los reembolsos se solicitan a App Store o Google Play según sus políticas, sin perjuicio de los derechos que te correspondan por ley.
 
